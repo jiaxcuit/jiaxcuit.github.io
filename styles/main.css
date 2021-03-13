@@ -342,19 +342,19 @@ a {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 2px solid #dee2e6;
+  border: 2px solid #F1F3F5;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 .sidebar .top-container .site-title {
   font-size: 24px;
   padding: 32px 0;
-  color: #343a40;
+  color: #dee2e6;
 }
 .sidebar .top-container .site-nav {
   display: block;
   padding: 8px 16px;
   margin: 16px 0;
-  color: #343a40;
+  color: #dee2e6;
   transition: all 0.3s;
 }
 .sidebar .top-container .site-nav:hover {
@@ -362,14 +362,14 @@ a {
 }
 .sidebar .bottom-container {
   padding: 24px 16px;
-  color: #343a40;
+  color: #dee2e6;
   font-size: 12px;
 }
 .sidebar .bottom-container .site-description {
   padding: 16px 0;
 }
 .sidebar .bottom-container a {
-  color: #495057;
+  color: #fff;
 }
 .main-container {
   margin-left: 320px;
@@ -656,7 +656,7 @@ a {
   .sidebar .top-header-container .menu-btn .line {
     width: 32px;
     height: 2px;
-    background: #495057;
+    background: #e9ecef;
     border-radius: 2px;
     position: absolute;
     right: 0;
@@ -668,7 +668,7 @@ a {
     display: block;
     width: 32px;
     height: 2px;
-    background: #495057;
+    background: #e9ecef;
     border-radius: 2px;
     position: absolute;
     right: 0;
@@ -758,15 +758,3 @@ a {
   font-size: 16px;
   margin: 4px 8px;
 }
-
-      .sidebar {
-        width: 250px;
-      }
-      .main-container {
-        margin-left: 250px;
-      }
-    
-      .sidebar .top-container .site-nav {
-        color: #495057;
-      }
-    
