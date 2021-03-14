@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiaxcuit.github.io</id>
     <title>饼干盒子</title>
-    <updated>2021-03-14T20:38:44.407Z</updated>
+    <updated>2021-03-14T21:32:25.699Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiaxcuit.github.io"/>
     <link rel="self" href="https://jiaxcuit.github.io/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://jiaxcuit.github.io/post/chinese-a-thoughts-specifically-on-the-new-syllabus-p1/</id>
         <link href="https://jiaxcuit.github.io/post/chinese-a-thoughts-specifically-on-the-new-syllabus-p1/">
         </link>
-        <updated>2021-03-14T13:23:56.000Z</updated>
+        <updated>2021-03-13T16:23:56.000Z</updated>
         <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
 <h3 id="我学习这门课的经历">我学习这门课的经历</h3>
 <p>M21 考试（M21 新大纲）；<br>
@@ -61,14 +61,12 @@
 <blockquote>
 <p>The passages [in paper 1] could be taken from any of the four literary forms on the <em>Prescribed reading list</em>.</p>
 </blockquote>
-<p>       而《国际文凭指定阅读书单》，即 Prescribed reading list 中的4种文学体裁是：</p>
+<p>       而《国际文凭指定阅读书单》，即 <a href="https://ibpublishing.ibo.org/prl/?lang=en">Prescribed reading list</a> 中的4种文学体裁是：</p>
 <blockquote>
 <p>Drama, Poetry, Prose: fiction, Prose: non-fiction</p>
 </blockquote>
 <p>       这些包括旧大纲就有的诗歌、散文、小说，也<strong>新增了戏剧、纪实文学等</strong>。这些都是旧大纲的真题没有涉及的，需要额外找文章练习，尤其自修生需要注意。</p>
-<p>       关于体裁，我觉得最迷惑人的地方是，在中文语境中，对 <strong>Prose: non-fiction</strong> 的理解。</p>
-<p>       我们学校的语言主管老师提醒我们，这可能包含 Travel literature, Biography/Autobiagraphy 等。而《国际文凭指定阅读书单》中把朱自清、汪曾祺这样写过很多散文的作家归类在 Prose: fiction 和 non-fiction 这两种体裁之下，而余秋雨这样以游记出名的作者只在 non-fiction 之下，这也印证了老师的看法。</p>
-<p>       所以，散文中的<strong>游记</strong>，确定是 non-fiction，有可能在试卷中出现。我认为 Biography/Autobiography 在中文语境中就是写人的散文和普遍意义上的传记了，大概是茨威格《伟大的悲剧》这类文章。</p>
+<p>       关于体裁，我觉得最迷惑人的地方是，在中文语境中，对 <strong>Prose: non-fiction</strong> 的理解。我们学校的语言主管老师提醒我们，这可能包含 Travel literature, Biography/Autobiagraphy 等。而《国际文凭指定阅读书单》中把朱自清、汪曾祺这样写过很多散文的作家归类在 Prose: fiction 和 non-fiction 这两种体裁之下，而余秋雨这样以游记出名的作者只在 non-fiction 之下，这也印证了老师的看法。所以，散文中的<strong>游记</strong>，确定是 non-fiction，有可能在试卷中出现。我认为 Biography/Autobiography 在中文语境中就是写人的散文和普遍意义上的传记了，大概是茨威格《伟大的悲剧》这类文章。</p>
 <p>       新大纲没有说明 Paper 1 选文是否包括翻译作品。但<strong>历年真题均为中文作品</strong>，所以翻译作品的可能性很小，但也不能说绝对不会有，因为IB就是这么恶心呀🙂</p>
 <h3 id="引导题">引导题</h3>
 <p>旧大纲的引导题（仅 SL）：</p>
@@ -81,10 +79,11 @@
 </blockquote>
 <p>       新大纲中，HL 也增加了引导题。</p>
 <p>       在 SL 和 HL 中，考生都不必回应引导题，但我们学校的主管老师<strong>强烈建议我们回应引导题</strong>，而不是自己寻找其他切入点，因为时间有限，自己对文章的认识可能不会像出题人那样深刻。</p>
-<p>       新大纲引导题的内容也不如旧大纲那样明确了。旧大纲的引导题有很明显的指向：“一道是关于理解和诠释的，另一道是关于风格的”，而新大纲则是“<strong>针对核心技巧和形式要素</strong>”，似乎只对应了旧大纲中的“风格”一项。我觉得这一点很有迷惑性，误导考生只去分析艺术手法。（可参考中文A：文学的 Teacher Support Material 中，针对新大纲的样卷。）虽然引导题只关注核心技巧和形式要素，但是评分标准中依然有“<strong>理解和诠释</strong>”，所以这仍然是非常重要的一项，需要在答卷中体现。</p>
+<p>       新大纲引导题的内容也不如旧大纲那样明确了。旧大纲的引导题有很明显的指向：“一道是关于理解和诠释的，另一道是关于风格的”，而新大纲则是“<strong>针对核心技巧和形式要素</strong>”，似乎只对应了旧大纲中的“风格”一项。我觉得这一点很可能误导考生，导致大家只关注艺术手法一类的东西。（可参考中文A：文学的 Assessed Student Work 中提供的，针对新大纲的样卷。）虽然引导题只关注核心技巧和形式要素，但是评分标准中依然有“<strong>理解和诠释</strong>”，所以这仍然是非常重要的一项，需要在答卷中体现。</p>
 <h3 id="评分标准">评分标准</h3>
 <p>       新大纲中，在结构上，增加了“<strong>重点</strong>”（focus）这一要求。而在对 Paper 1 的介绍中，大纲也使用了“集中于文本的某个特定的方面”、“焦点”等词句，强调了文章需要突出重点，舍弃细枝末节。</p>
 <p>       但这并不是说文章应该对引导题之外的东西只字不提，或者不深入探索更多更广的可以分析的点。我和我的老师看过了中文 A：文学和英语 A：文学的样卷和相应的学生答卷，发现<strong>高分学生在文中并不是只关注引导题</strong>。在文章中体现的其它关键内容也很重要，比如在前文提到过的“理解和诠释”。</p>
+<br/>
 <h2 id="结语">结语</h2>
 <p>       本文总结了我认为比较重要的，新大纲相比于旧大纲的4方面变化：</p>
 <table>
@@ -122,16 +121,16 @@
         <id>https://jiaxcuit.github.io/post/about/</id>
         <link href="https://jiaxcuit.github.io/post/about/">
         </link>
-        <updated>2021-03-12T02:58:52.000Z</updated>
+        <updated>2021-03-11T19:58:52.000Z</updated>
         <content type="html"><![CDATA[<h4 id="首先感谢访问️">首先，感谢访问❤️</h4>
 <br/>
 <h2 id="本站内容">本站内容</h2>
-<p>       这是一个佛系个人博客，主要将分享博主本人的IB<strong>学习经验</strong>和使用过的<strong>学习资料</strong>。查看博客内容，请用页面上方的目录。</p>
+<p>  这是一个佛系个人博客，主要将分享博主本人的IB<strong>学习经验</strong>和使用过的<strong>学习资料</strong>。查看博客内容，请用页面上方的目录。</p>
 <h2 id="建站时我想了什么">建站时，我想了什么？</h2>
-<p>       IB，这本就小众的<!-- more -->课程体系，更是有着<strong>令人惊异的透明度</strong>。可用的学习资料少之又少，学习经验更是几乎无处参考。走过了学习过程中的各种弯路，我实在是气不打一处来，所以决定贯彻CAS的服务精神，竭尽所能地分享信息，<strong>希望可以帮到在IB中煎熬的你</strong>。<br>
-       放一下我深有共鸣的，知乎上的一个答案：<a href="https://www.zhihu.com/question/439087609/answer/1675869050">大家觉得从IB中真正学到了什么？ – Andy Prime的回答 – 知乎</a>。加油，你并不是一个人。但说回来，IB也<strong>并没有那么一无是处</strong>啦。</p>
+<p>  IB，这本就小众的<!-- more -->课程体系，更是有着<strong>令人惊异的透明度</strong>。可用的学习资料少之又少，学习经验更是几乎无处参考。走过了学习过程中的各种弯路，我实在是气不打一处来，所以决定贯彻CAS的服务精神，竭尽所能地分享信息，<strong>希望可以帮到在IB中煎熬的你</strong>。<br>
+  放一下我深有共鸣的，知乎上的一个答案：<a href="https://www.zhihu.com/question/439087609/answer/1675869050">大家觉得从IB中真正学到了什么？ – Andy Prime的回答 – 知乎</a>。加油，你并不是一个人。但说回来，IB也<strong>并没有那么一无是处</strong>啦。</p>
 <h2 id="博主的ib经历">博主的IB经历</h2>
-<p>       我在站内的分享，会受到很多因素影响，例如选科、课程大纲的版本、成绩、个人学习风格等等。还请参考。希望我不会在自己不擅长的方面误人子弟😅</p>
+<p>  我在站内的分享，会受到很多因素影响，例如选科、课程大纲的版本、成绩、个人学习风格等等。还请参考。希望我不会在自己不擅长的方面误人子弟😅</p>
 <ul>
 <li>毕业时间：M21</li>
 <li>HL：数学A&amp;A、物理、英语B</li>
@@ -139,24 +138,45 @@
 <li>EE：物理</li>
 <li>预估分：41+3。其中历史是唯一的6分，TOK预估B，EE预估A。</li>
 </ul>
-<p>       因为疫情，所有科目的学习<strong>均未涉及选修单元</strong>（Options），所以我也没什么这方面的经验和建议。不过物理的Astrophysics和Engineering Physics这两个选修单元，都有大概浏览过，所以也不是完全不了解。<br>
-       <strong>历史</strong>的课程设置非常灵活，我们选择了这些主题：</p>
-<ul>
-<li>Prescribed subject 3 - The Move to Global War      <em>日本、德国、意大利</em></li>
-<li>Topic 10 - Causes and Effects of 20th Century Wars   <em>一战、（中国）国共内战、西班牙内战</em></li>
-<li>Topic 11 - Authoritarian States (20th Century)      <em>德国、意大利、中国</em></li>
-</ul>
-<p>       在IB的文科与理科之间，我似乎更擅长理科；在写论文和考试解题之间，我似乎更擅长考试解题。不过，虽说写文章不太行，但物理实验报告似乎是没什么问题的。</p>
+<p>  因为疫情，所有科目的学习<strong>均未涉及选修单元</strong>（Options），所以我也没什么这方面的经验和建议。不过物理的Astrophysics和Engineering Physics这两个选修单元，都有大概浏览过，所以也不是完全不了解。<br>
+  <strong>历史</strong>的课程设置非常灵活，我们选择了这些主题：</p>
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th>主题</th>
+<th>案例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prescribed subject 3</td>
+<td>The Move to Global War</td>
+<td>日本、德国、意大利</td>
+</tr>
+<tr>
+<td>Topic 10</td>
+<td>Causes and Effects of 20th Century Wars</td>
+<td>一战、（中国）国共内战、西班牙内战</td>
+</tr>
+<tr>
+<td>Topic 11</td>
+<td>Authoritarian States (20th Century)</td>
+<td>德国、意大利、中国</td>
+</tr>
+</tbody>
+</table>
+<p>  在IB的文科与理科之间，我似乎更擅长理科；在写论文和考试解题之间，我似乎更擅长考试解题。不过，虽说写文章不太行，但物理实验报告似乎是没什么问题的。</p>
 <h2 id="所以博主是">所以，博主是……？</h2>
-<p>       吃饼干时要留下夹心。你好，你可以叫我的外号：夹心饼干。<br>
-       我大概可以给自己贴很多标签。<br>
-       我是拖延症患者，总在追赶作业的截止时间。<br>
-       我还是完美主义者，喜欢把我的工作区域整理成最理想的状态，再开始学习。<br>
-       我也热衷方法论：学习方法、文件整理方法、时间规划方法，等等；热衷从不同的人身上学习各种经验。<br>
-       我相信好的工具能够有效提高效率，好的思路和方法比盲目勤奋更加重要。</p>
+<p>  吃饼干时要留下夹心。你好，你可以叫我的外号：夹心饼干。<br>
+  我大概可以给自己贴很多标签。<br>
+  我是拖延症患者，总在追赶作业的截止时间。<br>
+  我还是完美主义者，喜欢把我的工作区域整理成最理想的状态，再开始学习。<br>
+  我也热衷方法论：学习方法、文件整理方法、时间规划方法，等等；热衷从不同的人身上学习各种经验。<br>
+  我相信好的工具能够有效提高效率，好的思路和方法比盲目勤奋更加重要。</p>
 <h2 id="联系方式">联系方式</h2>
-<p>       我虽然在熟人面前会很开朗，但对陌生人比较自闭，还请先通过邮箱联系：whlinda504@gmail.com。<br>
-       随时欢迎评论和邮件交流！感谢🤗</p>
+<p>  我虽然在熟人面前会很开朗，但对陌生人比较自闭，还请先通过邮箱联系：whlinda504@gmail.com。<br>
+  随时欢迎评论和邮件交流！感谢🤗</p>
 ]]></content>
     </entry>
 </feed>
