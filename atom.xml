@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiaxcuit.github.io</id>
     <title>饼干盒子</title>
-    <updated>2021-03-16T02:51:40.243Z</updated>
+    <updated>2021-03-16T02:54:21.737Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiaxcuit.github.io"/>
     <link rel="self" href="https://jiaxcuit.github.io/atom.xml"/>
@@ -132,24 +132,24 @@
         <id>https://jiaxcuit.github.io/post/about/</id>
         <link href="https://jiaxcuit.github.io/post/about/">
         </link>
-        <updated>2021-03-11T19:58:52.000Z</updated>
+        <updated>2021-03-11T05:58:52.000Z</updated>
         <content type="html"><![CDATA[<h4 id="首先感谢访问️">首先，感谢访问❤️</h4>
 <br/>
 <h2 id="本站内容">本站内容</h2>
-<p>  这是一个佛系个人博客，主要将分享博主本人的IB<strong>学习经验</strong>和使用过的<strong>学习资料</strong>。查看博客内容，请用页面上方的目录。</p>
+<p>  这是一个佛系个人博客，主要将分享博主本人的 IB <strong>学习经验</strong>和使用过的<strong>学习资料</strong>。查看博客内容，请用页面上方的目录。</p>
 <h2 id="建站时我想了什么">建站时，我想了什么？</h2>
-<p>  IB，这本就小众的<!-- more -->课程体系，更是有着<strong>令人惊异的透明度</strong>。可用的学习资料少之又少，学习经验更是几乎无处参考。走过了学习过程中的各种弯路，我实在是气不打一处来，所以决定贯彻CAS的服务精神，竭尽所能地分享信息，<strong>希望可以帮到在IB中煎熬的你</strong>。<br>
-  放一下我深有共鸣的，知乎上的一个答案：<a href="https://www.zhihu.com/question/439087609/answer/1675869050">大家觉得从IB中真正学到了什么？ – Andy Prime的回答 – 知乎</a>。加油，你并不是一个人。但说回来，IB也<strong>并没有那么一无是处</strong>啦。</p>
+<p>  IB，这本就小众的<!-- more -->课程体系，更是有着<strong>令人惊异的透明度</strong>。可用的学习资料少之又少，学习经验更是几乎无处参考。走过了学习过程中的各种弯路，我实在是气不打一处来，所以决定贯彻 CAS 的服务精神，竭尽所能地分享信息，<strong>希望可以帮到在 IB 中煎熬的你</strong>。<br>
+  放一下我深有共鸣的，知乎上的一个答案：<a href="https://www.zhihu.com/question/439087609/answer/1675869050">大家觉得从 IB 中真正学到了什么？ – Andy Prime 的回答 – 知乎</a>。加油，你并不是一个人。但说回来，IB也<strong>并没有那么一无是处</strong>啦。</p>
 <h2 id="博主的ib经历">博主的IB经历</h2>
 <p>  我在站内的分享，会受到很多因素影响，例如选科、课程大纲的版本、成绩、个人学习风格等等。还请参考。希望我不会在自己不擅长的方面误人子弟😅</p>
 <ul>
 <li>毕业时间：M21</li>
-<li>HL：数学A&amp;A、物理、英语B</li>
-<li>SL：化学、历史、中文A：文学（自修）</li>
+<li>HL：数学 A&amp;A、物理、英语 B</li>
+<li>SL：化学、历史、中文 A：文学（自修）</li>
 <li>EE：物理</li>
-<li>预估分：41+3。其中历史是唯一的6分，TOK预估B，EE预估A。</li>
+<li>预估分：41+3。其中历史是唯一的6分，TOK 预估 B，EE 预估 A。</li>
 </ul>
-<p>  因为疫情，所有科目的学习<strong>均未涉及选修单元</strong>（Options），所以我也没什么这方面的经验和建议。不过物理的Astrophysics和Engineering Physics这两个选修单元，都有大概浏览过，所以也不是完全不了解。<br>
+<p>  因为疫情，所有科目的学习<strong>均未涉及选修单元</strong>（Options），所以我也没什么这方面的经验和建议。不过物理的 Astrophysics 和 Engineering Physics 这两个选修单元，都有大概浏览过，所以也不是完全不了解。<br>
   <strong>历史</strong>的课程设置非常灵活，我们选择了这些主题：</p>
 <table>
 <thead>
@@ -186,8 +186,8 @@
   我也热衷方法论：学习方法、文件整理方法、时间规划方法，等等；热衷从不同的人身上学习各种经验。<br>
   我相信好的工具能够有效提高效率，好的思路和方法比盲目勤奋更加重要。</p>
 <h2 id="联系方式">联系方式</h2>
-<p>  我虽然在熟人面前会很开朗，但对陌生人比较自闭，还请先通过邮箱联系：whlinda504@gmail.com。<br>
-  随时欢迎评论和邮件交流！感谢🤗</p>
+<p>  我虽然在熟人面前会很开朗，但对陌生人比较自闭，还请先通过邮箱联系：<a href="mailto:whlinda504@gmail.com">whlinda504@gmail.com</a> whlinda504@gmail.com。<br>
+  随时欢迎评论（暂未开通）和邮件交流！感谢🤗</p>
 ]]></content>
     </entry>
 </feed>
