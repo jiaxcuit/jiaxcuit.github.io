@@ -556,9 +556,11 @@ a {
 .post-detail .post-content ul,
 .post-detail .post-content ol {
   color: var(--c-base-blacklight);
+  font-size: 15px;
   padding-left: 24px;
   line-height: 1.725;
   margin-bottom: 16px;
+  font-weight: 300;
 }
 .post-detail .post-content strong {
   font-weight: bold;
