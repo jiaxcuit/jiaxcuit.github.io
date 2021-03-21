@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiaxcuit.github.io</id>
     <title>饼干盒子</title>
-    <updated>2021-03-20T18:59:41.418Z</updated>
+    <updated>2021-03-21T16:29:55.031Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiaxcuit.github.io"/>
     <link rel="self" href="https://jiaxcuit.github.io/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://jiaxcuit.github.io/post/wu-li-li-xiang-bian-ya-qi-de-jia-she-tiao-jian/</id>
         <link href="https://jiaxcuit.github.io/post/wu-li-li-xiang-bian-ya-qi-de-jia-she-tiao-jian/">
         </link>
-        <updated>2021-03-19T14:46:20.000Z</updated>
+        <updated>2021-03-20T05:10:42.000Z</updated>
         <content type="html"><![CDATA[<p>我们学校还没有讲到电磁感应一节。我有提前了解过电磁感应中的变压器，但仍然一知半解。我在这里分享一篇文章：<a href="https://mp.weixin.qq.com/s/T0DcwTlz0DYTKsijbmVpBA">【每周三题】高三【170】理想变压器都“理想”了什么？</a>，作者：吴爱兄。这篇文章很大程度上加深了我对变压器的理解。</p>
 <p>文章来自<strong>微信公众号：物理学习研究</strong>。这个公众号内还有很多适用高一到高三的，类似的物理专题探究文章，一般都包括例题、讲解、习题巩固，内容质量很高。</p>
 <p>这篇文章讲解了理想变压器的假设条件，也带着读者过了一遍变压器的结构、工作原理，对各项结论也讨论得细致入微，比如<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>ϵ</mi><mn>1</mn></msub><msub><mi>ϵ</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>V</mi><mn>1</mn></msub><msub><mi>V</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{\epsilon_1}{\epsilon_2} = \frac{V_1}{V_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1565919999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7114919999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ϵ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ϵ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>的成立条件。文中涉及了 IB 物理并未涵盖的<strong>感抗</strong>等内容，但涉及较少，而且也只在文章结尾出现。文中的4道习题都是有关 IB 物理课内的内容的，很有帮助。需要注意，由于排版问题，第（1）题的题干出现在第一张图片下方居中，然而并不是对图片的说明，小心不要看漏看错。</p>
@@ -26,7 +26,7 @@
         <id>https://jiaxcuit.github.io/post/zhong-wen-awen-xue-p1-xie-zuo-fang-fa/</id>
         <link href="https://jiaxcuit.github.io/post/zhong-wen-awen-xue-p1-xie-zuo-fang-fa/">
         </link>
-        <updated>2021-03-19T14:31:57.000Z</updated>
+        <updated>2021-03-19T00:31:57.000Z</updated>
         <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
 <h3 id="我学习这门课的经历">我学习这门课的经历</h3>
 <p>M21 考试（M21 新大纲）；<br>
@@ -104,9 +104,9 @@
 <h3 id="微信公众号ib-教学研">微信公众号：IB 教学研</h3>
 <p>这个公众号涵盖很广，有很多 IB 相关的内容，不仅限于中文 A：文学这一个科目。我没有仔细看过其它文章，但下面这篇文章对我学习中文 A：文学这门科目很有帮助。</p>
 <ol start="11">
-<li><a href="https://mp.weixin.qq.com/s/CN1eFD70uv72X_w9VRL5UQ">卷一说什么？</a><br>
-这篇文章以近几年的真题为例，总结了 P1 近年的主题，包括当下的乡村问题、城市问题，以及哲理、母爱等永恒的主题，还举例说明了考生如何在文学分析中采取批判性的视角。我觉得这篇文章最可贵的是，它给了我们一个俯视的视角来纵览 P1 的出题模式，从整体上把握 P1 分析的方向，比如我们需要关注城市化进程与 P1 选文的联系。</li>
+<li><a href="https://mp.weixin.qq.com/s/CN1eFD70uv72X_w9VRL5UQ">卷一说什么？</a></li>
 </ol>
+<p>这篇文章以近几年的真题为例，总结了 P1 近年的主题，包括当下的乡村问题、城市问题，以及哲理、母爱等永恒的主题，还举例说明了考生如何在文学分析中采取批判性的视角。我觉得这篇文章最可贵的是，它给了我们一个俯视的视角来纵览 P1 的出题模式，从整体上把握 P1 分析的方向，比如我们需要关注城市化进程与 P1 选文的联系。</p>
 <p>我建议在做过真题之后再来看这篇文章，因为它把几乎所有2013到2019的真题的主题都明确地列了出来，如果知道主题后再去做真题，就无法模拟真实的考场、测试自己真实的水平，那样简直就是对真题的浪费。</p>
 <br/>
 <h2 id="结语">结语</h2>

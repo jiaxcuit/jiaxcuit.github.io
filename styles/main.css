@@ -67,7 +67,7 @@ abbr[title] {
  */
 b,
 strong {
-  font-weight: bolder;
+  font-weight: bold;
 }
 /**
  * 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
@@ -487,6 +487,7 @@ a {
   line-height: 1.725;
   margin-bottom: 24px;
   font-size: 15px;
+  font-weight: 300;
   color: #495057;
 }
 .post-detail .post-content p code,
@@ -560,7 +561,7 @@ a {
   margin-bottom: 16px;
 }
 .post-detail .post-content strong {
-  font-weight: bolder;
+  font-weight: bold;
 }
 .post-detail .post-content em {
   color: #868e96;
@@ -760,13 +761,6 @@ a {
   margin: 4px 8px;
 }
 
-      .sidebar {
-        width: 250px;
-      }
-      .main-container {
-        margin-left: 250px;
-      }
-    
       .sidebar .top-container .site-nav {
         color: #495057;
       }
