@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Tags</title>
+<title>理想变压器的假设条件</title>
 
 
 
@@ -48,7 +48,49 @@
 </script>
 
 
+  
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script"
+async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+MathJax.Hub.Queue(function() {
 
+
+
+var all = MathJax.Hub.getAllJax(), i;
+for(i = 0; i < all.length; i += 1) {
+all[i].SourceElement().parentNode.className += ' has-jax';
+}
+});
+</script>
+
+<style>
+code.has-jax {
+font: inherit;
+font-size: 100%;
+background: inherit;
+border: inherit;
+color: #515151;
+}
+</style>
+
+
+
+
+
+  
+    <script src="/js/toc.js"></script>
+  
 
 
 
@@ -91,11 +133,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/tags">
+            <a class="a-block nav-link-item false" href="/tags">
                 标签
             </a>
             
@@ -131,6 +171,11 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -146,8 +191,6 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 brightness_7
             </i>
         </a>
-        
-        
         
         
     </div>
@@ -172,11 +215,9 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/tags">
+                <a class="a-block drawer-menu-item false" href="/tags">
                     标签
                 </a>
                 
@@ -191,6 +232,11 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 </a>
                 
             
+            
+            <div class="toc">
+
+
+</div>
             
         </div>
     </div>
@@ -233,111 +279,87 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <a class="a-block">
-            <div class="post-item-wrapper post-item-wrapper-no-hover">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title post-item-title-small">
-                            Tags
-                        </div>
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    理想变压器的假设条件
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-03-21 12:10
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%E7%89%A9%E7%90%86">物理</a>
+                                &nbsp;
+                            
+                        
+                        
                     </div>
                 </div>
             </div>
-        </a>
-        
-        
-                <a href="//jiaxcuit.github.io/tags/%E7%9F%AD%E8%AE%B0/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    短记
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>变压器是电学中和电磁感应密切相关的内容。我在这里分享一篇文章：<a href="https://mp.weixin.qq.com/s/T0DcwTlz0DYTKsijbmVpBA">【每周三题】高三【170】理想变压器都“理想”了什么？</a>，作者：吴爱兄。这篇文章很大程度上加深了我对变压器的理解。</p>
+<p>文章来自<strong>微信公众号：物理学习研究</strong>。这个公众号内还有很多适用高一到高三的，类似的物理专题探究文章，一般都包括例题、讲解、习题巩固，内容质量很高。</p>
+<p>这篇文章解释了变压器的<strong>结构</strong>、<strong>工作原理</strong>，进而讲解了理想变压器的<strong>假设条件</strong>。文章对关于变压器的各项<strong>结论</strong>也讨论得细致入微，比如$\frac{\epsilon_1}{\epsilon_2} = \frac{V_1}{V_2}$的成立条件。文中涉及了 IB 物理并未涵盖的<strong>感抗</strong>等内容，但涉及较少，而且也只在文章结尾出现。文中的4道习题都是有关 IB 物理课内的内容的，很有帮助。</p>
+<p>需要注意，由于排版问题，第（1）题的题干出现在第一张图片下方居中，然而并不是对图片的说明，小心不要看漏看错。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">最后修改于 2021-03-21</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="//jiaxcuit.github.io/focus-habits-feedback-last-min-study-tips/">
+			下回<br>专注、习惯、反馈：备考的三点技巧
                 </a>
-        
-                <a href="//jiaxcuit.github.io/tags/%E4%B8%AD%E6%96%87-a%E6%96%87%E5%AD%A6/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    中文 A：文学
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
+                
+                
+                <a class="older-posts">
+			上回<br>这是最旧的文章了。
                 </a>
-        
-                <a href="//jiaxcuit.github.io/tags/%E5%8C%96%E5%AD%A6/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    化学
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        
-                <a href="//jiaxcuit.github.io/tags/%E5%8E%86%E5%8F%B2/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    历史
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        
-                <a href="//jiaxcuit.github.io/tags/%E6%95%B0%E5%AD%A6-aa/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    数学 AA
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        
-                <a href="//jiaxcuit.github.io/tags/%E7%89%A9%E7%90%86/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    物理
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        
-                <a href="//jiaxcuit.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    学习方法
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        
-    </div>
-</div>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
 
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
@@ -604,6 +626,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },
