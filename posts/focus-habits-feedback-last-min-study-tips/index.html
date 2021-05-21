@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>历史</title>
+<title>专注、习惯、反馈：备考的三点技巧</title>
 
 
 
@@ -50,6 +50,10 @@
 
 
 
+  
+    <script src="/js/toc.js"></script>
+  
+
 
 
 
@@ -81,9 +85,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/posts">
+            
+            <a class="a-block nav-link-item active" href="/posts">
                 归档
             </a>
             
@@ -91,11 +97,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/tags">
+            <a class="a-block nav-link-item false" href="/tags">
                 标签
             </a>
             
@@ -131,6 +135,96 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%a7%86%e9%a2%91%e5%88%86%e4%ba%ab" onclick="onNavClick(`#视频分享-nav`)" id="视频分享-nav">
+									视频分享
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%8f%90%e7%82%bc%e9%87%8d%e7%82%b9" onclick="onNavClick(`#提炼重点-nav`)" id="提炼重点-nav">
+									提炼重点
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%88%91%e7%9a%84%e6%83%b3%e6%b3%95" onclick="onNavClick(`#我的想法-nav`)" id="我的想法-nav">
+									我的想法
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%93%e8%af%ad" onclick="onNavClick(`#结语-nav`)" id="结语-nav">
+									结语
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -148,8 +242,6 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
         </a>
         
         
-        
-        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -162,9 +254,11 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/posts">
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
                     归档
                 </a>
                 
@@ -172,11 +266,9 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/tags">
+                <a class="a-block drawer-menu-item false" href="/tags">
                     标签
                 </a>
                 
@@ -191,6 +283,96 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 </a>
                 
             
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%a7%86%e9%a2%91%e5%88%86%e4%ba%ab" onclick="onNavClick(`#视频分享-nav`)" id="视频分享-nav">
+									视频分享
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%8f%90%e7%82%bc%e9%87%8d%e7%82%b9" onclick="onNavClick(`#提炼重点-nav`)" id="提炼重点-nav">
+									提炼重点
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%88%91%e7%9a%84%e6%83%b3%e6%b3%95" onclick="onNavClick(`#我的想法-nav`)" id="我的想法-nav">
+									我的想法
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%93%e8%af%ad" onclick="onNavClick(`#结语-nav`)" id="结语-nav">
+									结语
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
             
         </div>
     </div>
@@ -233,41 +415,106 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <div class="post-item-wrapper post-item-wrapper-no-hover">
-            <div class="post-item post-item-no-gaps">
-                <div class="post-item-info-wrapper">
-                    <div class="post-item-title  post-item-title-small">
-                        <a href="//jiaxcuit.github.io/">饼干盒</a> / 历史
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    专注、习惯、反馈：备考的三点技巧
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-03-26 15:17
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95">学习方法</a>
+                                &nbsp;
+                            
+                        
+                        
                     </div>
                 </div>
             </div>
-        </div><a href="/posts/ib-textbook-reviews/" class="a-block">
-            <div class="post-item-wrapper">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title">
-                            我的 IB 课本使用评测与心得
-                        </div>
-                        <div class="post-item-meta">
-    2021-05-20
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="视频分享">视频分享</h1>
+<p>临近 IB 大考，我也开始寻找更适合短期备考的学习方法，正好 Coach_K 在 Bilibili 上更新了一个关于备考方法的视频。我看过后觉得他的确言之有理，那个视频对我也有警醒的作用，所以在这里分享：<a href="https://www.bilibili.com/video/BV1oZ4y1w76F?share_source=copy_web">【CK】如何备考？高考近满分学霸的高能方法</a>。视频时长8分50秒。</p>
+<p>我在下方嵌入了视频，可能加载比较慢，但可以直接在这个页面播放。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Coach_K 真的非常优秀，也是我关注很久了的宝藏 up 主，以后也会在分享时间管理方法和更多学习方法的时候再次介绍。大家如果感兴趣可以去 B 站翻翻看 <a href="https://space.bilibili.com/474571157/video">Coach_K 的其它视频</a>。</p>
+<h1 id="提炼重点">提炼重点</h1>
+<p>Coach_K 在视频中提到三点：<strong>专注</strong>、<strong>习惯</strong>、<strong>反馈</strong>，而这三点的<strong>重要程度由低到高</strong>。他指出：</p>
+<ol>
+<li>专注使我们短暂时间内可以完成更多任务；</li>
+<li>习惯使我们减少需要作出的决策，避免不必要的纠结，从而节省精力；</li>
+<li>反馈使我们查漏补缺、完善知识，同时改进做题方法、策略，让我们刷的每道题都发挥最大作用。</li>
+</ol>
+<p>在讨论“反馈”时，他强调了<strong>反思</strong>的重要性。反思是指回过头来看错题，寻找错因，提出解决方法，并立即着手改进。如他所说，反思的确是痛苦的过程，但如果只是盲目刷题、不分析错因、不对症下药，那么就只是在创造“我在努力”的假象，也是对时间和精力的浪费。</p>
+<h1 id="我的想法">我的想法</h1>
+<p>Coach_K 的视频中，让我耳目一新的是“习惯”这一点。我十分赞同。</p>
+<p>在学校，按照规定时间表，有老师带领复习时，我能得到明确的指引，所以经常感到方向明确，有游刃有余的从容。而在家，需要自己规划每天的学习时，细小杂乱的事情就使得我非常烦躁：诸如今天做什么卷子、什么时候做、做多久，甚至更小的问题，诸如中午吃什么、什么时候洗漱。这些微不足道的事情都需要我投入精力、做出决策，减少了我真正用来备考的精力。如果可以“无脑”跟着一个时间表来学习，这些杂务带来的影响就会减少很多了。</p>
+<p>Coach_K 的视频中，与我之前的思考有相似之处的，是“‘反思’是痛苦的，但也是必要的”这一点。听了他的总结，我脑中的思绪也更加明晰了。</p>
+<p>我现在的历史老师从来不在课上，带着我们分析讲评我们做过的试卷。历史老师让我们自己看他的批改，如果有问题，就单独找他提问，一对一地听他讲评试卷。这种教学形式非常自由，但也因为如此，我常常是做了卷子，拿到批改，就扔在一边不管。从现实层面讲，考题可以随时回顾、并不要紧，所以我把有限的时间分给了其他科的更加要紧的作业；心理上，我的确害怕看到自己的错误。回顾考卷，的确是痛苦的，也花费不少精力。但当我真正拿起考题回顾，一字一句对照标准答案寻找错因时，的确收获颇丰，进步显著。我之前的学习过程中缺少了“反思”这一步，历史的分数才一直停滞不前。</p>
+<h1 id="结语">结语</h1>
+<p>在这篇博文中，我总结了 Coach_K 在 Bilibili 的视频中提到的三个备考重点：专注、习惯、反馈，并且结合我的学习经历，简单理了理自己的想法。</p>
+<p>文中只提到了“反思”是痛苦的，但其实我明白，不仅“反思”是痛苦的，“学习”（或者任何有实际产出的事）也是痛苦的，或者更准确地说，是“<strong>消耗精力</strong>”的。后续，我将在站内分享更多关于学习方法的资源，也将就这一点展开。</p>
+<p>感谢读到这里的你，我只是稍有心得的 IB 学生，如果有更多想法，欢迎分享和讨论！（请在本站的“关于”一栏末尾寻找联系方式。）我真的很期待和其他人交流、了解不同的经验和见解！</p>
 
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">最后修改于 2021-03-26</p>
+                    
                 </div>
             </div>
-        </a></div>
-</div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="//jiaxcuit.github.io/posts/mother-tongue/">
+			下回<br>深夜短记：母语
+                </a>
+                
+                
+                
+                <a class="older-posts" href="//jiaxcuit.github.io/posts/ideal-transformer-assumptions/">
+			上回<br>理想变压器的假设条件
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
@@ -534,6 +781,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },

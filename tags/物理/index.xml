@@ -8,10 +8,10 @@
     <lastBuildDate>Thu, 20 May 2021 21:26:07 +0000</lastBuildDate><atom:link href="//jiaxcuit.github.io/tags/%E7%89%A9%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的 IB 课本使用评测与心得</title>
-      <link>//jiaxcuit.github.io/ib-textbook-reviews/</link>
+      <link>//jiaxcuit.github.io/posts/ib-textbook-reviews/</link>
       <pubDate>Thu, 20 May 2021 21:26:07 +0000</pubDate>
       
-      <guid>//jiaxcuit.github.io/ib-textbook-reviews/</guid>
+      <guid>//jiaxcuit.github.io/posts/ib-textbook-reviews/</guid>
       <description>写在前面 这篇文章将涉及的 IB 科目可见本文标签，各个科目、我的课程等级以及对应的大纲版本如下：
    科目 等级 大纲版本（首次评估时间）     物理 HL 2016   数学 AA HL 2021   历史 SL 2017   化学 SL 2016   中文 A：文学 SL 2021    （需要注意的是，历史的大纲进行过细微修正，现行的修正后的大纲的首次评估时间是2020年。但这个修正微乎其微，所以我下文中即将提到的课本都没有因为这个修正而更新版本。）
 在学习这些科目的过程中，每一科我都至少用过2种课本（或教辅资料）。我将在这篇文章中，以出版社分类，列出课本，说说这些课本的风格特色、它们在我心目中的优缺点，最后说说我对“如何使用课本”的一些想法，但是仅供参考呀。
@@ -23,10 +23,10 @@ Pearson 出版社  书名：Higher Level Physics 版本：第2版 作者：Chris
     
     <item>
       <title>理想变压器的假设条件</title>
-      <link>//jiaxcuit.github.io/ideal-transformer-assumptions/</link>
+      <link>//jiaxcuit.github.io/posts/ideal-transformer-assumptions/</link>
       <pubDate>Sun, 21 Mar 2021 12:10:42 +0000</pubDate>
       
-      <guid>//jiaxcuit.github.io/ideal-transformer-assumptions/</guid>
+      <guid>//jiaxcuit.github.io/posts/ideal-transformer-assumptions/</guid>
       <description>变压器是电学中和电磁感应密切相关的内容。我在这里分享一篇文章：【每周三题】高三【170】理想变压器都“理想”了什么？，作者：吴爱兄。这篇文章很大程度上加深了我对变压器的理解。
 文章来自微信公众号：物理学习研究。这个公众号内还有很多适用高一到高三的，类似的物理专题探究文章，一般都包括例题、讲解、习题巩固，内容质量很高。
 这篇文章解释了变压器的结构、工作原理，进而讲解了理想变压器的假设条件。文章对关于变压器的各项结论也讨论得细致入微，比如$\frac{\epsilon_1}{\epsilon_2} = \frac{V_1}{V_2}$的成立条件。文中涉及了 IB 物理并未涵盖的感抗等内容，但涉及较少，而且也只在文章结尾出现。文中的4道习题都是有关 IB 物理课内的内容的，很有帮助。
