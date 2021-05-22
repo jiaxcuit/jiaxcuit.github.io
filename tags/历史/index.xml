@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>历史 on 饼干盒</title>
+    <link>//jiaxcuit.github.io/tags/%E5%8E%86%E5%8F%B2/</link>
+    <description>Recent content in 历史 on 饼干盒</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 20 May 2021 21:26:07 +0000</lastBuildDate><atom:link href="//jiaxcuit.github.io/tags/%E5%8E%86%E5%8F%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的 IB 课本使用评测与心得</title>
+      <link>//jiaxcuit.github.io/posts/ib-textbook-reviews/</link>
+      <pubDate>Thu, 20 May 2021 21:26:07 +0000</pubDate>
+      
+      <guid>//jiaxcuit.github.io/posts/ib-textbook-reviews/</guid>
+      <description>写在前面 这篇文章将涉及的 IB 科目可见本文标签，各个科目、我的课程等级以及对应的大纲版本如下：
+   科目 等级 大纲版本（首次评估时间）     物理 HL 2016   数学 AA HL 2021   历史 SL 2017   化学 SL 2016   中文 A：文学 SL 2021    （需要注意的是，历史的大纲进行过细微修正，现行的修正后的大纲的首次评估时间是2020年。但这个修正微乎其微，所以我下文中即将提到的课本都没有因为这个修正而更新版本。）
+在学习这些科目的过程中，每一科我都至少用过2种课本（或教辅资料）。我将在这篇文章中，以出版社分类，列出课本，说说这些课本的风格特色、它们在我心目中的优缺点，最后说说我对“如何使用课本”的一些想法，但是仅供参考呀。
+物理 物理课本和教辅材料，我认为最重要的是以下几点：
+ 解释要好：对物理现象和理论推导，有清晰、自然、巧妙的介绍和解释。 习题要好：不仅考察应用理论知识的能力，还要考察对知识点的理解。题目模式（题型）应接近 IB 真题，但题目内容应新颖多变。  在 DP 这两年中，我用过3个出版社的，共3本书：
+Pearson 出版社  书名：Higher Level Physics 版本：第2版 作者：Chris Hamper ISBN：978-1-447-95902-1  这本书给我的印象是内容很多，页面很满。每次看到，就好像更安心了一些：书里讲了这么多内容，那么一定够用了吧？但我越用越觉得，有时候，这本书的内容太多、太满了。教科书需要细致，但更需要做到简练、清晰，这样才能高效地向读者传递信息。
+这本书的公式推导还是很有帮助的，给我印象最深的是对简谐运动中$v=\pm\omega\sqrt(x_0^2-x^2)$的推导。推导过程中将$x=x_0\sin\omega t$和$v=\omega x_0\cos\omega t$两式分别平方，就这样，自然而然地利用三角恒等关系$\sin^2x+\cos^2x=1$，直接推导而出了。对于多普勒定律公式的推导，这本书也配了相当清晰的示意图，配合代数推导，让人一目了然，尤其是声波波源不动、观察者运动的这种情况。</description>
+    </item>
+    
+  </channel>
+</rss>
