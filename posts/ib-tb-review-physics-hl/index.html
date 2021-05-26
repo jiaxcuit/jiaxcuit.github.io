@@ -94,6 +94,24 @@ color: #515151;
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '2a79498cd34bc8af9f02',
+  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
+  repo: 'blog-gitalk',
+  owner: 'jiaxcuit',
+  admin: ['jiaxcuit'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
+
 
 
 
@@ -831,7 +849,7 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 <ol start="2">
 <li>公式推导</li>
 </ol>
-<p>这本书公式推导的风格和牛津的课本有相似之处，它们都<strong>不“怕”拓展</strong>，而且拓展得对读者有一定帮助。例如 Topic 11 Modern Physics 中，对衰变公式的推导。这两本书都由$-\frac{\mathrm{d} N}{\mathrm{d} x}=\lambda N$出发，用微积分推导出了$N=N_0e^{-\lambda t}$，加深了读者对于“衰变速率与未衰变的原子核数量成正比”这一知识点的印象。Pearson 的课本则没有这一推导。其实 Pearson 的课本一贯就拓展得少一些。</p>
+<p>这本书公式推导的风格和牛津的课本有相似之处，它们都<strong>不“怕”拓展</strong>，而且拓展得对读者有一定帮助。例如 Topic 11 Modern Physics 中，对衰变公式的推导。这两本书都由$-\frac{\mathrm{d} N}{\mathrm{d} t}=\lambda N$出发，用微积分推导出了$N=N_0e^{-\lambda t}$，加深了读者对于“衰变速率与未衰变的原子核数量成正比”这一知识点的印象。Pearson 的课本则没有这一推导。其实 Pearson 的课本一贯就拓展得少一些。</p>
 <p>相比来说，这本书拓展得<strong>比牛津的课本稍少一些</strong>。我在前文已经提到过 $\bar E_k = \frac{3}{2}k_BT$ 了，这里再举另一个例子：对“带电空心金属球内部电场强度为零”这一点的推导。这本书直接叙述“内部电势为常量”，即电场强度为零，而牛津的课本用数学工具证明了这一点。可见，牛津的拓展更多一些。</p>
 <ol start="3">
 <li>习题、补充材料</li>
@@ -878,6 +896,8 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
             <div class="post-comment-wrapper">
                 
 
+
+<div id="gitalk-container"></div>
 
 
 

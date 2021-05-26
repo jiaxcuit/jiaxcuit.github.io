@@ -159,7 +159,7 @@
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;公式推导&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;这本书公式推导的风格和牛津的课本有相似之处，它们都&lt;strong&gt;不“怕”拓展&lt;/strong&gt;，而且拓展得对读者有一定帮助。例如 Topic 11 Modern Physics 中，对衰变公式的推导。这两本书都由$-\frac{\mathrm{d} N}{\mathrm{d} x}=\lambda N$出发，用微积分推导出了$N=N_0e^{-\lambda t}$，加深了读者对于“衰变速率与未衰变的原子核数量成正比”这一知识点的印象。Pearson 的课本则没有这一推导。其实 Pearson 的课本一贯就拓展得少一些。&lt;/p&gt;
+&lt;p&gt;这本书公式推导的风格和牛津的课本有相似之处，它们都&lt;strong&gt;不“怕”拓展&lt;/strong&gt;，而且拓展得对读者有一定帮助。例如 Topic 11 Modern Physics 中，对衰变公式的推导。这两本书都由$-\frac{\mathrm{d} N}{\mathrm{d} t}=\lambda N$出发，用微积分推导出了$N=N_0e^{-\lambda t}$，加深了读者对于“衰变速率与未衰变的原子核数量成正比”这一知识点的印象。Pearson 的课本则没有这一推导。其实 Pearson 的课本一贯就拓展得少一些。&lt;/p&gt;
 &lt;p&gt;相比来说，这本书拓展得&lt;strong&gt;比牛津的课本稍少一些&lt;/strong&gt;。我在前文已经提到过 $\bar E_k = \frac{3}{2}k_BT$ 了，这里再举另一个例子：对“带电空心金属球内部电场强度为零”这一点的推导。这本书直接叙述“内部电势为常量”，即电场强度为零，而牛津的课本用数学工具证明了这一点。可见，牛津的拓展更多一些。&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;习题、补充材料&lt;/li&gt;
