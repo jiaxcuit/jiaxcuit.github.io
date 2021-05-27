@@ -62,6 +62,16 @@
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/mother-tongue/</loc>
     <lastmod>2021-04-01T11:58:34+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/mother-tongue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/mother-tongue/"
+                />
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/%E7%9F%AD%E8%AE%B0/</loc>
     <lastmod>2021-04-01T11:58:34+02:00</lastmod>
@@ -91,12 +101,32 @@
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/focus-habit-feedback-last-min-study-tips/</loc>
     <lastmod>2021-03-26T15:17:59+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/focus-habit-feedback-last-min-study-tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/focus-habit-feedback-last-min-study-tips/"
+                />
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/study-method/</loc>
     <lastmod>2021-03-26T15:17:59+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/ideal-transformer-assumptions/</loc>
     <lastmod>2021-03-21T12:10:42+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/ideal-transformer-assumptions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/ideal-transformer-assumptions/"
+                />
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/chinese-a-lit/</loc>
     <lastmod>2021-03-20T15:05:52+02:00</lastmod>
