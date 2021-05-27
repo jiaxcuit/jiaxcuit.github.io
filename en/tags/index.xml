@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Jiaxcuit</title>
+    <link>//jiaxcuit.github.io/en/tags/</link>
+    <description>Recent content in Tags on Jiaxcuit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 25 May 2021 21:25:13 +0200</lastBuildDate><atom:link href="//jiaxcuit.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physics</title>
+      <link>//jiaxcuit.github.io/en/tags/physics/</link>
+      <pubDate>Tue, 25 May 2021 21:25:13 +0200</pubDate>
+      
+      <guid>//jiaxcuit.github.io/en/tags/physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>短记</title>
+      <link>//jiaxcuit.github.io/en/tags/%E7%9F%AD%E8%AE%B0/</link>
+      <pubDate>Thu, 01 Apr 2021 11:58:34 +0200</pubDate>
+      
+      <guid>//jiaxcuit.github.io/en/tags/%E7%9F%AD%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study Method</title>
+      <link>//jiaxcuit.github.io/en/tags/study-method/</link>
+      <pubDate>Fri, 26 Mar 2021 15:17:59 +0200</pubDate>
+      
+      <guid>//jiaxcuit.github.io/en/tags/study-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chinese A Lit</title>
+      <link>//jiaxcuit.github.io/en/tags/chinese-a-lit/</link>
+      <pubDate>Sat, 20 Mar 2021 15:05:52 +0200</pubDate>
+      
+      <guid>//jiaxcuit.github.io/en/tags/chinese-a-lit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Short Note</title>
+      <link>//jiaxcuit.github.io/en/tags/short-note/</link>
+      <pubDate>Sat, 13 Mar 2021 15:06:49 +0200</pubDate>
+      
+      <guid>//jiaxcuit.github.io/en/tags/short-note/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

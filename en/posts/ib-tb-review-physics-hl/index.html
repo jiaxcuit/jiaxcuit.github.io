@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html><head>
+<title>Thoughts on IB Textbooks I Used: Physics HL</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+<script src="/vendor/js/vue.min.js" ></script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="//jiaxcuit.github.io/scss/journal.min.f746b90edf2c4e0bd4d13052b5ca938729e1a965a9c4eb7db7ddbe9d9459a31d.css" integrity="sha256-90a5Dt8sTgvU0TBStcqThynhqWWpxOt9t92&#43;nZRZox0=" media="screen">
+
+
+
+<link rel="stylesheet" href="//jiaxcuit.github.io/scss/dark-mode.min.9eed8ae2787c3f560a2db4310ef3eb2d51d915b99476914d460e53807f3d4af5.css" integrity="sha256-nu2K4nh8P1YKLbQxDvPrLVHZFbmUdpFNRg5TgH89SvU=" media="screen">
+
+
+<script src="/js/loadCSS.js"></script>
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
+</script>
+
+
+  
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script"
+async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+MathJax.Hub.Queue(function() {
+
+
+
+var all = MathJax.Hub.getAllJax(), i;
+for(i = 0; i < all.length; i += 1) {
+all[i].SourceElement().parentNode.className += ' has-jax';
+}
+});
+</script>
+
+<style>
+code.has-jax {
+font: inherit;
+font-size: 100%;
+background: inherit;
+border: inherit;
+color: #515151;
+}
+</style>
+
+
+
+
+
+  
+    <script src="/js/toc.js"></script>
+  
+
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '2a79498cd34bc8af9f02',
+  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
+  repo: 'blog-gitalk',
+  owner: 'jiaxcuit',
+  admin: ['jiaxcuit'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="//jiaxcuit.github.io">
+    
+        <div class="nav-title">
+            Jiaxcuit
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/en/posts">
+                Archive
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/en/tags">
+                Tags
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/en/friends">
+                Friends
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/en/about">
+                About
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Jiaxcuit
+	
+
+    </div>
+    
+</div><div ref="extraContainer" class="extra-container">
+    
+    
+
+    <div class="toc animated-visibility">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#introduction" onclick="onNavClick(`#introduction-nav`)" id="introduction-nav">
+									Introduction
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#textbook-reviews" onclick="onNavClick(`#textbook-reviews-nav`)" id="textbook-reviews-nav">
+									Textbook Reviews
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#pearson-publishers" onclick="onNavClick(`#pearson-publishers-nav`)" id="pearson-publishers-nav">
+									Pearson Publishers
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#oxford-university-press" onclick="onNavClick(`#oxford-university-press-nav`)" id="oxford-university-press-nav">
+									Oxford University Press
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#cambridge-university-press" onclick="onNavClick(`#cambridge-university-press-nav`)" id="cambridge-university-press-nav">
+									Cambridge University Press
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#practical-use" onclick="onNavClick(`#practical-use-nav`)" id="practical-use-nav">
+									Practical Use
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#conclusion" onclick="onNavClick(`#conclusion-nav`)" id="conclusion-nav">
+									Conclusion
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a class="pagination-action" v-on:click="toggleDarkMode">
+            <i class="material-icons pagination-action-icon" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons pagination-action-icon" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/en/posts">
+                    Archive
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/en/tags">
+                    Tags
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/en/friends">
+                    Friends
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/en/about">
+                    About
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#introduction" onclick="onNavClick(`#introduction-nav`)" id="introduction-nav">
+									Introduction
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#textbook-reviews" onclick="onNavClick(`#textbook-reviews-nav`)" id="textbook-reviews-nav">
+									Textbook Reviews
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#pearson-publishers" onclick="onNavClick(`#pearson-publishers-nav`)" id="pearson-publishers-nav">
+									Pearson Publishers
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#oxford-university-press" onclick="onNavClick(`#oxford-university-press-nav`)" id="oxford-university-press-nav">
+									Oxford University Press
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#cambridge-university-press" onclick="onNavClick(`#cambridge-university-press-nav`)" id="cambridge-university-press-nav">
+									Cambridge University Press
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#practical-use" onclick="onNavClick(`#practical-use-nav`)" id="practical-use-nav">
+									Practical Use
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#conclusion" onclick="onNavClick(`#conclusion-nav`)" id="conclusion-nav">
+									Conclusion
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="//jiaxcuit.github.io">
+            Jiaxcuit
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
+            <i class="material-icons" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="//jiaxcuit.github.io">
+        <div class="single-column-header-title">Jiaxcuit</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Thoughts on IB Textbooks I Used: Physics HL
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-05-25
+                        </time>
+                        
+
+                        
+
+                        
+
+                            
+                                &nbsp;#
+                                <a href="/en/tags/physics">Physics</a>
+                            
+                        
+
+                        
+                            &nbsp;
+                            <i class="material-icons" style="">schedule</i>
+
+
+                            
+                            
+                            14 min
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="introduction">Introduction</h1>
+<blockquote>
+<p>The following sections are translated by a machine. I&rsquo;ll check through the content asap. To view the original post in Chinese, just change the &ldquo;en&rdquo; in the URL to &ldquo;zh&rdquo;! Thanks for your understanding!</p>
+</blockquote>
+<p>This is the first post in a series called &ldquo;My IB Textbook Tips&rdquo;. The IB subjects covered in this series are Physics, Mathematics AA, Chemistry, History, and Chinese A: Literature for DP, and the corresponding course levels and syllabus versions (when first assessed) are as follows.</p>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>Level</th>
+<th>First Assessment Date</th>
+<th>Link to series of articles</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Physics</td>
+<td>HL</td>
+<td>2016</td>
+<td>This article</td>
+<td></td>
+</tr>
+<tr>
+<td>Mathematics AA</td>
+<td>HL</td>
+<td>2021</td>
+<td>To be updated</td>
+<td></td>
+</tr>
+<tr>
+<td>Chemistry</td>
+<td>SL</td>
+<td>2016</td>
+<td>To be updated</td>
+<td></td>
+</tr>
+<tr>
+<td>History</td>
+<td>SL</td>
+<td>2017</td>
+<td>To be updated</td>
+<td></td>
+</tr>
+<tr>
+<td>Chinese A: Literature</td>
+<td>SL</td>
+<td>2021</td>
+<td>To be updated</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>These are the IB DP subjects that I have studied. I have used at least 2 textbooks (or teaching aids) for each of these subjects.</p>
+<p>In this article, I will discuss those <strong>Physics</strong> textbooks that I have used. I will list the textbooks by publisher, compare and contrast them, talk about their style, their strengths and weaknesses in my mind, and finally give my thoughts on &ldquo;how to use the textbooks&rdquo;. All for reference only.</p>
+<h1 id="textbook-reviews">Textbook Reviews</h1>
+<p>I think the most important thing about physics textbooks and teaching aids is the following two points.</p>
+<ol>
+<li><strong>Good explanations</strong>: clear, natural, and clever introductions and explanations of physical phenomena and theoretical derivations. 2.</li>
+<li><strong>Exercises should be good</strong>: not only the ability to apply theoretical knowledge is examined, but also the understanding of knowledge points. The question pattern (question type) should be close to the real IB questions, but the content of the questions should be new and varied.</li>
+</ol>
+<p>In the two years of DP, I have used 3 publishers, 3 books in total.</p>
+<h2 id="pearson-publishers">Pearson Publishers</h2>
+<figure class="center"><img src="/images/pearson-physics-tb.png"
+         alt="Cover of Higher Level Physics, published by Pearson" height="350px"/>
+</figure>
+
+<ol start="0">
+<li>Basic Information</li>
+</ol>
+<ul>
+<li>Book title: <em>Higher Level Physics</em></li>
+<li>Edition: 2nd edition</li>
+<li>Author: Chris Hamper</li>
+<li>ISBN：978-1-447-95902-1</li>
+</ul>
+<ol>
+<li>General Overview of Contents</li>
+</ol>
+<p>The impression I got from this book was that <strong>there was a lot of content and the pages were full</strong>. Every time I saw it, I was a little more at ease: the book talks about so much, so there must be enough to go around, right? But the more I use it, the more I think that sometimes, the book is too much and too full. Textbooks need to be just the right amount of detail, and they also need to be concise and clear so that they can efficiently convey information to the reader. But if you have enough time to read, it&rsquo;s a good choice to use this book as an interesting read to expand your knowledge.</p>
+<ol start="2">
+<li>experimental investigation, formula derivation</li>
+</ol>
+<p>The experimental section of this book contains some experimental guidance, but the more detailed <strong>laboratory study plan</strong> needs to be obtained from the e-book of this book, which does not seem to be accompanied by a paper book. If you use this book for self-study, this will be a difficulty, but if you are following the school to study this book, then you should be able to ask your school teacher if there is a lab study plan. The book&rsquo;s <a href="https://www.pearson.com/uk/hotlinks/products/9781447959021.html">online companion resource</a> is also mainly for experiments, with links to many <strong>experiment simulators</strong>, saving yourself the trouble of searching.</p>
+<p>The book&rsquo;s <strong>formula derivation</strong> is very helpful, and the one that impressed me the most is the derivation of $v=\pm\omega\sqrt{x_0^2-x^2}$ for simple harmonic motion. The derivation process will $x=x_0\sin\omega t$ and $v=\omega x_0\cos\omega t$ two equations squared respectively, so that, naturally, using the trigonometric constant $\sin^2x+\cos^2x=1$, directly deduced. For the derivation of the formula of the Doppler effect, the book also comes with a fairly clear ** schematic diagram**, with the algebraic derivation, so that people can understand at a glance, especially the acoustic wave source does not move, the observer movement of this case.</p>
+<ol start="3">
+<li>Exercises</li>
+</ol>
+<p>Each section of the book is followed by a <strong>mini exercise</strong> for that section, and the end of each chapter is also equipped with exercises for <strong>IB exam questions</strong>, but some of the questions are from <strong>IB real questions</strong>, and the book is not marked as IB real questions, so if you brush more questions, you may waste some time brushing up on the questions you have done when using this book. Although it is not a bad thing to repeat the questions.</p>
+<ol start="4">
+<li>Structure</li>
+</ol>
+<p>This book is for <strong>HL students</strong>, so there is not a strong sense of division between each topic, for example Topic 5 Waves and Topic 9 Wave Phenomena are combined in the same chapter. For example, Topic 5 Waves and Topic 9 Wave Phenomena are combined in the same chapter. However, depending on the class schedule of the school, the teacher may cover SL first and then take out the HL content separately, and those combined chapters will lose the meaning of combining.</p>
+<p>Another problem is that each chapter separated in this way does not correspond to each Topic ** in IB**. This makes it harder to tell which content is SL and which is HL, and which is under which Topic, if you follow the progress of the class. The two physics textbooks I mention below have separate SL and HL, unlike this one.</p>
+<h2 id="oxford-university-press">Oxford University Press</h2>
+<figure class="center"><img src="/images/oxford-physics-tb.png"
+         alt="Cover of Physics: Course Companion, published by Oxford" height="350px"/>
+</figure>
+
+<ol start="0">
+<li>Basic information</li>
+</ol>
+<ul>
+<li>Book title: <em>Physics: Course Companion</em></li>
+<li>Edition: 2014 Edition</li>
+<li>Author: David Homer, Michael Bowen-Jones</li>
+<li>ISBN: 978-0-19-839213-2</li>
+</ul>
+<ol>
+<li>General Overview of Contents</li>
+</ol>
+<p>The great thing about this book is that it is &ldquo;hand-picked&rdquo; by the IB - it is the only textbook that <strong>publishers and the IB have jointly developed</strong>. So it reflects some of the IB&rsquo;s inside information.</p>
+<p>This is reflected in the fact that the content of this book covers exactly the IB syllabus. For example, the Pearson textbook includes color forces in the chapter on Topic 7 &amp; 11 Modern Physics, and the Cambridge textbook includes the formula for heat conduction in the chapter on Topic 8 Energy Production.</p>
+<ol start="2">
+<li>experimental investigations, formulae derivation</li>
+</ol>
+<p>There are many detailed <strong>experimental investigation panels</strong> in this book, and often the experiments are used to verify or lead to theories, allowing the reader to build intuition about physical phenomena and to understand abstract formulas more easily.</p>
+<p>For example, the book on capacitance is introduced by experiments, and the experiments in the book link capacitance with electric field and potential, so that readers can quickly become familiar with the new concept of &ldquo;capacitance&rdquo;. In contrast, the Cambridge textbook is a bit more rigid in its introduction of capacitance. Of course, I think this problem is basically due to the fact that there is no Gauss' theorem in the IB Physics syllabus, so the textbook has to introduce capacitance in a roundabout way or in a sketchy way in order not to introduce too much superfluous content 😕.</p>
+<p>The <strong>formula derivation</strong> in the book is also very detailed, easy to understand, and has appropriate <strong>expansion</strong>, which is very helpful to understand the formula. What impressed me most was the derivation of $\bar E_k = \frac{3}{2}k_BT$ in the chapter on Topic 3, Thermal Science, when discussing ideal gases. The steps are detailed and explained in detail (e.g., the origin of &ldquo;3&rdquo; in the above equation). The Cambridge text skips the derivation of how the &ldquo;3&rdquo; came to be, while the Pearson text does not have a derivation and states the formula directly as a fact. Because I had seen this derivation, I remembered that the kinetic energy in the equation is the average kinetic energy, averaged over each gas molecule. This directly helped me to get the questions right in a practice exam.</p>
+<p>So, the Cambridge and Pearson books are sometimes a little less friendly to students who don&rsquo;t like them, don&rsquo;t remember them well, or want to know more about them, while the Oxford textbook is better.</p>
+<ol start="3">
+<li>Exercises</li>
+</ol>
+<p>There are examples that come standard in textbooks, but <strong>no informal mini-exercises</strong> to help the reader become familiar with the concepts. In this respect, the book compares slightly less favourably with the Pearson and Cambridge textbooks. It does have <strong>IB exam question type exercises</strong> at the end of each chapter, as well as some original questions, but there are still a lot of questions from <strong>IB real questions</strong> that are marked throughout the book. So if you brush up on your IB questions, you may not get many new questions with this book.</p>
+<p>In the preface, there is a line that says you can find more exercises on the Oxford University Press <a href="www.oxfordsecondary.co.uk/ib-physics">website</a>, but I only found <a href="https://global.oup.com/education/secondary/curricula/ib-diploma/science/phsyicsanswers/?region=international">answers</a> to the exercises already in the textbook .</p>
+<p>So, personally, I think that the exercises are a weak point of this book. But my physics teacher said the exercises in this book are good. I think he means that this book <strong>is very good at picking good questions</strong> from the real IB questions. I agree with this, and I don&rsquo;t think his judgment is bad.</p>
+<ol start="4">
+<li>structure</li>
+</ol>
+<p>The HL content and SL content are <strong>separate</strong>, so there is a sense of fragmentation, but each chapter corresponds to each Topic of the IB syllabus.</p>
+<p>The layout is <strong>looser</strong> than Pearson&rsquo;s. It is refreshing to see that this is a more flexible and more effective way of organizing the text. It is refreshing to see that in Topic 9, the electric and gravitational fields are marked with different <strong>colors</strong>, which is clever and clear, especially when comparing the two fields.</p>
+<h2 id="cambridge-university-press">Cambridge University Press</h2>
+<figure class="center"><img src="/images/cambridge-physics-tb.png"
+         alt="Cover of Physics for the IB Diploma Coursebook, published by Cambridge" height="350px"/>
+</figure>
+
+<ol start="0">
+<li>Basic Information</li>
+</ol>
+<ul>
+<li>Book Title: <em>Physics for the IB Diploma Coursebook</em></li>
+<li>Edition: 6th edition</li>
+<li>Author: K. A. Tsokos</li>
+<li>ISBN: 978-1-107-62819-9</li>
+</ul>
+<ol>
+<li>General overview of the content</li>
+</ol>
+<p>My overall impression of this book is that it is <strong>detailed enough</strong> and <strong>concise enough</strong> that there is not much to fault. There is some content in the book that is not in the scope of the IB outline, but it is not a big deal.</p>
+<ol start="2">
+<li>formula derivation</li>
+</ol>
+<p>The style of formula derivation in this book is similar to that of the Oxford textbooks in that they are <strong>not &ldquo;afraid&rdquo; to expand</strong> and do so in a way that is helpful to the reader. For example, in Topic 11 Modern Physics, the derivation of the decay formula. Both books start from $-\frac{\mathrm{d} N}{\mathrm{d} t}=\lambda N$ and use calculus to derive $N=N_0e^{-\lambda t}$, which deepens the reader&rsquo;s understanding of the fact that the decay rate is proportional to the number of nuclei that have not decayed. &ldquo;Pearson&rsquo;s textbook does not have this derivation. In fact, Pearson&rsquo;s textbook is consistently less expansive.</p>
+<p>In comparison, this book expands slightly less** than the Oxford textbook**. I have already mentioned $\bar E_k = \frac{3}{2}k_BT$, but here is another example: the derivation of the point that &ldquo;the electric field inside a charged hollow metal sphere is zero&rdquo;. The book directly states that &ldquo;the internal potential is constant&rdquo;, i.e., the electric field strength is zero, while the Oxford textbook proves this point with mathematical tools. The Oxford textbook uses mathematical tools to prove this point. As you can see, the Oxford textbook is more extended.</p>
+<ol start="3">
+<li>Exercises, supplementary materials</li>
+</ol>
+<p>In my opinion, the exercises and supplementary materials in this book are <strong>the best of these three physics textbooks</strong>.</p>
+<p>This book has <strong>sufficient mini-exercises</strong> at the end of each section of each chapter, not only questions that examine the application of knowledge (i.e., common standard questions), but also extended questions that will provoke thought and discussion in the reader. For example, Exercise 30 in Topic 11.3 Capacitance has the reader draw a graph of the potential difference ($V$) between the two sections of a parallel plate capacitor and the charge ($q$) of a single plate, leading the reader to consider the meaning of the area under the curve. This deepens the reader&rsquo;s understanding of the parallel plate capacitor energy storage formula $E=\frac{1}{2}CV^2=\frac{1}{2}Vq=\frac{1}{2}\frac{q^2}{C}$ and also checks the reader&rsquo;s understanding of the concept that &ldquo;the capacitance of a parallel plate capacitor does not vary with voltage or charge. &ldquo;. This is much more helpful than looking at the equations $E=\frac{1}{2}CV^2$ and $C=\frac{q}{V}$ in the <em>Data Booklet</em> alone.</p>
+<p>There are also comprehensive practice problems** at the end of each chapter that match the style of the real IB questions. I&rsquo;m not sure if all the questions are original, but I never found any original IB questions in them when I was working on them. There are both multiple choice questions and longer short answer questions. Compared to the Pearson and Oxford textbook exercises, this book is **more informative and varied**.</p>
+<p>You can also find <strong>more free exercises and answers</strong> on the <a href="https://www.cambridge.org/go/">official website</a> of Cambridge University Press, and by registering, you can search, browse, and download resources in the system. All those questions are supplementary to the exercises in this book, so there is absolutely no need to worry about running out of questions to brush up on. Note that there are only answers for the mini-exercises in the back of the book, while the answers for the comprehensive exercises at the end of each chapter need to be obtained from the website.</p>
+<ol start="4">
+<li>structure</li>
+</ol>
+<p>The HL and SL chapters are <strong>separate</strong> and slightly fragmented, but each chapter corresponds to the IB Topics one by one. The layout is similar to that of the Oxford textbook, both being more <strong>loose</strong> than the Pearson text.</p>
+<p>The book has one small, almost insignificant drawback: it lists the two requirements for students in the IB syllabus - comprehension and application - <strong>combined</strong> at the beginning of each section. The Pearson and Oxford texts, on the other hand, both list the comprehension and application requirements separately, which is much clearer.</p>
+<h1 id="practical-use">Practical Use</h1>
+<p>After the above analysis, I think the best way is to choose <strong>one</strong> between the Oxford and Cambridge textbooks as the main textbook to be used, and read the relevant chapter immediately after each lecture, while the other one is used as a support. If you choose the Cambridge textbook as your main textbook, then if you don&rsquo;t understand something, you can read the corresponding chapter in the Oxford textbook, and vice versa, while the Pearson textbook can be used as an additional option, as a reference when you don&rsquo;t understand both Oxford and Cambridge, or when there is a discrepancy between the contents of the two books, or as a bank of questions for brushing up. (Of course, if you use the textbooks in school, you can follow the school&rsquo;s schedule directly.)</p>
+<p>Because usually, each textbook explains knowledge differently - sometimes in a different way, sometimes with a different focus - so I think you should actually look at the content of all the textbooks <strong>integrally</strong> when studying. But we all have limited time, so we can&rsquo;t read everything in the textbook and have to discard something. But if there are some points that are not so well mastered, it is better to read all the relevant contents in all three textbooks and also follow them to think and understand them once.</p>
+<p>I struggled with the Doppler effect, but after reading the three different explanations in the three textbooks, I got a better grasp of it, and the Pearson textbook as an extra option was even more helpful than the other two. Everyone says you need to read a lot in the arts, but I guess it&rsquo;s the same in science. Read more and think more, there is always an explanation for you 😆</p>
+<p>Also, I think you need to be aware that in a textbook, <strong>may not have every chapter explained for you</strong>. For example, I personally like the Oxford textbook&rsquo;s explanation of Topic 11.3 Capacitance, but I think the Cambridge textbook&rsquo;s explanation of Topic 10 Field is more suitable for me than the Oxford textbook. So I suggest you use the textbook flexibly, if there is a part of the reading does not go smoothly, do not rush to think that they learn the problem, you can change a textbook to see.</p>
+<p>One last thing, I think that although textbooks are tools and you don&rsquo;t need to read them word for word from beginning to end, you <strong>can&rsquo;t just skim</strong> them either. After you find the chapter or paragraph you need to study through skimming, you should read and understand it carefully.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>In this article, I talked about three <strong>Physics</strong> textbooks for the 2016 IB syllabus (Pearson, Oxford, Cambridge). I listed their <strong>features</strong>, talked about the <strong>pros and cons</strong> of each of them in my mind, while trying to match them with concrete examples, and at the end, gave <strong>suggestions</strong> for using the textbooks in the context of my learning experience**. This series of articles is continuing to be updated, and I&rsquo;ll post links to new articles in the table at the beginning of this blog post, so you can check it out if you&rsquo;re interested.</p>
+<p>This article does not cover some specific physics study methods, such as how to brush up efficiently, nor does it cover some notes specific to IB physics, such as test-taking tips, which I will mention in a future blog post. For more posts on physics, please use the &ldquo;tabs&rdquo; feature in the sidebar of this site.</p>
+<p>Thank you for reading this, I&rsquo;m not a professional teacher, just an IB student with some insight, so if you have different opinions, feel free to discuss them! (Look for contact information at the end of the &ldquo;About&rdquo; section of this blog. I&rsquo;m really curious about what others think!</p>
+
+
+                </div>
+            </div>
+            <div class="post-copyright">
+			All posts on this blog, 十之以饼干盒 jiaxcuit, are my original works unless otherwise indicated. Without my explicit prior written consent, you are prohibited from copying, reproducing, modifying or distributing any of the original works on this blog.
+            </div>
+
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Next<br>No newer posts
+                </a>
+                
+
+                
+                <a class="older-posts" href="//jiaxcuit.github.io/en/about/">
+			Previous<br>About
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2021 Jiaxcuit
+	
+</div>
+            </div>
+    <script>
+let app;
+
+app = new Vue({
+    el: '#app',
+    data: {
+        scrollY: 0,
+        navOpacity: 0,
+        isDrawerOpen: false,
+        mounted: false,
+        isDarkMode: false
+    },
+    methods: {
+            sgn(t, x) {
+                let k = 1. / (1. - 2 * t);
+                if (x <= t) return 0;
+                else if (x >= 1 - t) return 1;
+                else {
+                    return k * (x - t);
+                }
+            },
+            handleScroll() {
+                this.scrollY = window.scrollY;
+                this.navOpacity = this.sgn(.0, Math.min(1, Math.max(0, window.scrollY / (this.pageHeadHeight() - this.navBarHeight() * 0.8))));
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+
+                if (this.navOpacity >= 1) {
+                    navBackground.style.opacity = 1;
+                    navTitle.style.opacity = 1;
+                } else {
+                    navBackground.style.opacity = 0;
+                    navTitle.style.opacity = 0;
+                }
+            },
+            handleResize() {
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+                extraContainer.style.left = (streamContainer.offsetWidth - extraContainer.offsetWidth) + 'px';
+            },
+            navBarHeight() {
+                return this.$refs.navBar.offsetHeight;
+            },
+            pageHeadHeight() {
+                return this.$refs.pageHead.offsetHeight;
+            },
+            toggleDrawer() {
+                this.isDrawerOpen = !this.isDrawerOpen;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            closeDrawer() {
+                this.isDrawerOpen = false;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            toggleDarkMode() {
+                this.isDarkMode = !this.isDarkMode;
+                if (this.isDarkMode==true){
+                    document.cookie = "night=1;path=/";
+                    document.body.classList.add("night");
+                } else {
+                    document.cookie = "night=0;path=/";
+                    document.body.classList.remove("night");
+                }
+            },
+            debounce(func, wait, options) {
+                let lastArgs,
+                    lastThis,
+                    maxWait,
+                    result,
+                    timerId,
+                    lastCallTime
+
+                let lastInvokeTime = 0
+                let leading = false
+                let maxing = false
+                let trailing = true
+
+                
+                const useRAF = (!wait && wait !== 0 && typeof root.requestAnimationFrame === 'function')
+
+                if (typeof func !== 'function') {
+                    throw new TypeError('Expected a function')
+                }
+                function isObject(value) {
+                    const type = typeof value
+                    return value != null && (type === 'object' || type === 'function')
+                }
+
+                wait = +wait || 0
+                if (isObject(options)) {
+                    leading = !!options.leading
+                    maxing = 'maxWait' in options
+                    maxWait = maxing ? Math.max(+options.maxWait || 0, wait) : maxWait
+                    trailing = 'trailing' in options ? !!options.trailing : trailing
+                }
+
+                function invokeFunc(time) {
+                    const args = lastArgs
+                    const thisArg = lastThis
+
+                    lastArgs = lastThis = undefined
+                    lastInvokeTime = time
+                    result = func.apply(thisArg, args)
+                    return result
+                }
+
+                function startTimer(pendingFunc, wait) {
+                    if (useRAF) {
+                    root.cancelAnimationFrame(timerId)
+                    return root.requestAnimationFrame(pendingFunc)
+                    }
+                    return setTimeout(pendingFunc, wait)
+                }
+
+                function cancelTimer(id) {
+                    if (useRAF) {
+                    return root.cancelAnimationFrame(id)
+                    }
+                    clearTimeout(id)
+                }
+
+                function leadingEdge(time) {
+                    
+                    lastInvokeTime = time
+                    
+                    timerId = startTimer(timerExpired, wait)
+                    
+                    return leading ? invokeFunc(time) : result
+                }
+
+                function remainingWait(time) {
+                    const timeSinceLastCall = time - lastCallTime
+                    const timeSinceLastInvoke = time - lastInvokeTime
+                    const timeWaiting = wait - timeSinceLastCall
+
+                    return maxing
+                    ? Math.min(timeWaiting, maxWait - timeSinceLastInvoke)
+                    : timeWaiting
+                }
+
+                function shouldInvoke(time) {
+                    const timeSinceLastCall = time - lastCallTime
+                    const timeSinceLastInvoke = time - lastInvokeTime
+
+                    
+                    
+                    
+                    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+                    (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait))
+                }
+
+                function timerExpired() {
+                    const time = Date.now()
+                    if (shouldInvoke(time)) {
+                    return trailingEdge(time)
+                    }
+                    
+                    timerId = startTimer(timerExpired, remainingWait(time))
+                }
+
+                function trailingEdge(time) {
+                    timerId = undefined
+
+                    
+                    
+                    if (trailing && lastArgs) {
+                    return invokeFunc(time)
+                    }
+                    lastArgs = lastThis = undefined
+                    return result
+                }
+
+                function cancel() {
+                    if (timerId !== undefined) {
+                    cancelTimer(timerId)
+                    }
+                    lastInvokeTime = 0
+                    lastArgs = lastCallTime = lastThis = timerId = undefined
+                }
+
+                function flush() {
+                    return timerId === undefined ? result : trailingEdge(Date.now())
+                }
+
+                function pending() {
+                    return timerId !== undefined
+                }
+
+                function debounced(...args) {
+                    const time = Date.now()
+                    const isInvoking = shouldInvoke(time)
+
+                    lastArgs = args
+                    lastThis = this
+                    lastCallTime = time
+
+                    if (isInvoking) {
+                    if (timerId === undefined) {
+                        return leadingEdge(lastCallTime)
+                    }
+                    if (maxing) {
+                        
+                        timerId = startTimer(timerExpired, wait)
+                        return invokeFunc(lastCallTime)
+                    }
+                    }
+                    if (timerId === undefined) {
+                    timerId = startTimer(timerExpired, wait)
+                    }
+                    return result
+                }
+                debounced.cancel = cancel
+                debounced.flush = flush
+                debounced.pending = pending
+                return debounced
+                }
+
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
+        window._nonDesktop = function () {
+            let check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+        
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        if (night==""){
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                
+            }
+        }else{
+            
+            if (night=="1") {
+                this.toggleDarkMode();
+            }
+        }
+    },
+    mounted() {
+        this.handleScroll();
+        this.handleResize();
+        this.mounted = true;
+
+        
+        
+        
+
+        document.querySelectorAll("table").forEach(function(elem){
+            elem.classList.add("table-striped");
+            elem.classList.add("table");
+            elem.classList.add("table-responsive");
+            elem.classList.add("table-hover");
+        })
+
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
+        
+        
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('resize', this.handleResize);
+    }
+});
+
+
+
+</script>
+    </body>
+</html>
