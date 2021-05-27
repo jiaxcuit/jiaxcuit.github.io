@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Tags</title>
+<title>关于</title>
 
 
 
@@ -50,7 +50,30 @@
 
 
 
+  
+    <script src="/js/toc.js"></script>
+  
 
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '2a79498cd34bc8af9f02',
+  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
+  repo: 'blog-gitalk',
+  owner: 'jiaxcuit',
+  admin: ['jiaxcuit'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -171,6 +194,115 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 </div><div ref="extraContainer" class="extra-container">
     
     
+
+    <div class="toc animated-visibility">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%8d%9a%e5%ae%a2%e5%86%85%e5%ae%b9" onclick="onNavClick(`#博客内容-nav`)" id="博客内容-nav">
+									博客内容
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%88%91%e4%b8%ba%e4%bb%80%e4%b9%88%e5%86%99%e5%8d%9a%e5%ae%a2" onclick="onNavClick(`#我为什么写博客-nav`)" id="我为什么写博客-nav">
+									我为什么写博客？
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%8d%9a%e4%b8%bb%e7%9a%84ib%e7%bb%8f%e5%8e%86" onclick="onNavClick(`#博主的ib经历-nav`)" id="博主的ib经历-nav">
+									博主的IB经历
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%89%80%e4%bb%a5%e5%8d%9a%e4%b8%bb%e6%98%af" onclick="onNavClick(`#所以博主是-nav`)" id="所以博主是-nav">
+									所以，博主是……？
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" onclick="onNavClick(`#联系方式-nav`)" id="联系方式-nav">
+									联系方式
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -186,8 +318,6 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 brightness_7
             </i>
         </a>
-        
-        
         
         
     </div>
@@ -272,6 +402,114 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
             
             
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%8d%9a%e5%ae%a2%e5%86%85%e5%ae%b9" onclick="onNavClick(`#博客内容-nav`)" id="博客内容-nav">
+									博客内容
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%88%91%e4%b8%ba%e4%bb%80%e4%b9%88%e5%86%99%e5%8d%9a%e5%ae%a2" onclick="onNavClick(`#我为什么写博客-nav`)" id="我为什么写博客-nav">
+									我为什么写博客？
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%8d%9a%e4%b8%bb%e7%9a%84ib%e7%bb%8f%e5%8e%86" onclick="onNavClick(`#博主的ib经历-nav`)" id="博主的ib经历-nav">
+									博主的IB经历
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%89%80%e4%bb%a5%e5%8d%9a%e4%b8%bb%e6%98%af" onclick="onNavClick(`#所以博主是-nav`)" id="所以博主是-nav">
+									所以，博主是……？
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" onclick="onNavClick(`#联系方式-nav`)" id="联系方式-nav">
+									联系方式
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -313,75 +551,140 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <a class="a-block">
-            <div class="post-item-wrapper post-item-wrapper-no-hover">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title post-item-title-small">
-                            Tags
-                        </div>
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    关于
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-05-16
+                        </time>
+                        
+
+                        
+
+                        
+
+                        
+                            &nbsp;
+                            <i class="material-icons" style="">schedule</i>
+
+
+                            
+                            
+                            5 min
+
+                        
                     </div>
                 </div>
             </div>
-        </a>
-        
-        
-                <a href="//jiaxcuit.github.io/zh/tags/%E7%89%A9%E7%90%86/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    物理
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>博客正在测试中，会在近期尽快更新XD</p>
+<h1 id="博客内容">博客内容</h1>
+<p>欢迎访问！这是一个佛系个人博客，主要将分享博主本人的 IB <strong>学习经验</strong>和使用过的<strong>学习资料</strong>，也会分享一些生活碎片。查看博客内容，请用本站侧边栏中的“标签”和“归档”两项功能。</p>
+<h1 id="我为什么写博客">我为什么写博客？</h1>
+<p>IB，这本就小众的课程体系，有着<strong>令人惊异的透明度</strong>。可用的学习资料少之又少，学习经验更是几乎无处参考。走过了学习过程中的各种弯路，我实在是气不打一处来，所以决定贯彻 CAS 的服务精神，竭尽所能地分享信息，<strong>希望可以帮到在 IB 中煎熬的你</strong>。</p>
+<p>放一下我深有共鸣的，知乎上的一个答案：<a href="https://www.zhihu.com/question/439087609/answer/1675869050">大家觉得从 IB 中真正学到了什么？ – Andy Prime 的回答 – 知乎</a>。加油，你并不是一个人。但说回来，IB也<strong>并没有那么一无是处</strong>啦。</p>
+<h1 id="博主的ib经历">博主的IB经历</h1>
+<p>我在博客上的分享，会受到很多因素影响，例如选科、课程大纲的版本、成绩、个人学习风格等等。还请参考。希望我不会在自己不擅长的方面误人子弟😅</p>
+<ul>
+<li>毕业时间：M21</li>
+<li>HL：数学 A&amp;A、物理、英语 B</li>
+<li>SL：化学、历史、中文 A：文学（自修）</li>
+<li>EE：物理</li>
+<li>预估分：41+3。其中历史是唯一的6分，TOK 预估 B，EE 预估 A。</li>
+</ul>
+<p>因为疫情，所有科目的学习<strong>均未涉及选修单元</strong>（Options），所以我也没什么这方面的经验和建议。不过物理的 Astrophysics 和 Engineering Physics 这两个选修单元，都有大概浏览过，所以也不是完全不了解。</p>
+<p><strong>历史</strong>的课程设置非常灵活，我们选择了这些主题：</p>
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th>主题</th>
+<th>案例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prescribed subject 3</td>
+<td>The Move to Global War</td>
+<td>日本、德国、意大利</td>
+</tr>
+<tr>
+<td>Topic 10</td>
+<td>Causes and Effects of 20th Century Wars</td>
+<td>一战、（中国）国共内战、西班牙内战</td>
+</tr>
+<tr>
+<td>Topic 11</td>
+<td>Authoritarian States (20th Century)</td>
+<td>德国、意大利、中国</td>
+</tr>
+</tbody>
+</table>
+<p>在IB的文科与理科之间，我似乎更擅长理科；在写论文和考试解题之间，我似乎更擅长考试解题。不过，虽说写文章不太行，但物理实验报告似乎是没什么问题的。</p>
+<h1 id="所以博主是">所以，博主是……？</h1>
+<p>我大概可以给自己贴很多标签。</p>
+<p>我是拖延症患者，总在追赶作业的截止时间。</p>
+<p>我还是完美主义者，喜欢把我的工作区域整理成最理想的状态，再开始学习。</p>
+<p>我也热衷方法论：学习方法、文件整理方法、时间规划方法，等等；热衷从不同的人身上学习各种经验。</p>
+<p>我相信好的工具能够有效提高效率，好的思路和方法比盲目勤奋更加重要。</p>
+<h1 id="联系方式">联系方式</h1>
+<p>我虽然在熟人面前会很开朗，但对陌生人比较自闭，还请先通过邮箱联系：<!-- raw HTML omitted --><a href="mailto:whlinda504@gmail.com">whlinda504@gmail.com</a><!-- raw HTML omitted -->。随时欢迎评论和邮件交流！（需要使用Github账号登录来添加评论。）感谢🤗</p>
+
+
+                </div>
+            </div>
+            <div class="post-copyright">
+			除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的文章均为原创。如未事先经过我的明确书面许可，不得复制、转载、删改或二次传播本博客中的任何原创内容。
+            </div>
+
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="//jiaxcuit.github.io/zh/posts/ib-tb-review-physics-hl/">
+			更晚一篇：<br>我的 IB 课本使用心得：物理 HL
                 </a>
-        
-                <a href="//jiaxcuit.github.io/zh/tags/%E7%9F%AD%E8%AE%B0/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    短记
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
+
+                
+                <a class="older-posts" href="//jiaxcuit.github.io/zh/friends/">
+			更早一篇：<br>友链
                 </a>
-        
-                <a href="//jiaxcuit.github.io/zh/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    学习方法
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        
-                <a href="//jiaxcuit.github.io/zh/tags/%E4%B8%AD%E6%96%87-a%E6%96%87%E5%AD%A6/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    中文 A：文学
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        
-    </div>
-</div>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
+
+
 
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
@@ -648,6 +951,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },
