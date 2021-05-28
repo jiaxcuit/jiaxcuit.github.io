@@ -57,6 +57,19 @@
                 href="//jiaxcuit.github.io/zh/posts/excellence-or-involution/"
                 />
   </url><url>
+    <loc>//jiaxcuit.github.io/zh/about/</loc>
+    <lastmod>2021-05-28T16:06:41+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/about/"
+                />
+  </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/ib-tb-review-physics-hl/</loc>
     <lastmod>2021-05-25T21:25:13+01:00</lastmod>
     <xhtml:link
@@ -72,19 +85,6 @@
   </url><url>
     <loc>//jiaxcuit.github.io/zh/tags/%E7%89%A9%E7%90%86/</loc>
     <lastmod>2021-05-25T21:25:13+01:00</lastmod>
-  </url><url>
-    <loc>//jiaxcuit.github.io/zh/about/</loc>
-    <lastmod>2021-05-16T23:06:41+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/about/"
-                />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/friends/</loc>
     <lastmod>2021-04-01T04:54:45+00:00</lastmod>
