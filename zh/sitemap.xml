@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//jiaxcuit.github.io/zh/about/</loc>
+    <lastmod>2021-05-29T14:26:41+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/about/"
+                />
+  </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/</loc>
     <lastmod>2021-05-28T17:10:03+01:00</lastmod>
     <xhtml:link
@@ -55,19 +68,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="//jiaxcuit.github.io/zh/posts/excellence-or-involution/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/zh/about/</loc>
-    <lastmod>2021-05-28T17:26:41+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/about/"
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/ib-tb-review-physics-hl/</loc>
