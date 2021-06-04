@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html><head>
-<title>Assumptions for an Ideal Transformer</title>
+	<meta name="generator" content="Hugo 0.83.1" />
+<title>十之以饼干盒</title>
 
 
+
+  
 
 
 <meta charset="utf-8">
@@ -48,70 +51,9 @@
 </script>
 
 
-  
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-<script type="text/javascript" id="MathJax-script"
-async
-src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-MathJax.Hub.Queue(function() {
 
 
 
-var all = MathJax.Hub.getAllJax(), i;
-for(i = 0; i < all.length; i += 1) {
-all[i].SourceElement().parentNode.className += ' has-jax';
-}
-});
-</script>
-
-<style>
-code.has-jax {
-font: inherit;
-font-size: 100%;
-background: inherit;
-border: inherit;
-color: #515151;
-}
-</style>
-
-
-
-
-
-  
-    <script src="/js/toc.js"></script>
-  
-
-
-
-
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script src="/vendor/js/md5.min.js"></script>
-<script>
-  var gitalk = new Gitalk({
-  clientID: '2a79498cd34bc8af9f02',
-  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
-  repo: 'blog-gitalk',
-  owner: 'jiaxcuit',
-  admin: ['jiaxcuit'],
-  id: md5(location.pathname),
-  distractionFreeMode: 'false'
-  });
-  window.onload = function () {
-        gitalk.render('gitalk-container')
-  }
-</script>
 
 
 
@@ -128,10 +70,10 @@ color: #515151;
 <body>
     	<div id="app"><div ref="sideContainer" class="side-container">
     
-    <a class="a-block nav-head false" href="//jiaxcuit.github.io">
+    <a class="a-block nav-head active" href="//jiaxcuit.github.io">
     
         <div class="nav-title">
-            Jiaxcuit
+            十之以饼干盒
         </div>
         
     </a>
@@ -142,9 +84,11 @@ color: #515151;
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/zh">
+            
+            <a class="a-block nav-link-item active" href="/zh">
                 中文
             </a>
             
@@ -172,11 +116,9 @@ color: #515151;
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/en/posts">
+            <a class="a-block nav-link-item false" href="/en/posts">
                 Archive
             </a>
             
@@ -229,13 +171,13 @@ color: #515151;
         
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
-Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
 <br>
 
 &copy;
 	
 
-	2021 Jiaxcuit
+	2021 十之以饼干盒
 	<br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
@@ -245,12 +187,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
     
 </div><div ref="extraContainer" class="extra-container">
     
-    
-
-    <div class="toc animated-visibility">
-
-
-</div>
     
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
@@ -269,6 +205,24 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
+        
+            <div class="pagination-indicator">
+                <span style="text-align: center">
+                    2<br><div style="display: inline-block; transform: rotate(-28deg)">-</div><br>2
+                </span>
+            </div>
+
+            
+            <a class="pagination-action" href="/zh/">
+                <i class="material-icons pagination-action-icon">
+                    chevron_left
+                </i>
+            </a>
+            
+
+            
+        
+        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -281,9 +235,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/zh">
+                
+                <a class="a-block drawer-menu-item active" href="/zh">
                     中文
                 </a>
                 
@@ -311,11 +267,9 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/en/posts">
+                <a class="a-block drawer-menu-item false" href="/en/posts">
                     Archive
                 </a>
                 
@@ -361,11 +315,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
-            <div class="toc">
-
-
-</div>
-            
         </div>
     </div>
 </div>
@@ -381,7 +330,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             </i>
         </button>
         <a ref="navTitle" class="navbar-brand" href="//jiaxcuit.github.io">
-            Jiaxcuit
+            十之以饼干盒
         </a>
         
         <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
@@ -398,125 +347,99 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 <div class="single-column-header-container" ref="pageHead"
      v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
     <a href="//jiaxcuit.github.io">
-        <div class="single-column-header-title">Jiaxcuit</div>
+        <div class="single-column-header-title">十之以饼干盒</div>
         
 
     </a>
 </div>
 
             <div id="content">
+
 <div ref="streamContainer" class="stream-container">
-    <div class="post-list-container post-list-container-shadow">
-        <div class="post">
-            
-            
-            
-
-            <div class="post-head-wrapper-text-only"
+    <div class="post-list-container post-list-container-no-background">
+        
+             
                 
-            >
-                <div class="post-title">
-                    Assumptions for an Ideal Transformer
-                    
-                    <div class="post-meta">
-                        
-                        <time itemprop="datePublished">
-                            2021-03-21
-                        </time>
-                        
+                <a href="//jiaxcuit.github.io/zh/posts/p1-syllabus-changes/" class="a-block">
+                    <div class="post-item-wrapper">
+                        <div class="post-item post-item-no-divider">
+                            <div class="post-item-info-wrapper">
+                                <div class="post-item-title">
+                                    中文文学 2021 新大纲 P1 变化要点
+                                </div>
+                                <div class="post-item-summary">
+                                    
+                                </div>
+                                <div class="post-item-meta">
+    2021-03-09
+    &emsp;
+    
+    
+    <i class="material-icons" style="font-size:11px">schedule</i>
 
-                        
+    
 
-                        
+    
 
+
+
+    9 min
+
+
+    
+    
+    &emsp;
+
+    
+</div>
+
+                            </div>
                             
-                                &nbsp;#
-                                <a href="/en/tags/physics">Physics</a>
                             
-                        
-
-                        
-                            &nbsp;
-                            <i class="material-icons" style="">schedule</i>
-
-
-                            
-                            
-                            2 min
-
-                        
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="post-body-wrapper">
                 
-                <div class="post-body" v-pre>
-                
-                    <p>Transformers are closely related to induction in the study of electricity and magnetism. Here, I share an article<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>: <a href="https://mp.weixin.qq.com/s/T0DcwTlz0DYTKsijbmVpBA">Weekly Three Questions - Grade 12: (170) What is &ldquo;ideal&rdquo; for an ideal transformer?</a> (【每周三题】高三【170】理想变压器都“理想”了什么？), by Wu Aixiong (吴爱兄). This article has largely deepened my understanding of transformers.</p>
-<p>This article is from <strong>Physics Learning Research</strong> (物理学习研究), a WeChat Official Account. It posts many other similar articles on physics that investigate into individual topics, including example problems, explanations, and exercises to consolidate knowledge. Most of the content is high quality and is suitable for students from grade 9 to grade 12.</p>
-<p>This article explains the <strong>components</strong> and <strong>theoretical principles</strong> of a transformer, and then explains the <strong>assumptions</strong> of an ideal transformer. The article also discusses in detail the various <strong>conclusions</strong> regarding transformers, such as the conditions for $\frac{\epsilon_1}{\epsilon_2} = \frac{V_1}{V_2}$ to be true. The article covers topics such as <strong>inductive reactance</strong> which is not covered in IB physics, but it is mentioned less frequently in the article and only appears at the very end. The four exercises in the article are helpful as they closely relate to the content in IB Physics.</p>
-<p>Note that due to formatting issues, the first part of question (1) is centered below the first picture, however it is not a caption of the picture, so be careful not to think it is the caption or miss it.</p>
-<p>Thank you for reading! I&rsquo;m not a teacher but just an IB student who has bits of thoughts. If you have more thoughts and insights, you are welcome to share them here! (Also look for contact information at the end of the &ldquo;About&rdquo; section of this blog.) I&rsquo;m really curious about what other people think!</p>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p>The article is in Chinese.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>
-
-
-                </div>
-            </div>
-            <div class="post-copyright">
-			Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-            </div>
-
-            <nav class="post-pagination">
-
-                
-                <a class="newer-posts" href="//jiaxcuit.github.io/en/posts/focus-habit-feedback-last-min-study-tips/">
-			Next<br>Focus, Habit, Feedback: 3 Tips for Exam Prep
-                </a>
-                
-
-                
-                <a class="older-posts" href="//jiaxcuit.github.io/en/posts/p1-skills-online-resources/">
-			Previous<br>Chinese A Lit: P1 Skills &amp; Exemplars
-                </a>
-                
-            </nav>
-            <div class="post-comment-wrapper">
-                
-
-
-<div id="gitalk-container"></div>
-
-
-
-
-
-
-
-
-
-            </div>
-        </div>
+            
+        
+        </a>
     </div>
 </div>
 
-            </div><div id="single-column-footer">
+            </div>
+
+<div class="pagination">
+    
+    <a class="pagination-action" href="/zh/" style="opacity:1">
+    
+        <i class="material-icons pagination-action-icon">
+            chevron_left
+        </i>
+    </a>
+
+        <div class="pagination-indicator">
+            <span>2/2</span>
+        </div>
+
+        
+            <a class="pagination-action" style="opacity:0">
+        
+                <i class="material-icons pagination-action-icon">
+                    chevron_right
+                </i>
+            </a>
+</div>
+
+
+<div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
-Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
 <br>
 
 &copy;
 	
 
-	2021 Jiaxcuit
+	2021 十之以饼干盒
 	<br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
@@ -778,9 +701,6 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
-        
-        spy();
-        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },
