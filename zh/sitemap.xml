@@ -46,6 +46,16 @@
   </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/note-taking/</loc>
     <lastmod>2021-06-02T22:04:25+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/note-taking/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/note-taking/"
+                />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/about/</loc>
     <lastmod>2021-05-29T14:26:41+02:00</lastmod>
