@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//jiaxcuit.github.io/en/tags/history/</loc>
+    <lastmod>2021-06-26T18:12:04+02:00</lastmod>
+  </url><url>
     <loc>//jiaxcuit.github.io/en/</loc>
-    <lastmod>2021-06-25T11:42:01+02:00</lastmod>
+    <lastmod>2021-06-26T18:12:04+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +16,35 @@
                 rel="alternate"
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/ib-tb-review-history-sl/</loc>
+    <lastmod>2021-06-26T18:12:04+02:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/</loc>
+    <lastmod>2021-06-26T18:12:04+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/</loc>
+    <lastmod>2021-06-26T18:12:04+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/tags/"
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/math-aa/</loc>
@@ -29,32 +61,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/posts/ib-tb-review-math-aa-hl/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/posts/</loc>
-    <lastmod>2021-06-25T11:42:01+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/posts/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/</loc>
-    <lastmod>2021-06-25T11:42:01+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/tags/"
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/note-taking/</loc>
