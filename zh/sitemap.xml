@@ -44,8 +44,18 @@
     <loc>//jiaxcuit.github.io/zh/tags/%E5%8E%86%E5%8F%B2/</loc>
     <lastmod>2021-06-27T13:49:10+02:00</lastmod>
   </url><url>
-    <loc>//jiaxcuit.github.io/zh/posts/ib-tb-review-histoty-sl/</loc>
+    <loc>//jiaxcuit.github.io/zh/posts/ib-tb-review-history-sl/</loc>
     <lastmod>2021-06-27T13:49:10+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/ib-tb-review-history-sl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/ib-tb-review-history-sl/"
+                />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/ib-tb-review-math-aa-hl/</loc>
     <lastmod>2021-06-23T17:20:02+02:00</lastmod>
