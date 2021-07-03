@@ -4,9 +4,25 @@
     <link>//jiaxcuit.github.io/zh/</link>
     <description>Recent content on 十之以饼干盒</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 27 Jun 2021 13:49:10 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jul 2021 22:28:38 +0200</lastBuildDate>
     
         <atom:link href="//jiaxcuit.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>理想变压器的假设条件</title>
+        <link>//jiaxcuit.github.io/zh/posts/ideal-transformer-assumptions/</link>
+        <pubDate>Sun, 21 Mar 2021 12:10:42 +0200</pubDate>
+        
+        <guid>//jiaxcuit.github.io/zh/posts/ideal-transformer-assumptions/</guid>
+        <description>十之以饼干盒 //jiaxcuit.github.io/zh/posts/ideal-transformer-assumptions/ -&lt;p&gt;变压器是电学中和电磁感应密切相关的内容。我在这里分享一篇文章：&lt;a href=&#34;https://mp.weixin.qq.com/s/T0DcwTlz0DYTKsijbmVpBA&#34;&gt;【每周三题】高三【170】理想变压器都“理想”了什么？&lt;/a&gt;，作者：吴爱兄。这篇文章很大程度上加深了我对变压器的理解。&lt;/p&gt;
+&lt;p&gt;文章来自&lt;strong&gt;微信公众号：物理学习研究&lt;/strong&gt;。这个公众号内还有很多适用高一到高三的，类似的物理专题探究文章，一般都包括例题、讲解、习题巩固，内容质量很高。&lt;/p&gt;
+&lt;p&gt;这篇文章解释了变压器的&lt;strong&gt;结构&lt;/strong&gt;、&lt;strong&gt;工作原理&lt;/strong&gt;，进而讲解了理想变压器的&lt;strong&gt;假设条件&lt;/strong&gt;。文章对关于变压器的各项&lt;strong&gt;结论&lt;/strong&gt;也讨论得细致入微，比如 $\frac{\epsilon_1}{\epsilon_2} = \frac{V_1}{V_2}$ 的成立条件。文中涉及了 IB 物理并未涵盖的&lt;strong&gt;感抗&lt;/strong&gt;等内容，但涉及较少，而且也只在文章结尾出现。文中的4道习题都是有关 IB 物理课内的内容的，很有帮助。&lt;/p&gt;
+&lt;p&gt;需要注意，由于排版问题，第（1）题的题干出现在第一张图片下方居中，然而并不是对图片的说明，小心不要看漏看错。&lt;/p&gt;
+&lt;p&gt;感谢你的阅读，我并不是专业的老师，只是稍有心得的 IB 学生，如果有更多思考和见解，欢迎你在这里分享讨论！（请在本博客的“关于”一栏末尾寻找联系方式。）我真的很好奇其他人的想法！&lt;/p&gt;
+- //jiaxcuit.github.io/zh/posts/ideal-transformer-assumptions/ - </description>
+        </item>
     
     
     

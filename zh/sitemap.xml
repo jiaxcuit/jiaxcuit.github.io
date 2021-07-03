@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//jiaxcuit.github.io/zh/posts/</loc>
-    <lastmod>2021-06-27T13:49:10+02:00</lastmod>
+    <lastmod>2021-07-03T22:28:38+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/tags/</loc>
-    <lastmod>2021-06-27T13:49:10+02:00</lastmod>
+    <lastmod>2021-07-03T22:28:38+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/</loc>
-    <lastmod>2021-06-27T13:49:10+02:00</lastmod>
+    <lastmod>2021-07-03T22:28:38+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,7 +42,16 @@
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/tags/%E5%8E%86%E5%8F%B2/</loc>
-    <lastmod>2021-06-27T13:49:10+02:00</lastmod>
+    <lastmod>2021-07-03T22:28:38+02:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/zh/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2021-07-03T22:28:38+02:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/zh/tags/%E7%89%A9%E7%90%86/</loc>
+    <lastmod>2021-07-03T22:28:38+02:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/zh/posts/short-term-rev/</loc>
+    <lastmod>2021-07-03T22:28:38+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/ib-tb-review-history-sl/</loc>
     <lastmod>2021-06-27T13:49:10+02:00</lastmod>
@@ -72,9 +81,6 @@
   </url><url>
     <loc>//jiaxcuit.github.io/zh/tags/%E6%95%B0%E5%AD%A6-aa/</loc>
     <lastmod>2021-06-23T17:20:02+02:00</lastmod>
-  </url><url>
-    <loc>//jiaxcuit.github.io/zh/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2021-06-05T22:04:25+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/note-taking/</loc>
     <lastmod>2021-06-05T22:04:25+02:00</lastmod>
@@ -130,9 +136,6 @@
                 hreflang="zh"
                 href="//jiaxcuit.github.io/zh/posts/ib-tb-review-physics-hl/"
                 />
-  </url><url>
-    <loc>//jiaxcuit.github.io/zh/tags/%E7%89%A9%E7%90%86/</loc>
-    <lastmod>2021-05-25T21:25:13+01:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/zh/friends/</loc>
     <lastmod>2021-04-01T04:54:45+00:00</lastmod>
