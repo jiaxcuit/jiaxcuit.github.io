@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//jiaxcuit.github.io/en/tags/history/</loc>
-    <lastmod>2021-06-26T18:33:54+02:00</lastmod>
+    <lastmod>2021-07-03T20:18:57+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/</loc>
-    <lastmod>2021-06-26T18:33:54+02:00</lastmod>
+    <lastmod>2021-07-03T20:18:57+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -16,6 +16,51 @@
                 rel="alternate"
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/physics/</loc>
+    <lastmod>2021-07-03T20:18:57+02:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/</loc>
+    <lastmod>2021-07-03T20:18:57+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/short-term-rev/</loc>
+    <lastmod>2021-07-03T20:18:57+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/short-term-rev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/short-term-rev/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/study-method/</loc>
+    <lastmod>2021-07-03T20:18:57+02:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/</loc>
+    <lastmod>2021-07-03T20:18:57+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/tags/"
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/ib-tb-review-history-sl/</loc>
@@ -29,32 +74,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/posts/ib-tb-review-history-sl/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/posts/</loc>
-    <lastmod>2021-06-26T18:33:54+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/posts/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/</loc>
-    <lastmod>2021-06-26T18:33:54+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/tags/"
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/math-aa/</loc>
@@ -86,9 +105,6 @@
                 href="//jiaxcuit.github.io/en/posts/note-taking/"
                 />
   </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/study-method/</loc>
-    <lastmod>2021-06-06T22:04:31+02:00</lastmod>
-  </url><url>
     <loc>//jiaxcuit.github.io/en/posts/excellence-or-involution/</loc>
     <lastmod>2021-05-28T17:09:46+01:00</lastmod>
     <xhtml:link
@@ -117,9 +133,6 @@
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/posts/ib-tb-review-physics-hl/"
                 />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/physics/</loc>
-    <lastmod>2021-05-25T21:25:13+01:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/about/</loc>
     <lastmod>2021-05-16T23:06:41+02:00</lastmod>

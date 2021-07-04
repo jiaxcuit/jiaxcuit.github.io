@@ -4,9 +4,33 @@
     <link>//jiaxcuit.github.io/en/</link>
     <description>Recent content on Jiaxcuit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Jun 2021 18:33:54 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jul 2021 20:18:57 +0200</lastBuildDate>
     
         <atom:link href="//jiaxcuit.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Assumptions for an Ideal Transformer</title>
+        <link>//jiaxcuit.github.io/en/posts/ideal-transformer-assumptions/</link>
+        <pubDate>Sun, 21 Mar 2021 12:10:42 +0200</pubDate>
+        
+        <guid>//jiaxcuit.github.io/en/posts/ideal-transformer-assumptions/</guid>
+        <description>Jiaxcuit //jiaxcuit.github.io/en/posts/ideal-transformer-assumptions/ -&lt;p&gt;Transformers are closely related to induction in the study of electricity and magnetism. Here, I share an article&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;: &lt;a href=&#34;https://mp.weixin.qq.com/s/T0DcwTlz0DYTKsijbmVpBA&#34;&gt;Weekly Three Questions - Grade 12: (170) What is &amp;ldquo;ideal&amp;rdquo; for an ideal transformer?&lt;/a&gt; (【每周三题】高三【170】理想变压器都“理想”了什么？), by Wu Aixiong (吴爱兄). This article has largely deepened my understanding of transformers.&lt;/p&gt;
+&lt;p&gt;This article is from &lt;strong&gt;Physics Learning Research&lt;/strong&gt; (物理学习研究), a WeChat Official Account. It posts many other similar articles on physics that investigate into individual topics, including example problems, explanations, and exercises to consolidate knowledge. Most of the content is high quality and is suitable for students from grade 9 to grade 12.&lt;/p&gt;
+&lt;p&gt;This article explains the &lt;strong&gt;components&lt;/strong&gt; and &lt;strong&gt;theoretical principles&lt;/strong&gt; of a transformer, and then explains the &lt;strong&gt;assumptions&lt;/strong&gt; of an ideal transformer. The article also discusses in detail the various &lt;strong&gt;conclusions&lt;/strong&gt; regarding transformers, such as the conditions for $\frac{\epsilon_1}{\epsilon_2} = \frac{V_1}{V_2}$ to be true. The article covers topics such as &lt;strong&gt;inductive reactance&lt;/strong&gt; which is not covered in IB physics, but it is mentioned less frequently in the article and only appears at the very end. The four exercises in the article are helpful as they closely relate to the content in IB Physics.&lt;/p&gt;
+&lt;p&gt;Note that due to formatting issues, the first part of question (1) is centered below the first picture, however it is not a caption of the picture, so be careful not to think it is the caption or miss it.&lt;/p&gt;
+&lt;p&gt;Thank you for reading! I&amp;rsquo;m not a teacher but just an IB student who has bits of thoughts. If you have more thoughts and insights, you are welcome to share them here! (Also look for contact information at the end of the &amp;ldquo;About&amp;rdquo; section of this blog.) I&amp;rsquo;m really curious about what other people think!&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The article is in Chinese.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+- //jiaxcuit.github.io/en/posts/ideal-transformer-assumptions/ - </description>
+        </item>
     
     
     
