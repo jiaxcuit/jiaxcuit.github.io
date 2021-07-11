@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>History</title>
+<title>我的 IB 课本使用心得：化学 SL</title>
 
 
 
@@ -50,7 +50,30 @@
 
 
 
+  
+    <script src="/js/toc.js"></script>
+  
 
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '2a79498cd34bc8af9f02',
+  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
+  repo: 'blog-gitalk',
+  owner: 'jiaxcuit',
+  admin: ['jiaxcuit'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -70,7 +93,7 @@
     <a class="a-block nav-head false" href="//jiaxcuit.github.io">
     
         <div class="nav-title">
-            Jiaxcuit
+            十之以饼干盒
         </div>
         
     </a>
@@ -81,9 +104,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/zh">
+            
+            <a class="a-block nav-link-item active" href="/zh">
                 中文
             </a>
             
@@ -91,9 +116,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/zh/posts">
+            
+            <a class="a-block nav-link-item active" href="/zh/posts">
                 归档
             </a>
             
@@ -121,11 +148,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/en/tags">
+            <a class="a-block nav-link-item false" href="/en/tags">
                 Tags
             </a>
             
@@ -168,13 +193,13 @@
         
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
-Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
 <br>
 
 &copy;
 	
 
-	2021 Jiaxcuit
+	2021 十之以饼干盒
 	<br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
@@ -184,6 +209,161 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
     
 </div><div ref="extraContainer" class="extra-container">
     
+    
+
+    <div class="toc animated-visibility">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%86%99%e5%9c%a8%e5%89%8d%e9%9d%a2" onclick="onNavClick(`#写在前面-nav`)" id="写在前面-nav">
+									写在前面
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%90%84%e7%b1%bb%e8%af%be%e6%9c%ac%e6%b5%8b%e8%af%84" onclick="onNavClick(`#各类课本测评-nav`)" id="各类课本测评-nav">
+									各类课本测评
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#pearson-%e5%87%ba%e7%89%88%e7%a4%be" onclick="onNavClick(`#pearson-出版社-nav`)" id="pearson-出版社-nav">
+									Pearson 出版社
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%89%91%e6%a1%a5%e5%a4%a7%e5%ad%a6%e5%87%ba%e7%89%88%e7%a4%be" onclick="onNavClick(`#剑桥大学出版社-nav`)" id="剑桥大学出版社-nav">
+									剑桥大学出版社
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%af%94%e8%be%83%e5%92%8c%e5%af%b9%e6%af%94" onclick="onNavClick(`#比较和对比-nav`)" id="比较和对比-nav">
+									比较和对比
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e5%ae%9e%e9%99%85%e4%bd%bf%e7%94%a8" onclick="onNavClick(`#实际使用-nav`)" id="实际使用-nav">
+									实际使用
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%93%e8%af%ad" onclick="onNavClick(`#结语-nav`)" id="结语-nav">
+									结语
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
     
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
@@ -202,8 +382,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
-        
-        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -216,9 +394,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/zh">
+                
+                <a class="a-block drawer-menu-item active" href="/zh">
                     中文
                 </a>
                 
@@ -226,9 +406,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/zh/posts">
+                
+                <a class="a-block drawer-menu-item active" href="/zh/posts">
                     归档
                 </a>
                 
@@ -256,11 +438,9 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/en/tags">
+                <a class="a-block drawer-menu-item false" href="/en/tags">
                     Tags
                 </a>
                 
@@ -296,6 +476,160 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%86%99%e5%9c%a8%e5%89%8d%e9%9d%a2" onclick="onNavClick(`#写在前面-nav`)" id="写在前面-nav">
+									写在前面
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%90%84%e7%b1%bb%e8%af%be%e6%9c%ac%e6%b5%8b%e8%af%84" onclick="onNavClick(`#各类课本测评-nav`)" id="各类课本测评-nav">
+									各类课本测评
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#pearson-%e5%87%ba%e7%89%88%e7%a4%be" onclick="onNavClick(`#pearson-出版社-nav`)" id="pearson-出版社-nav">
+									Pearson 出版社
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%89%91%e6%a1%a5%e5%a4%a7%e5%ad%a6%e5%87%ba%e7%89%88%e7%a4%be" onclick="onNavClick(`#剑桥大学出版社-nav`)" id="剑桥大学出版社-nav">
+									剑桥大学出版社
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%af%94%e8%be%83%e5%92%8c%e5%af%b9%e6%af%94" onclick="onNavClick(`#比较和对比-nav`)" id="比较和对比-nav">
+									比较和对比
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e5%ae%9e%e9%99%85%e4%bd%bf%e7%94%a8" onclick="onNavClick(`#实际使用-nav`)" id="实际使用-nav">
+									实际使用
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%93%e8%af%ad" onclick="onNavClick(`#结语-nav`)" id="结语-nav">
+									结语
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -311,7 +645,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             </i>
         </button>
         <a ref="navTitle" class="navbar-brand" href="//jiaxcuit.github.io">
-            Jiaxcuit
+            十之以饼干盒
         </a>
         
         <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
@@ -328,7 +662,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 <div class="single-column-header-container" ref="pageHead"
      v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
     <a href="//jiaxcuit.github.io">
-        <div class="single-column-header-title">Jiaxcuit</div>
+        <div class="single-column-header-title">十之以饼干盒</div>
         
 
     </a>
@@ -337,96 +671,212 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <div class="post-item-wrapper post-item-wrapper-no-hover">
-            <div class="post-item post-item-no-gaps">
-                <div class="post-item-info-wrapper">
-                    <div class="post-item-title  post-item-title-small">
-                        <a href="//jiaxcuit.github.io/en/">Jiaxcuit</a> / History
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    我的 IB 课本使用心得：化学 SL
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-07-11
+                        </time>
+                        
+
+                        
+
+                        
+
+                            
+                                &nbsp;#
+                                <a href="/zh/tags/%E5%8C%96%E5%AD%A6">化学</a>
+                            
+                        
+
+                        
+                            &nbsp;
+                            <i class="material-icons" style="">schedule</i>
+
+
+                            
+                            
+                            10 min
+
+                        
                     </div>
                 </div>
             </div>
-        </div><a href="/en/posts/short-term-rev/" class="a-block">
-            <div class="post-item-wrapper">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title">
-                            Short-Term Revision: It&#39;s Okay!
-                        </div>
-                        <div class="post-item-meta">
-    2021-07-04
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
 
-    
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="写在前面">写在前面</h1>
+<p>这是“我的 IB 课本使用心得”这个系列中的第4篇文章。这一系列涉及的 IB 科目是 DP 的物理、数学 AA、化学、历史、中文 A：文学，对应的课程等级和大纲版本（首次评估时间）如下：</p>
+<table>
+<thead>
+<tr>
+<th>科目</th>
+<th>等级</th>
+<th>首次评估时间</th>
+<th>系列文章链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>物理</td>
+<td>HL</td>
+<td>2016</td>
+<td><a href="../ib-tb-review-physics-hl">我的心得</a></td>
+</tr>
+<tr>
+<td>数学 AA</td>
+<td>HL</td>
+<td>2021</td>
+<td><a href="../ib-tb-review-math-aa-hl">我的心得</a></td>
+</tr>
+<tr>
+<td>化学</td>
+<td>SL</td>
+<td>2016</td>
+<td>本文</td>
+</tr>
+<tr>
+<td>历史</td>
+<td>SL</td>
+<td>2017</td>
+<td><a href="../ib-tb-review-history-sl">我的心得</a></td>
+</tr>
+<tr>
+<td>中文 A：文学</td>
+<td>SL</td>
+<td>2021</td>
+<td>有待更新</td>
+</tr>
+</tbody>
+</table>
+<p>这些都是我学习过的 IB DP 科目。在学习这些科目的过程中，每一科我都至少用过2种课本（或教辅资料）。</p>
+<p>在这篇文章中，我将讨论<strong>化学</strong>课本。我将按照出版社列出课本，一边对比，一边说说这些课本各自的风格特色、它们在我心目中的优缺点，最后说说我对“如何使用课本”的一些想法。全都仅供参考呀。</p>
+<p>（这篇文章很短，所以就没有太长不看版啦。）</p>
+<h1 id="各类课本测评">各类课本测评</h1>
+<p>在 DP 这两年中，我用过2个出版社的，共2本书。因为化学是我的 SL 科目，而且 IB 的理科对我来说一直都不太难，我就没有下很大功夫。所以我下面只是简单说说。</p>
+<h2 id="pearson-出版社">Pearson 出版社</h2>
+<ul>
+<li>书名：<em>Higher Level Chemistry</em></li>
+<li>版本：第2版</li>
+<li>作者：Catrin Brown, Mike Ford</li>
+<li>ISBN：978-1-447-95975-5</li>
+</ul>
+<figure class="center"><img src="/images/ib-chemistry-tb/pearson-chemistry-tb.png"
+         alt="Higher Level Chemistry 的封面，Pearson 出版社出版" height="350px"/>
+</figure>
 
-    
+<p>这本书有对应的 SL 版本，但我用的是 HL 版本。虽然这样，书中所有的章节还是有对应 IB 大纲的标号（Topic number），所以哪些小节是 SL、哪些小节是 HL，也很清晰。</p>
+<h2 id="剑桥大学出版社">剑桥大学出版社</h2>
+<ul>
+<li>书名：<em>Chemistry for the IB Diploma Coursebook</em></li>
+<li>版本：第2版</li>
+<li>作者：Steve Owen</li>
+<li>ISBN：978-1-107-62270-8</li>
+</ul>
+<figure class="center"><img src="/images/ib-chemistry-tb/cambridge-chemistry-tb.png"
+         alt="Chemistry for the IB Diploma Coursebook 的封面，剑桥大学出版社出版" height="350px"/>
+</figure>
+
+<p>这本书 SL 和 HL 都适用，其中所有 SL 和 HL 内容都是分开的。</p>
+<h2 id="比较和对比">比较和对比</h2>
+<ol>
+<li>形式</li>
+</ol>
+<p>两本书的形式都和各自出版社下的物理教材相似。如果感兴趣，可以看我之前的文章中的相关章节，作为参考：<a href="../ib-tb-review-physics-hl/#pearson-%E5%87%BA%E7%89%88%E7%A4%BE">Pearson 的物理课本</a>、<a href="../ib-tb-review-physics-hl/#%E5%89%91%E6%A1%A5%E5%A4%A7%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE">剑桥的物理课本</a>。</p>
+<p>Pearson 的书排版<strong>更紧凑</strong>，剑桥的书排版<strong>更松</strong>，哪种排版更好就要看个人喜好了。不过 <strong>Pearson 的书真的比剑桥的要厚上好多</strong>，读下来要更费劲，也相对不太方便携带。</p>
+<p>因为排版松快，<strong>剑桥的重点也更突出</strong>。比如，重要的定义（词句）、方程式和公式都是用文字框标红的。Pearson 则一般只是加粗关键词。</p>
+<ol start="2">
+<li>习题</li>
+</ol>
+<p>两本书的<strong>习题相似</strong>，都在每节后有小练习、每章后有综合习题。而且两本书中综合习题的题型都很全，选择和简答都有，也都符合 IB 风格，不过我不确定是否有 IB 真题。</p>
+<p>剑桥的综合习题标出了哪些是 HL 题目，对 SL 学生很友好。因为我学 SL 时用的是 Pearson 的 HL 课本，所以书里自然没有标明。大家可以选用 Pearson 的 SL 课本。</p>
+<ol start="3">
+<li>讲解</li>
+</ol>
+<p>两本书的讲解风格有些不同。</p>
+<p>Pearson 的课本内容<strong>覆盖面更宽</strong>，所以讲解更丰富。这就包括了一些背景资料，比如元素名大体上的由来、化学计量学（Stoichiometry）和其它章节的关系和对化学学习的帮助。这还包括了一些具体案例，比如在分子间力那一节中，讲解氢键时，这本书就解释了为什么一般的物质固体比液体密度大，然而冰的密度比液体水要小。</p>
+<p>剑桥的课本内容<strong>更精简、也更深入</strong>。这本书中的拓展知识也更多地是帮助我们深入理解某个课内知识点。例如，这本书解释了石墨为何有润滑作用；为什么虽然 Cl 和 N 的电负性一样，但只有Cl–H时不能形成氢键；还从势能上解释了为什么成键会放热。</p>
+<p>如果让我二选一，我个人会选剑桥，因为它讲某个知识点时，会讲背后的原因。就如上一段已经给出的例子，虽然记忆氢键的三种情况：H–F、H–N、H–O 并不难，但这并不能解释为什么只有这几种情况。这样“断片”的知识让我心里没底，非常烦躁。Pearson 的拓展虽然也有意思，也会对考试有一定的帮助，但我更希望自己能彻底理解知识。</p>
+<ol start="4">
+<li>附加内容</li>
+</ol>
+<p>Pearson 的电子书配有实验指导，很有帮助，但似乎纸质书里并不配有电子书，而是需要购买。</p>
+<p>剑桥的<a href="https://www.cambridge.org/go/">官网</a>上则配了实验指导，很有帮助。免费注册，在数据库里选择这本教材，就可以下载了。另外，官网上还有其它可下载的一些（可有可无）的资料。有些可惜，剑桥的化学课本似乎没有像他们出版社的物理或数学那样配很多额外习题，当然也可能是我没找到。</p>
+<h1 id="实际使用">实际使用</h1>
+<p>我觉得这两本书虽然不同，但并<strong>没有非常明显的优劣之分</strong>。因为两本书在讲解上各有侧重，所以我推荐这样用：</p>
+<ol>
+<li>有时间时：两本都看。</li>
+<li>没时间时：推荐用剑桥的书。</li>
+</ol>
+<p>这里说明一下。如果两本都看，可以任选一本来仔细阅读，另一本略读。仔细阅读一本后，再读另一本。</p>
+<p>还有，个人认为，如果时间不够，还想学会知识、提高成绩，那么 Pearson 的书有点太长了，而且书中的一下像背景知识那样较为宽泛的内容并没有太大实际用处。剑桥的书更简短，书中那些适当且有用的拓展也能帮你记忆很多知识。</p>
+<h1 id="结语">结语</h1>
+<p>我在这篇文章里，聊了聊2本针对2016年 IB DP 大纲的<strong>化学</strong>课本，它们分别来自 Pearson 和剑桥这2家出版社。我把两本书并列，参考我的使用经验，进行了比较和对比，同时尽量配上了具体的例子，并且在最后，给出了<strong>使用课本的建议</strong>。</p>
+<p>这一系列的文章还在继续更新中，我会把新文章的链接贴在这篇博文最开始的表格里，大家如果感兴趣就可以去看看呀。</p>
+<p>感谢读到这里的你，我并不是专业的老师，只是稍有心得的 IB 学生，如果有不同的见解，欢迎讨论！（请在博客的“关于”一栏末尾寻找联系方式。）我真的很好奇其他人的想法！</p>
 
 
-
-    11 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                    </div>
                 </div>
             </div>
-        </a><a href="/en/posts/ib-tb-review-history-sl/" class="a-block">
-            <div class="post-item-wrapper">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title">
-                            My Experience &amp; Tips for IB Textbooks: History SL
-                        </div>
-                        <div class="post-item-meta">
-    2021-06-26
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    15 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                    </div>
-                </div>
-            </div>
-        </a></div>
-</div>
-
+            <div class="post-copyright">
+			除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。
             </div>
 
+            <nav class="post-pagination">
 
-<div id="single-column-footer">
+                
+                <a class="newer-posts">
+			更晚一篇：<br>已经到头啦。
+                </a>
+                
+
+                
+                <a class="older-posts" href="//jiaxcuit.github.io/zh/posts/short-term-rev/">
+			更早一篇：<br>短期复习：没关系！
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
-Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
 <br>
 
 &copy;
 	
 
-	2021 Jiaxcuit
+	2021 十之以饼干盒
 	<br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
@@ -688,6 +1138,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },
