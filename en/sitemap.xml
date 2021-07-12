@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//jiaxcuit.github.io/en/tags/history/</loc>
-    <lastmod>2021-07-04T15:03:26+02:00</lastmod>
+    <loc>//jiaxcuit.github.io/en/tags/chemistry/</loc>
+    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/</loc>
-    <lastmod>2021-07-04T15:03:26+02:00</lastmod>
+    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -18,11 +18,21 @@
                 href="//jiaxcuit.github.io/en/"
                 />
   </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/physics/</loc>
-    <lastmod>2021-07-04T15:03:26+02:00</lastmod>
+    <loc>//jiaxcuit.github.io/en/posts/ib-tb-review-chemistry-sl/</loc>
+    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/ib-tb-review-chemistry-sl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/ib-tb-review-chemistry-sl/"
+                />
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/</loc>
-    <lastmod>2021-07-04T15:03:26+02:00</lastmod>
+    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -33,6 +43,25 @@
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/posts/"
                 />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/</loc>
+    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/history/</loc>
+    <lastmod>2021-07-04T15:03:26+02:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/physics/</loc>
+    <lastmod>2021-07-04T15:03:26+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/short-term-rev/</loc>
     <lastmod>2021-07-04T15:03:26+02:00</lastmod>
@@ -49,19 +78,6 @@
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/study-method/</loc>
     <lastmod>2021-07-04T15:03:26+02:00</lastmod>
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/</loc>
-    <lastmod>2021-07-04T15:03:26+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/tags/"
-                />
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/ib-tb-review-history-sl/</loc>
     <lastmod>2021-06-26T18:33:54+02:00</lastmod>
