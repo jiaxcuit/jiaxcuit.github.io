@@ -2,11 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//jiaxcuit.github.io/en/tags/chemistry/</loc>
-    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
-  </url><url>
     <loc>//jiaxcuit.github.io/en/</loc>
-    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
+    <lastmod>2021-07-24T17:57:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -17,6 +14,51 @@
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/"
                 />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/</loc>
+    <lastmod>2021-07-24T17:57:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/short-note/</loc>
+    <lastmod>2021-07-24T17:57:28+02:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/thoughts-on-blog-updates/</loc>
+    <lastmod>2021-07-24T17:57:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/thoughts-on-blog-updates/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/thoughts-on-blog-updates/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/</loc>
+    <lastmod>2021-07-24T17:57:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/chemistry/</loc>
+    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/ib-tb-review-chemistry-sl/</loc>
     <lastmod>2021-07-12T15:55:04+02:00</lastmod>
@@ -29,32 +71,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/posts/ib-tb-review-chemistry-sl/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/posts/</loc>
-    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/posts/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/</loc>
-    <lastmod>2021-07-12T15:55:04+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/tags/"
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/history/</loc>
@@ -120,9 +136,6 @@
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/posts/note-taking/"
                 />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/short-note/</loc>
-    <lastmod>2021-05-28T17:09:46+01:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/excellence-or-involution/</loc>
     <lastmod>2021-05-28T17:09:46+01:00</lastmod>

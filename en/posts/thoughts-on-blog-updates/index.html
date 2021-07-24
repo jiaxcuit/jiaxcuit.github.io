@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.83.1" />
-<title>十之以饼干盒</title>
+<title>Short Note: Updates</title>
 
 
-
-  
 
 
 <meta charset="utf-8">
@@ -53,7 +50,30 @@
 
 
 
+  
+    <script src="/js/toc.js"></script>
+  
 
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '2a79498cd34bc8af9f02',
+  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
+  repo: 'blog-gitalk',
+  owner: 'jiaxcuit',
+  admin: ['jiaxcuit'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -70,10 +90,10 @@
 <body>
     	<div id="app"><div ref="sideContainer" class="side-container">
     
-    <a class="a-block nav-head active" href="//jiaxcuit.github.io">
+    <a class="a-block nav-head false" href="//jiaxcuit.github.io">
     
         <div class="nav-title">
-            十之以饼干盒
+            Jiaxcuit
         </div>
         
     </a>
@@ -84,11 +104,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/zh">
+            <a class="a-block nav-link-item false" href="/zh">
                 中文
             </a>
             
@@ -116,9 +134,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/en/posts">
+            
+            <a class="a-block nav-link-item active" href="/en/posts">
                 Archive
             </a>
             
@@ -171,13 +191,13 @@
         
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
-移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
 <br>
 
 &copy;
 	
 
-	2021 十之以饼干盒
+	2021 Jiaxcuit
 	<br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
@@ -187,6 +207,12 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
     
 </div><div ref="extraContainer" class="extra-container">
     
+    
+
+    <div class="toc animated-visibility">
+
+
+</div>
     
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
@@ -205,24 +231,6 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
         </a>
         
         
-        
-            <div class="pagination-indicator">
-                <span style="text-align: center">
-                    1<br><div style="display: inline-block; transform: rotate(-28deg)">-</div><br>2
-                </span>
-            </div>
-
-            
-
-            
-            <a class="pagination-action" href="/zh/page/2/">
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-            
-        
-        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -235,11 +243,9 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/zh">
+                <a class="a-block drawer-menu-item false" href="/zh">
                     中文
                 </a>
                 
@@ -267,9 +273,11 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/en/posts">
+                
+                <a class="a-block drawer-menu-item active" href="/en/posts">
                     Archive
                 </a>
                 
@@ -315,6 +323,11 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
             
             
+            <div class="toc">
+
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -330,7 +343,7 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
             </i>
         </button>
         <a ref="navTitle" class="navbar-brand" href="//jiaxcuit.github.io">
-            十之以饼干盒
+            Jiaxcuit
         </a>
         
         <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
@@ -347,405 +360,116 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 <div class="single-column-header-container" ref="pageHead"
      v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
     <a href="//jiaxcuit.github.io">
-        <div class="single-column-header-title">十之以饼干盒</div>
+        <div class="single-column-header-title">Jiaxcuit</div>
         
 
     </a>
 </div>
 
             <div id="content">
-
 <div ref="streamContainer" class="stream-container">
-    <div class="post-list-container post-list-container-no-background">
-        
-             
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
                 
-                <a href="//jiaxcuit.github.io/zh/posts/thoughts-on-blog-updates/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    短记：更新
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-07-18
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
+            >
+                <div class="post-title">
+                    Short Note: Updates
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-07-24
+                        </time>
+                        
 
-    
+                        
 
-    
+                        
+
+                            
+                                &nbsp;#
+                                <a href="/en/tags/short-note">Short Note</a>
+                            
+                        
+
+                        
+                            &nbsp;
+                            <i class="material-icons" style="">schedule</i>
 
 
-
-    2 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
                             
                             
-                        </div>
+                            2 min
+
+                        
                     </div>
+                </div>
+            </div>
+
+            <div class="post-body-wrapper">
                 
-            
-        
-             
+                <div class="post-body" v-pre>
                 
-                <a href="//jiaxcuit.github.io/zh/posts/ib-tb-review-chemistry-sl/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    我的 IB 课本使用心得：化学 SL
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-07-11
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
+                    <p>That&rsquo;s a week without any update. The reason is that, I found out with fear and worries that blogging seemed to become a burden instead of an enjoyable hobby for me. When I focused on finishing the series on <a href="../ib-tb-review-physics-hl">textbooks</a>, I slowly fell into a trap that I dug for myself—I narrowed my mind to simply doing work and couldn&rsquo;t escape from the whirlpool of endless tasks.</p>
+<p>So, I gave myself a break. It felt so good that I could have time to do things other than blogging. But I don&rsquo;t want to give up on blogging. I want to continue. I want to become active in writing and expressing ideas.</p>
+<p>I like writing my diary, because I see it as a record of my &ldquo;personal history&rdquo; which lets me see myself in the past and gain insights and power from the past experiences. For me, this blog is similar, although compared to my diary, my blog has less personal things but more formal and organized content. Also, more or less, my blog has things targeting at my readers. Yet after all, my diary and blog are quite similar. Both of them let me enjoy the time being alone, and let me enjoy the &ldquo;inner&rdquo; thoughts and activities, those arising from my own mind.</p>
+<p>I wish I can always enjoy blogging, so I&rsquo;ve decided to be more casual with it. The things that I&rsquo;ve been saving and wanting to write about this whole time, no matter aiming at myself or my readers, I will still probably write about. However, I want to keep <strong>myself</strong> as a part of my audience.</p>
 
 
+                </div>
+            </div>
+            <div class="post-copyright">
+			Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+            </div>
 
-    10 min
+            <nav class="post-pagination">
 
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
                 
-            
-        
-             
+                <a class="newer-posts">
+			Next<br>No newer posts
+                </a>
                 
-                <a href="//jiaxcuit.github.io/zh/posts/short-term-rev/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    短期复习：没关系！
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-07-03
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
 
-    
-
-    
-
-
-
-    16 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
                 
-            
-        
-             
+                <a class="older-posts" href="//jiaxcuit.github.io/en/posts/ib-tb-review-chemistry-sl/">
+			Previous<br>My Experience &amp; Tips with IB Textbooks: Chemistry SL
+                </a>
                 
-                <a href="//jiaxcuit.github.io/zh/posts/ib-tb-review-history-sl/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    我的 IB 课本使用心得：历史 SL
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-06-27
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    28 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
+            </nav>
+            <div class="post-comment-wrapper">
                 
-            
-        
-             
-                
-                <a href="//jiaxcuit.github.io/zh/posts/ib-tb-review-math-aa-hl/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    我的 IB 课本使用心得：数学 AA HL
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-06-23
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
 
-    
 
-    
+<div id="gitalk-container"></div>
 
 
 
-    21 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                
-            
-        
-             
-                
-                <a href="//jiaxcuit.github.io/zh/posts/note-taking/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    笔记：我的原则与方法
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-06-05
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
 
 
 
-    18 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                
-            
-        
-            
-        
-             
-                
-                <a href="//jiaxcuit.github.io/zh/posts/excellence-or-involution/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    短记：优秀？内卷？
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-05-28
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
 
 
 
-    4 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                
-            
-        
-             
-                
-                <a href="//jiaxcuit.github.io/zh/posts/ib-tb-review-physics-hl/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    我的 IB 课本使用心得：物理 HL
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-05-25
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    22 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                
-            
-        
-            
-        
-        </a>
+            </div>
+        </div>
     </div>
 </div>
 
-            </div>
-
-<div class="pagination">
-    
-    <a class="pagination-action" style="opacity:0">
-    
-        <i class="material-icons pagination-action-icon">
-            chevron_left
-        </i>
-    </a>
-
-        <div class="pagination-indicator">
-            <span>1/2</span>
-        </div>
-
-        
-        <a class="pagination-action" href="/zh/page/2/"
-           style="opacity:1">
-        
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-</div>
-
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
-移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
 <br>
 
 &copy;
 	
 
-	2021 十之以饼干盒
+	2021 Jiaxcuit
 	<br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
@@ -1007,6 +731,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },
