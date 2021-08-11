@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Jiaxcuit</title>
+    <link>//jiaxcuit.github.io/en/categories/</link>
+    <description>Recent content in Categories on Jiaxcuit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Jul 2021 15:55:04 +0200</lastBuildDate><atom:link href="//jiaxcuit.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IB</title>
+      <link>//jiaxcuit.github.io/en/categories/ib/</link>
+      <pubDate>Mon, 12 Jul 2021 15:55:04 +0200</pubDate>
+      
+      <guid>//jiaxcuit.github.io/en/categories/ib/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
