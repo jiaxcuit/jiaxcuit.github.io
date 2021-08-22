@@ -81,7 +81,7 @@
 &lt;p&gt;&lt;strong&gt;我的故事&lt;/strong&gt;：暑假的一天下午，我为自己全部的活动计时。其中让我感到最充实的是读书。然而读书的时长是最短的，只有15分钟，我在看记录之前，居然没有意识到。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;刷题需要有批改，有错题本，这样才能记录错误、参考、改进。时间管理也是这样。记录下平时的活动、用时，这样才能更直观地了解现状，进而有针对性地改进。&lt;/p&gt;
-&lt;p&gt;我是从 b 站 up 主&lt;a href=&#34;https://www.bilibili.com/video/BV1Tq4y1x7hH&#34;&gt;国大海Oce的视频&lt;/a&gt;中学到的这个方法，的确有效。了解细节，请移步 b 站观看视频，时长7分17秒。&lt;/p&gt;
+&lt;p&gt;我是从 b 站 up 主&lt;a href=&#34;https://www.bilibili.com/video/BV1Tq4y1x7hH&#34;&gt;国大海Oce的视频&lt;/a&gt;中学到的这个方法，的确有效。看着记录、减少不必要的时间花费后，我的一天充实了许多。了解细节，请移步 b 站观看视频，时长7分17秒。&lt;/p&gt;
 &lt;p&gt;以她展示的记录表为基础，我进行了一些改动，并且做成了电子版的表格，和大家分享：&lt;a href=&#34;../spreadsheets/duration-record-template.xlsx&#34;&gt;下载我的模板&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;我做的表格分左右两部分。左侧的任务计划和右侧的活动记录是分开的，完全可以分别放在两张工作表里。如果给所有活动分类、加标签，应该也可以在表格中自动生成扇形图，让活动时长更直观。这就请大家自行探索了。&lt;/p&gt;
 &lt;p&gt;同理，一般的电子设备比如手机、平板、电脑，也都有使用时间统计，如果没有的话可以安装这类软件。这样就可以很清晰地看到自己每天在哪些应用上花了多少时间，进而改进自己的时间安排了。&lt;/p&gt;
@@ -1591,8 +1591,10 @@
         <pubDate>Sat, 29 May 2021 14:26:41 +0200</pubDate>
         
         <guid>//jiaxcuit.github.io/zh/about/</guid>
-        <description>十之以饼干盒 //jiaxcuit.github.io/zh/about/ -&lt;h1 id=&#34;公告&#34;&gt;公告&lt;/h1&gt;
-&lt;p&gt;博客正在测试中，会在近期尽快更新XD&lt;/p&gt;
+        <description>十之以饼干盒 //jiaxcuit.github.io/zh/about/ -&lt;h1 id=&#34;-公告&#34;&gt;⚠ 公告&lt;/h1&gt;
+&lt;p&gt;2021年8月20日&lt;/p&gt;
+&lt;p&gt;最近我的 CSS 文件出了点问题，正在计划中的搜索功能，还有其他页面设计方面得改进，就很遗憾地暂停推进了。&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;我正在摸索着建立一个中英双语的博客，但实在是挺难的。所以你猛地一看，有很多内容都是英文的。因为我想让博客受众更广，所以只能用这个权宜之计。&lt;/p&gt;
 &lt;p&gt;但不用担心，所有内容都有中文版！有两种方法可以改成中文：&lt;/p&gt;
 &lt;ol&gt;

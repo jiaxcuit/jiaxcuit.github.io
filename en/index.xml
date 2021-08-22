@@ -4,9 +4,153 @@
     <link>//jiaxcuit.github.io/en/</link>
     <description>Recent content on Jiaxcuit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 07 Aug 2021 09:50:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 22 Aug 2021 14:06:23 +0200</lastBuildDate>
     
         <atom:link href="//jiaxcuit.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Tips for Organizing Electronic Files</title>
+        <link>//jiaxcuit.github.io/en/posts/organizing-digital-files/</link>
+        <pubDate>Sun, 22 Aug 2021 14:06:23 +0200</pubDate>
+        
+        <guid>//jiaxcuit.github.io/en/posts/organizing-digital-files/</guid>
+        <description>Jiaxcuit //jiaxcuit.github.io/en/posts/organizing-digital-files/ -&lt;p&gt;After having to work with many electronic files during my years in the IB, I developed my own file organization method.&lt;/p&gt;
+&lt;h1 id=&#34;naming&#34;&gt;Naming&lt;/h1&gt;
+&lt;h2 id=&#34;make-it-meaningful&#34;&gt;Make It Meaningful&lt;/h2&gt;
+&lt;p&gt;Give your files &lt;strong&gt;meaningful names&lt;/strong&gt;. It&amp;rsquo;s very likely that you need to revise your essay draft multiple times, so you can&amp;rsquo;t really tell which draft is the final one until you get close to submission. So don&amp;rsquo;t just call it &lt;em&gt;final&lt;/em&gt;, and then the revised version &lt;em&gt;real final&lt;/em&gt;, and &lt;em&gt;real final final&lt;/em&gt;, etc.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve done that. That&amp;rsquo;s really funny, but that&amp;rsquo;s not helpful for identifying the content of each file.&lt;/p&gt;
+&lt;p&gt;Instead, try something like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;draft 1&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;draft with conclusion modified&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;or &lt;em&gt;draft with neat formatting&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sometimes the changes are hard to summarize, so I use things that happen to me while I&amp;rsquo;m working on the file to name it. For example, &lt;em&gt;draft after history test&lt;/em&gt;. In this way, the name helps me remember the day I have worked on the file as well as the content I edited.&lt;/p&gt;
+&lt;p&gt;When the two naming methods above don&amp;rsquo;t work, I name the file using the time I finish the draft. The &amp;ldquo;last modified date&amp;rdquo; in operating systems gets renewed every time even when there&amp;rsquo;s only one slightest change in the file, but I only want to track the major changes. So, I record the time on my own, like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;draft on monday evening&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;notes at late sunday night&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Google Docs, Sheets and Slides can basically do these for you with the function for tracking changes. You can also very conveniently name the history versions. But I believe there&amp;rsquo;re people out there who sometimes just don&amp;rsquo;t want to work with those editing tools.&lt;/p&gt;
+&lt;p&gt;Meaningful names can be very helpful when you search for files.&lt;/p&gt;
+&lt;h2 id=&#34;perfection&#34;&gt;&amp;ldquo;Perfection&amp;rdquo;?&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m a perfectionist, so I had been naming files and folders with my best consistency and my best attention to capitalization and spaces or underscores between words, before I realized that naming files &amp;ldquo;perfectly&amp;rdquo; wastes loads of time. &lt;strong&gt;Pressing &amp;ldquo;Shift&amp;rdquo; at the start of almost every single word can be more tiring and time-consuming than one thinks.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now, I name files with lowercase letters, and sometimes, I use hyphens to replace underscores and spaces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;del&gt;An Example File Name.doc&lt;/del&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;an-example-file-name.doc&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The former makes sense—typing lowercase is easier. There are several reasons to the latter one.&lt;/p&gt;
+&lt;p&gt;I hate escaping every single space in terminal or command prompt, or whatever you call it. Well, technically you can also &lt;code&gt;&amp;quot;type the file name within parenthesis just like this.txt&amp;quot;&lt;/code&gt;. This is more about one&amp;rsquo;s personal preference. But when it comes to putting files onto the web (like what I do here on my blog), hyphens are helpful because they work perfectly in URLs.&lt;/p&gt;
+&lt;p&gt;With Chinese file names, it&amp;rsquo;s so much easier. I just smash everything together and use a hyphen whenever I need to separate the characters. Because of the shapes of characters, any numbers and Latin alphabet letters can stand out clearly from Chinese characters, which is very convenient when I look for files by the file names. Some real examples are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2020-05-11P1答卷小说-捅马蜂窝.pdf&lt;/li&gt;
+&lt;li&gt;毕业典礼全过程（我的片段带字幕）压缩版.mp4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;structuring-info&#34;&gt;Structuring Info&lt;/h2&gt;
+&lt;p&gt;Have a &lt;strong&gt;consistent structure&lt;/strong&gt; for the file names, and &lt;strong&gt;order the parts of a file name to help you look for specific files&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For example, I had a lot of files for data processing when I did my physics EE experiment. I had 7 different materials to work with (so 7 data points), each with 3 trials, and each trial included 2 types of measurements, each in a different file. So I named them like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Sandpaper Trial 1 - Angle&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sandpaper Trial 1 - Length&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sandpaper Trial 2 - Angle&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sandpaper Trial 2 - Length&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sandpaper Trial 3 - Angle&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sandpaper Trial 3 - Length&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Rubber Trial 1 - Angle&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Rubber Trial 1 - Length&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The order of information is the same: material, trial, and measurement. The order can also help categorize the files so that I can search from a wide range and narrow down to a file, which is next to other similar files that I might want to look at at the same time.&lt;/p&gt;
+&lt;p&gt;Make sure your file name &lt;strong&gt;can really be ordered to help you&lt;/strong&gt; though. Names that start with dates like &lt;em&gt;&amp;ldquo;29 Jan 2021&amp;rdquo;&lt;/em&gt; and &lt;em&gt;&amp;ldquo;17 Feb 2021&amp;rdquo;&lt;/em&gt; are less helpful than those with &lt;em&gt;&amp;ldquo;2021-01-19&amp;rdquo;&lt;/em&gt; and &lt;em&gt;&amp;ldquo;2021-02-07&amp;rdquo;&lt;/em&gt;. Because the former format can be ordered like a mess:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;1 June 2021.txt&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;6 Dec 2020.txt&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;17 Feb 2021.txt&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;29 Jan 2021.txt&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;make-it-short&#34;&gt;Make It Short&lt;/h2&gt;
+&lt;p&gt;Keep the names &lt;strong&gt;as short as possible, but make sure you don&amp;rsquo;t forget what your abbreviations mean&lt;/strong&gt;. In this way, you can scan through your folders faster and find the file you want faster.&lt;/p&gt;
+&lt;p&gt;So instead of something like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;physics ia presearch - pendulum experiment trial 1 video&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;physics ia presearch - pendulum research paper a real pendulum vs simple pendulum&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;physics ia - pendulum worksheet with experiment design draft&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You might want to try this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;trial 1 vid&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;real vs simple pendulum&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;experiment design&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is much less overwhelming and much easier for humans to read.&lt;/p&gt;
+&lt;h1 id=&#34;hotkeys&#34;&gt;Hotkeys&lt;/h1&gt;
+&lt;p&gt;Helpful to know the hotkeys for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy &amp;amp; Paste&lt;/li&gt;
+&lt;li&gt;Multi-select (with &lt;code&gt;Shift&lt;/code&gt; or &lt;code&gt;Ctrl&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Rename&lt;/li&gt;
+&lt;li&gt;Delete&lt;/li&gt;
+&lt;li&gt;Jump to start / end / next word / next paragraph&lt;/li&gt;
+&lt;li&gt;Jump to file by the first letter in its name&lt;/li&gt;
+&lt;li&gt;Close current window (&lt;code&gt;Ctrl&lt;/code&gt; / &lt;code&gt;Cmd&lt;/code&gt; + &lt;code&gt;w&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Open new folder / finder window (&lt;code&gt;Ctrl&lt;/code&gt; / &lt;code&gt;Cmd&lt;/code&gt; + &lt;code&gt;n&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After working a lot with electronic files, I slowly realized that &lt;strong&gt;anything task that can be completed using a keyboard can go much faster than things that you have to do using a mouse&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You only have one mouse and one cursor to go around the whole screen, but you have 10 fingers (that&amp;rsquo;s 10 times more!) that can stretch across the whole keyboard, which is usually no larger than your screen.&lt;/p&gt;
+&lt;h1 id=&#34;views&#34;&gt;Views&lt;/h1&gt;
+&lt;p&gt;Depending on the purpose, &lt;strong&gt;different views of files in folders / finder&lt;/strong&gt; can have different effects.&lt;/p&gt;
+&lt;p&gt;List view is helpful when you search by file name or when there&amp;rsquo;re a lot of files.&lt;/p&gt;
+&lt;p&gt;Icon view is helpful for searching among images.&lt;/p&gt;
+&lt;p&gt;Drop-down lists are helpful when you need to search among the subfolders of multiple folders.&lt;/p&gt;
+&lt;p&gt;I also find it helpful to see the file extensions. So it&amp;rsquo;s much easier for me to distinguish between different files with similar names, especially the editable versions and the exported &amp;ldquo;locked&amp;rdquo; versions. So instead of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2021-03-10 Homework&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021-03-10 Homework&lt;/em&gt; ,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;with the file types shown in a different column in the folder / finder window,&lt;/p&gt;
+&lt;p&gt;I have&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2021-03-10 Homework.pages&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021-03-10 Homework.pdf&lt;/em&gt; .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There&amp;rsquo;re probably more to explore depending on your file viewer.&lt;/p&gt;
+&lt;h1 id=&#34;automation&#34;&gt;Automation&lt;/h1&gt;
+&lt;p&gt;For MacOS users, &lt;strong&gt;Automator&lt;/strong&gt; is a great helper for many repetitive tasks. It can bulk copy files, resize pictures, combine PDFs, rename files, replace parts of file names with a given string, just to name a few.&lt;/p&gt;
+&lt;p&gt;If you know programming, you can even do more with apple scripts (in Automator), python, etc. It&amp;rsquo;s not complicated at all. Even just a GUI automation package for python can do a lot for you, but that&amp;rsquo;s really brute forcing things haha.&lt;/p&gt;
+&lt;p&gt;For Windows, an equivalent software is &lt;strong&gt;&lt;a href=&#34;https://www.autohotkey.com/&#34;&gt;AutoHotkey&lt;/a&gt;&lt;/strong&gt;, although the lack of a graphical UI might make it a bit more intimidating than the &amp;ldquo;drag and drop&amp;rdquo; interface in Automator. I haven&amp;rsquo;t used it, so can&amp;rsquo;t say much.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What are computers for? What are they good at? Repetitive tasks! So let them do the job for you.&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;backup&#34;&gt;Backup&lt;/h1&gt;
+&lt;p&gt;Doing backups is easy. Don&amp;rsquo;t risk losing your files. Simply weigh up the risks and effort required from you, and the correct choice should be clear. &lt;strong&gt;Although the risk of losing files seems low, but once it happens, barely anything can save you.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;my-story&#34;&gt;My Story&lt;/h2&gt;
+&lt;p&gt;This is just a personal story. Last week, my laptop got stuck in the system update process, and it turned out that the only way to make it work was to clear the whole storage. What&amp;rsquo;s in there? All my coursework, electronic notes, research resources, pictures, videos, browser bookmarks, diary, blog post drafts, etc.&lt;/p&gt;
+&lt;p&gt;Luckily, I used to copy my important files onto an external hard drive from time to time, and I did that again before the system update. So what got lost was the unimportant ones, although I still put a lot of time into creating them and organizing them in nice folders.&lt;/p&gt;
+&lt;p&gt;Not only can you lose the personal documents, but also the personalization settings, tools, etc. For example, I lost the handy tools I wrote with python and bash. I lost the personalized hotkeys. I also lost the plug-ins I added bits by bits to chrome, atom and typora.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the lesson. Do backups regularly, and do complete backups. But how?&lt;/p&gt;
+&lt;h2 id=&#34;some-advice&#34;&gt;Some Advice&lt;/h2&gt;
+&lt;p&gt;Copying files onto an external hard drive, like what I did, is the most basic form of creating backups. However, I&amp;rsquo;ve learnt some rules from here and there, which seem quite convincing to me. An idea is the &lt;a href=&#34;https://www.keepitsafe.com/blog/post/3-2-1-rule-for-cloud-backup/&#34;&gt;3-2-1 backup rule&lt;/a&gt;. Of course, there&amp;rsquo;re other more advanced methods.&lt;/p&gt;
+&lt;p&gt;In short, the 3-2-1 backup rule is that you need to &lt;strong&gt;have multiple copies in multiple places (geographical location) and in multiple forms of storage&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For example, I have my IB DP Chinese paper 1 practice locally on my laptop, on my external hard disk, online in my Google Drive, and as hard copies at home. (Unfortunately, I haven&amp;rsquo;t kept all my files in this way before I attempted to update my laptop. )&lt;/p&gt;
+&lt;p&gt;These copies can virtually guarantee the safety of these files, even when, for example, an earthquake happens near my house and destroys everything. Or when something&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; like in Liu Cixin&amp;rsquo;s &lt;em&gt;Ball Lightning&lt;/em&gt; happens in real life 😂&lt;/p&gt;
+&lt;p&gt;Another idea is to work, as often as possible, with cloud service, and download your files regularly to keep a local copy of everything. Like Google Drive, MS OneDrive, GitHub, etc.&lt;/p&gt;
+&lt;p&gt;Time machine and iCloud are useful for MacOS.&lt;/p&gt;
+&lt;p&gt;And always be careful and remember to do a backup before you make any major changes to your laptop, or any electronic device. They are not as reliable as they seem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I agree with it when people say that the more simple a storage media is, the more it is controllable by you.&lt;/strong&gt; Controllable in the sense that your data can be preserved as you wish, and in the sense that your data is exposed to others as you wish. A bit off the topic, but this is exactly one of the reasons why I&amp;rsquo;m still keeping a physical diary book.&lt;/p&gt;
+&lt;h1 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next&lt;/h1&gt;
+&lt;p&gt;These are the helpful tips as far as I know now. You&amp;rsquo;re welcome to share your experience and tips in the comment section, and you can also find contact info under the &amp;ldquo;About&amp;rdquo; section of this blog.&lt;/p&gt;
+&lt;p&gt;In the &amp;ldquo;Backups&amp;rdquo; section, I talked about having copies in different forms of storage, which include hard copies on paper. So, I&amp;rsquo;m planning to talk about &lt;strong&gt;organizing physical files&lt;/strong&gt; in next week&amp;rsquo;s update, more or less with an emphasis on my experience as a student. Stay tuned!&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Just to avoid spoilers. &lt;em&gt;Ball Lightning&lt;/em&gt; is an awesome sci-fi novel. &lt;a href=&#34;https://www.goodreads.com/book/show/32076670-ball-lightning&#34;&gt;An English translation&lt;/a&gt; of the work exists.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+- //jiaxcuit.github.io/en/posts/organizing-digital-files/ - </description>
+        </item>
     
     
     
@@ -1147,222 +1291,6 @@ Still quite confused. Today, my young little mind had a shock.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
 - //jiaxcuit.github.io/en/posts/excellence-or-involution/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>My Experience &amp; Tips for IB Textbooks: Physics HL</title>
-        <link>//jiaxcuit.github.io/en/posts/ib-tb-review-physics-hl/</link>
-        <pubDate>Tue, 25 May 2021 21:25:13 +0100</pubDate>
-        
-        <guid>//jiaxcuit.github.io/en/posts/ib-tb-review-physics-hl/</guid>
-        <description>Jiaxcuit //jiaxcuit.github.io/en/posts/ib-tb-review-physics-hl/ -&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;This is the 1st post in my blog series called &amp;ldquo;My Experience &amp;amp; Tips for IB Textbooks&amp;rdquo;. The IB subjects covered in this series are DP Physics, Math AA, Chemistry, History, and Chinese A Lit. The corresponding levels and syllabus versions (years of first assessment) are as follows:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Subject&lt;/th&gt;
-&lt;th&gt;Level&lt;/th&gt;
-&lt;th&gt;First Assessment&lt;/th&gt;
-&lt;th&gt;Other Posts in This Series&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Physics&lt;/td&gt;
-&lt;td&gt;HL&lt;/td&gt;
-&lt;td&gt;2016&lt;/td&gt;
-&lt;td&gt;This article&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Math AA&lt;/td&gt;
-&lt;td&gt;HL&lt;/td&gt;
-&lt;td&gt;2021&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;../ib-tb-review-math-aa-hl&#34;&gt;My Experience &amp;amp; Tips&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Chemistry&lt;/td&gt;
-&lt;td&gt;SL&lt;/td&gt;
-&lt;td&gt;2016&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;../ib-tb-review-chemistry-sl/&#34;&gt;My Experience &amp;amp; Tips&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;History&lt;/td&gt;
-&lt;td&gt;SL&lt;/td&gt;
-&lt;td&gt;2017&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;../ib-tb-review-history-sl/&#34;&gt;My Experience &amp;amp; Tips&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Chinese A Lit&lt;/td&gt;
-&lt;td&gt;SL&lt;/td&gt;
-&lt;td&gt;2021&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;../ib-tb-review-chinese-a-lit-sl&#34;&gt;My Experience &amp;amp; Tips&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;All of these are the IB DP subjects that I&amp;rsquo;ve studied. I&amp;rsquo;ve used at least 2 textbooks (or study guides) for each of these subjects.&lt;/p&gt;
-&lt;p&gt;In this article, I&amp;rsquo;ll discuss the &lt;strong&gt;Physics&lt;/strong&gt; textbooks that I&amp;rsquo;ve used. I&amp;rsquo;ll list the textbooks by their publishers, compare and contrast their features, their strengths and weaknesses (in my opinion), and finally give my thoughts on how to use textbooks. All the information here is for reference only.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; is at the end of this post.&lt;/p&gt;
-&lt;h1 id=&#34;textbook-reviews&#34;&gt;Textbook Reviews&lt;/h1&gt;
-&lt;p&gt;I think the most important things about physics textbooks are:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Good explanations&lt;/strong&gt;: Clear, natural, and ingenious introductions and explanations of physical phenomena and theoretical derivations.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Good practice problems&lt;/strong&gt;: The problems test not only the ability to apply knowledge, but also the understanding of knowledge. The question style should be similar to those in IB past papers, but the content of the questions should be novel and varied.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Most of my points will be centered around these two ideas.&lt;/p&gt;
-&lt;p&gt;In my two years of DP, I used 3 books from 3 publishers in total:&lt;/p&gt;
-&lt;h2 id=&#34;pearson-education&#34;&gt;Pearson Education&lt;/h2&gt;
-&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;../images/pearson-physics-tb.png&#34;
-         alt=&#34;Cover of Higher Level Physics, published by Pearson Education&#34; height=&#34;350px&#34;/&gt;
-&lt;/figure&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Title: &lt;em&gt;Higher Level Physics&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Edition: 2nd Edition&lt;/li&gt;
-&lt;li&gt;Author: Chris Hamper&lt;/li&gt;
-&lt;li&gt;ISBN：978-1-447-95902-1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;Content Overview&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The impression I got from this book was that &lt;strong&gt;there was a lot of content and the pages were almost full&lt;/strong&gt;. Every time I saw it, I was a little more reassured—the book talks about so many things, so there must be enough for me to use in exams, right? But the more I used it, the more I thought that sometimes, the book had too much and it was too full. In my opinion, textbooks need to have just the right amount of detail, and they also need to be concise and clear so that they can convey information to the reader efficiently. But if you have enough time to read, it isn&amp;rsquo;t a bad idea to use this book as an interesting reading material to expand your knowledge.&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Experiments &amp;amp; Formula Derivations&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The experimental investigation sections of this book contain some instructions and guidance for experiments, but the more detailed &lt;strong&gt;lab worksheets&lt;/strong&gt; are in the e-book, which does not seem to come with the paper copy. If you use this book for self-study, that&#39; going to be a challenge. But if you are using this book while following your school, then you should be able to ask your teacher for the lab instructions. The book&amp;rsquo;s &lt;a href=&#34;https://www.pearson.com/uk/hotlinks/products/9781447959021.html&#34;&gt;online resources&lt;/a&gt; also mainly focus on  experiments. There&amp;rsquo;re links to many &lt;strong&gt;experimental simulations&lt;/strong&gt;, so you can save yourself the trouble of googling for them.&lt;/p&gt;
-&lt;p&gt;The book&amp;rsquo;s &lt;strong&gt;formula derivations&lt;/strong&gt; are very helpful. The one that I remember the most clearly is the derivation of $v=\pm\omega\sqrt{x_0^2-x^2}$ for simple harmonic motion. In the derivation, the book squares $x=x_0\sin\omega t$ and $v=\omega x_0\cos\omega t$ respectively, so you can derive the formula naturally using the trigonometric identity $\sin^2x+\cos^2x=1$. For the Doppler effect, the book also has a fairly clear &lt;strong&gt;diagram&lt;/strong&gt; which helps the reader understand quickly when combined with the book&amp;rsquo;s algebraic derivation. That is especially helpful in the situation of a stationary source and a moving observer.&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Practice Problems&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Each section of the book is followed by a set of &lt;strong&gt;exercise&lt;/strong&gt; for that section, and at the end of each chapter, there is also a set of &lt;strong&gt;IB exam-style questions&lt;/strong&gt;. However, some of the questions are from &lt;strong&gt;IB past papers&lt;/strong&gt; and the book does not indicate that, so if you do a lot of IB past paper questions, when using this book, you might waste some time doing the ones you&amp;rsquo;ve already done before. It&amp;rsquo;s not necessarily bad to re-do some questions though.&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Structure&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;This book is specifically for &lt;strong&gt;HL&lt;/strong&gt;, so there isn&amp;rsquo;t a strong sense of division between each topic. For example, Topic 5 Waves and Topic 9 Wave Phenomena are combined in the same chapter. However, depending on the class setup at your school, your teacher might cover SL content first, and then do the HL content separately. Then there isn&amp;rsquo;t really a point for the book to combine the related topics into one chapter.&lt;/p&gt;
-&lt;p&gt;Another problem is that &lt;strong&gt;not all chapters in the book correspond to the Topics&lt;/strong&gt; in the IB syllabus. So if you read the book on your own and try to follow the pace of your class, this structure might make it harder for you to tell what content is SL, what content is HL, and what content in the book is under which Topic. Unlike this one, the two other physics textbooks that I&amp;rsquo;ll mention below separate SL and HL content.&lt;/p&gt;
-&lt;h2 id=&#34;oxford-university-press&#34;&gt;Oxford University Press&lt;/h2&gt;
-&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;../images/oxford-physics-tb.png&#34;
-         alt=&#34;Cover of Physics: Course Companion, published by Oxford University Press&#34; height=&#34;350px&#34;/&gt;
-&lt;/figure&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Title: &lt;em&gt;Physics: Course Companion&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Edition: 2014 Edition&lt;/li&gt;
-&lt;li&gt;Author: David Homer, Michael Bowen-Jones&lt;/li&gt;
-&lt;li&gt;ISBN: 978-0-19-839213-2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;Content Overview&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The great thing about this book is that it’s &amp;ldquo;hand-picked&amp;rdquo; by the IB-it‘s the only textbook that was &lt;strong&gt;jointly developed by the IB and the publisher&lt;/strong&gt;. So it reflects some of the IB&amp;rsquo;s inside information.&lt;/p&gt;
-&lt;p&gt;This is clear in the fact that this book covers the IB syllabus exactly. For example, the Pearson textbook includes color forces in the chapter on Topic 7 &amp;amp; 11 Modern Physics, and the Cambridge textbook includes the formula for thermal conduction in the chapter on Topic 8 Energy Production.&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Experiments &amp;amp; Formula Derivations&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;There are many detailed &lt;strong&gt;experimental investigation sections&lt;/strong&gt; in this book, and often the experiments are used to introduce or verify theories, allowing the reader to develop an intuition for physical phenomena and to understand abstract formulas more easily.&lt;/p&gt;
-&lt;p&gt;For example, this book&amp;rsquo;s content on capacitance is introduced through an experiment which links capacitance to two familiar concepts—electric field and potential, so that reader can quickly become familiar with the new concept of &amp;ldquo;capacitance&amp;rdquo;. In contrast, the Cambridge textbook is a bit less organic in its introduction of capacitance. Of course, fundamentally, I think this problem is because the IB Physics doesn&amp;rsquo;t do Gauß&amp;rsquo;s Law, so the textbooks have to either introduce capacitance in a roundabout way or in a sketchy way to avoid going too far beyond the syllabus 😕&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;formula derivations&lt;/strong&gt; in the book are also very detailed and easy to understand. Also, there&amp;rsquo;re appropriate &lt;strong&gt;expansions&lt;/strong&gt;, which greatly aid understanding. The most memorable part was the derivation of $\bar E_k = \frac{3}{2}k_BT$ for ideal gases in the chapter on Topic 3 Thermal Physics. The steps are clear and explained in detail (e.g. where the &amp;ldquo;3&amp;rdquo; in the above equation comes from). The Cambridge text skips the derivation of how the &amp;ldquo;3&amp;rdquo; came to be, while the Pearson text doesn&amp;rsquo;t show the derivation at all and states the formula directly as a fact. It was exactly because I had seen this derivation, I remembered that the kinetic energy in the equation is the average kinetic energy, averaged over each gas molecule. That directly helped me to get a question right in a mock exam.&lt;/p&gt;
-&lt;p&gt;So, the Cambridge and Pearson books are sometimes a little less friendly to students who don&amp;rsquo;t like or aren&amp;rsquo;t good at memorization, or those who want some extensions. In that case, the Oxford textbook is relatively better.&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Practice Problems&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;There&amp;rsquo;re worked examples that come with every average textbook, but there&amp;rsquo;re &lt;strong&gt;no informal exercises&lt;/strong&gt; to help the reader get familiar with new concepts. When it comes to that, this book is not as good as the Pearson and Cambridge books. This book does have &lt;strong&gt;IB exam-style questions&lt;/strong&gt; though, at the end of each chapter. There&amp;rsquo;re some original questions, but there are still a lot of questions from &lt;strong&gt;IB past papers&lt;/strong&gt;, which are indicated in the book. So if you do a lot of IB past paper questions, you might not get many new questions from this book.&lt;/p&gt;
-&lt;p&gt;In the beginning of this book, there is a line saying you can find more exercises on the Oxford University Press &lt;a href=&#34;www.oxfordsecondary.co.uk/ib-physics&#34;&gt;website&lt;/a&gt;, but I only found the &lt;a href=&#34;https://global.oup.com/education/secondary/curricula/ib-diploma/science/phsyicsanswers/?region=international&#34;&gt;answers&lt;/a&gt; to the practice problems already in this textbook.&lt;/p&gt;
-&lt;p&gt;So, personally, I think this book is a bit weak on practice problems. But my physics teacher said this book has good problems. I think he meant that this book &lt;strong&gt;is very good at picking good questions&lt;/strong&gt; from IB past papers. I agree with this, and I trust his judgement.&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Structure&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The HL content and SL content are &lt;strong&gt;separated&lt;/strong&gt;, so you might feel some gaps between the related chapters across SL and HL, but each chapter corresponds exactly to each Topic of the IB syllabus, which is more convenient for the reader to search for information.&lt;/p&gt;
-&lt;p&gt;The layout is &lt;strong&gt;looser&lt;/strong&gt; than Pearson&amp;rsquo;s. It&amp;rsquo;s surprising (in a good way) to see that in Topic 9 Fields, the contents on electric and gravitational fields are &lt;strong&gt;color-coded&lt;/strong&gt;, which is a clever way to make everything clear. It&amp;rsquo;s especially helpful when comparing the two fields.&lt;/p&gt;
-&lt;h2 id=&#34;cambridge-university-press&#34;&gt;Cambridge University Press&lt;/h2&gt;
-&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;../images/cambridge-physics-tb.png&#34;
-         alt=&#34;Cover of Physics for the IB Diploma Coursebook, published by Cambridge University Press&#34; height=&#34;350px&#34;/&gt;
-&lt;/figure&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Title: &lt;em&gt;Physics for the IB Diploma Coursebook&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Edition: 6th Edition&lt;/li&gt;
-&lt;li&gt;Author: K. A. Tsokos&lt;/li&gt;
-&lt;li&gt;ISBN: 978-1-107-62819-9&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;Content Overview&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;My overall impression of this book is that it&amp;rsquo;s &lt;strong&gt;detailed enough&lt;/strong&gt; and &lt;strong&gt;concise enough&lt;/strong&gt;. So there is not much to complain about. Some content in the book is outside of the IB syllabus, but that&amp;rsquo;s not really a big deal.&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Formula Derivations&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;I think the style of this book&amp;rsquo;s formula derivation is similar to that of the Oxford textbook in that they are &lt;strong&gt;not &amp;ldquo;afraid&amp;rdquo; of giving extensions&lt;/strong&gt;, and they go beyond the syllabus in a way that is helpful for the reader. An example is the derivation of the decay formula in Topic 11 Modern Physics. Both books start from $-\frac{\mathrm{d} N}{\mathrm{d} t}=\lambda N$ and use calculus to derive $N=N_0e^{-\lambda t}$. Their derivations deepen the reader&amp;rsquo;s understanding of the fact that the decay rate is proportional to the number of undecayed nuclei. The Pearson textbook doesn&amp;rsquo;t have this derivation. In fact, the Pearson textbook has fewer extensions in general.&lt;/p&gt;
-&lt;p&gt;When compared to the Oxford textbook, this book expands slightly less on the syllabus content. I&amp;rsquo;ve already mentioned $\bar E_k = \frac{3}{2}k_BT$ in the previous sections of this blog post, so here&amp;rsquo;s another example: the derivation of the fact that the electric field strength inside a charged metal sphere is zero. This book states as a fact that inside the sphere, the electric potential is constant, i.e. the electric field strength is zero, while the Oxford textbook proves this point with mathematical tools. As you can see, the Oxford textbook expands on the content a bit more.&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Practice Problems &amp;amp; Additional Materials&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;In my opinion, this book&amp;rsquo;s practice problems and additional materials &lt;strong&gt;the best among these three physics textbooks&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;This book has &lt;strong&gt;sufficient exercises&lt;/strong&gt; at the end of each section of each chapter. Those are not only questions that examine the application of knowledge (i.e. normal questions like in exams), but also questions leading the reader to further thinking and discussion. An example is Exercise 30 for Topic 11.3 Capacitance. It asks the reader draw a graph of the potential difference across a parallel plate capacitor ($V$) against the charge on a single plate ($q$), leading the reader to consider the meaning of the area under the curve. This deepens the reader&amp;rsquo;s understanding of $E=\frac{1}{2}CV^2=\frac{1}{2}Vq=\frac{1}{2}\frac{q^2}{C}$, the formula for the energy stored in a parallel plate capacitor. This exercise also tests the reader&amp;rsquo;s understanding of the concept that the capacitance of a parallel plate capacitor doesn&amp;rsquo;t vary with voltage or charge. This is much more helpful than only looking at the equations $E=\frac{1}{2}CV^2$ and $C=\frac{q}{V}$ in the &lt;em&gt;Data Booklet&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;There are also &lt;strong&gt;comprehensive practice problems in the style of IB exam questions&lt;/strong&gt; at the end of each chapter. I&amp;rsquo;m not sure if all the questions are original, but I never found any original IB past paper questions when I was working with the book. There are both multiple choice questions and free response questions that are a bit longer. Compared to the Pearson and Oxford textbook problems, this book&amp;rsquo;s content is &lt;strong&gt;richer and more varied&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;You can also find &lt;strong&gt;more practice problems and answers&lt;/strong&gt; on the &lt;a href=&#34;https://www.cambridge.org/go/&#34;&gt;official website&lt;/a&gt; of Cambridge University Press for free. By registering with your email, you can search, browse, and download resources from the Cambridge online system. All those questions are additional to the exercises in this book, so there&amp;rsquo;s absolutely no need to worry about running out of problems to do. Note that at the end of the book, there&amp;rsquo;re only answers for the exercises, while the answers for the exam-style questions at the end of each chapter are on the website.&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Structure&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The HL and SL chapters are &lt;strong&gt;separated&lt;/strong&gt;, so related chapters across SL and HL have small gaps in between. But each chapter corresponds exactly to the IB syllabus Topics. The layout is similar to that of the Oxford textbook, both being &lt;strong&gt;looser&lt;/strong&gt; than the Pearson text.&lt;/p&gt;
-&lt;p&gt;The book has one small, almost insignificant drawback: it combines the two requirements in the IB syllabus, Comprehension and Application, when it lists out the learning objectives at the beginning of each section. The Pearson and Oxford books, on the other hand, both list the Comprehension and Application requirements separately, which is a bit clearer.&lt;/p&gt;
-&lt;h1 id=&#34;using-the-textbooks&#34;&gt;Using the Textbooks&lt;/h1&gt;
-&lt;p&gt;After the analysis above, I think the best approach is to choose &lt;strong&gt;one&lt;/strong&gt; between the Oxford and Cambridge textbooks as the main textbook. That means, you read the relevant chapter in that book immediately after each lesson at school, while the other book is used less often. If you choose the Cambridge textbook as your main textbook, then when you don&amp;rsquo;t understand something in that book, you can read the corresponding chapter in the Oxford textbook, and vice versa. I think the Pearson textbook can be an additional option. It can be a reference source when you don&amp;rsquo;t understand the explanations in both the Oxford and Cambridge textbooks, or when there is a disagreement between the two books, or as a place to find practice problems. (Of course, if your school uses a textbook in teaching, you can simply follow your school&amp;rsquo;s plan.)&lt;/p&gt;
-&lt;p&gt;Usually, each textbook explains knowledge differently—sometimes in a different way, sometimes with a different focus—so, actually, I think &lt;strong&gt;we should look at all the textbooks and synthesize their information&lt;/strong&gt; when studying. However, our time is limited, so we can&amp;rsquo;t read everything in the textbooks—we have to give up on reading some of the things. But if we know we have some weaker areas in terms of understanding, it&amp;rsquo;s better to read all the relevant contents in all three textbooks, follow their explanations carefully, think about them and understand them.&lt;/p&gt;
-&lt;p&gt;I struggled a bit with the Doppler effect, but after reading the three different explanations in the three textbooks, I got a better grasp of it. The additional option, the Pearson textbook, was even more helpful than the other two. Everyone says you need to widen your reading for the humanities, but I guess it&amp;rsquo;s the same for the sciences. Read more and think more, there is always an explanation that suits you 😆&lt;/p&gt;
-&lt;p&gt;Also, I think people need to know, it&amp;rsquo;s possible that not all chapters in a textbook give the explanations that suit you. For example, I personally like the Oxford textbook&amp;rsquo;s explanation in Topic 11.3 Capacitance, but I think the Cambridge textbook&amp;rsquo;s explanation in Topic 10 Fields suited me better than that in the Oxford textbook. So my suggestion is to be flexible when using the textbooks. If you just can&amp;rsquo;t really understand a part in a book, don&amp;rsquo;t  rush to think that you didn&amp;rsquo;t learn things well! Always try using another textbook!&lt;/p&gt;
-&lt;p&gt;One last thing, I think that although textbooks are only tools and you don&amp;rsquo;t need to read them word by word from beginning to end, you &lt;strong&gt;can&amp;rsquo;t just skim over them&lt;/strong&gt; either. After you skim through to find the chapter or paragraph you need to study, you should probably slow down to read and understand it carefully.&lt;/p&gt;
-&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;In this article, I talked about 3 &lt;strong&gt;Physics&lt;/strong&gt; textbooks for the 2016 IB DP syllabus. The books are published by Pearson, Oxford, and Cambridge respectively. I listed out their &lt;strong&gt;features&lt;/strong&gt;, compared and contrasted the &lt;strong&gt;strengths and weaknesses&lt;/strong&gt; of each of them in my mind. Throughout the process, I tried to reference to concrete examples. At the end, based on my own learning experience, I gave some &lt;strong&gt;suggestions&lt;/strong&gt; for using textbooks.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m still updating this series of blog posts, and I&amp;rsquo;ll post links to the new updates in the table at the beginning of this blog post. Feel free to check them out if you&amp;rsquo;re interested!&lt;/p&gt;
-&lt;p&gt;This article doesn&amp;rsquo;t cover any specific physics study methods, such as how to do problems effectively, nor does it cover specific tips for studying IB Physics, such as exam skills. All of these I will mention in future blog posts. For more posts on physics, please use the &amp;ldquo;tabs&amp;rdquo; function on the sidebar of this blog.&lt;/p&gt;
-&lt;p&gt;Thank you for reading! I&amp;rsquo;m not a teacher but just an IB student who has bits of thoughts. If you have different opinions or more insights, feel free to discuss or share them here! (Also look for contact information at the end of the &amp;ldquo;About&amp;rdquo; section of this blog.) I&amp;rsquo;m really curious about what other people think!&lt;/p&gt;
-&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
-&lt;h2 id=&#34;main-features-of-each-textbook&#34;&gt;Main Features of Each Textbook&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Publisher&lt;/th&gt;
-&lt;th&gt;Explanations &amp;amp; Derivations&lt;/th&gt;
-&lt;th&gt;Practice Problems&lt;/th&gt;
-&lt;th&gt;Structure &amp;amp; Content&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Pearson&lt;/td&gt;
-&lt;td&gt;Only a few extensions&lt;/td&gt;
-&lt;td&gt;Includes IB past paper problems that aren&amp;rsquo;t indicated as such&lt;/td&gt;
-&lt;td&gt;Tight formatting; With content outside of IB syllabus&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Oxford&lt;/td&gt;
-&lt;td&gt;A lot of extensions, Many complete derivations&lt;/td&gt;
-&lt;td&gt;Includes IB past paper problems that are indicated as such; No exercises&lt;/td&gt;
-&lt;td&gt;Covers IB syllabus perfectly&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Cambridge&lt;/td&gt;
-&lt;td&gt;Some extensions&lt;/td&gt;
-&lt;td&gt;A large number of original questions; A full range of question types&lt;/td&gt;
-&lt;td&gt;With content outside of IB syllabus&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;recommended-way-of-using-the-textbooks&#34;&gt;Recommended Way of Using the Textbooks&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Main textbook: Choose 1 between Oxford &amp;amp; Cambridge&lt;/li&gt;
-&lt;li&gt;Supporting textbook: The other textbook (Oxford or Cambridge)&lt;/li&gt;
-&lt;li&gt;Additional material: Pearson&lt;/li&gt;
-&lt;/ol&gt;
-- //jiaxcuit.github.io/en/posts/ib-tb-review-physics-hl/ - </description>
         </item>
     
     
