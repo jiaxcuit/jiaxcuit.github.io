@@ -4,9 +4,68 @@
     <link>//jiaxcuit.github.io/zh/</link>
     <description>Recent content on 十之以饼干盒</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Aug 2021 12:47:30 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 26 Aug 2021 10:57:03 +0200</lastBuildDate>
     
         <atom:link href="//jiaxcuit.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>我的时间记录新模板</title>
+        <link>//jiaxcuit.github.io/zh/posts/new-duration-record-template/</link>
+        <pubDate>Thu, 26 Aug 2021 10:57:03 +0200</pubDate>
+        
+        <guid>//jiaxcuit.github.io/zh/posts/new-duration-record-template/</guid>
+        <description>十之以饼干盒 //jiaxcuit.github.io/zh/posts/new-duration-record-template/ -&lt;h1 id=&#34;介绍&#34;&gt;介绍&lt;/h1&gt;
+&lt;p&gt;上上周的博文&lt;a href=&#34;../time-management&#34;&gt;《时间管理——“打工”两周之后》&lt;/a&gt;中，我提到了我从 b 站学到的时间管理方法：记录日常活动和用时，并且每天结束时反思，第二天进行针对性的改进。在那篇博文中，我提供了我当时的时间记录模板。现在，我更新了模板：&lt;a href=&#34;../spreadsheets/duration-record-template-automated.xlsx&#34;&gt;下载我的新模板&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;这次加入了更多自动化的内容，也增加了图表，使内容更直观。下面是截图预览：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../../images/duration-record-template-new/example.png&#34;&gt;&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;../images/duration-record-template-new/example.png&#34;
+         alt=&#34;我的新模板，有具体内容示例&#34; width=&#34;900px&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;第1张工作表：空白的时间记录表&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../../images/duration-record-template-new/blank.png&#34;&gt;&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;../images/duration-record-template-new/blank.png&#34;
+         alt=&#34;我的新模板，是只有表头的空白版&#34; width=&#34;900px&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;第2张工作表：空白的时间记录表&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;表格右上有图例。&lt;strong&gt;所有格式都不需要手动改变&lt;/strong&gt;，只需要在蓝色高亮的列里手动输入信息就可以了。“改进”一列中的空白代表不需要改进，“1”代表需要改进。&lt;strong&gt;“改进”的标红会覆盖“遵循计划时间”的标绿&lt;/strong&gt;。推荐每天标出最多3个需要改进的活动，这样可以保证第二天有明确的改进目标。&lt;/p&gt;
+&lt;p&gt;最右侧的两列中总结了每类活动的时间，但主要是为了画图。&lt;/p&gt;
+&lt;p&gt;如果需要在已有的计划或活动之间插入新的一行，需要&lt;strong&gt;从下方的空白行中选择并拖拽到你想要的位置&lt;/strong&gt;。如果直接右键插入新的一行，就需要手动添加函数，比较麻烦。&lt;/p&gt;
+&lt;p&gt;可以搭配&lt;a href=&#34;../time-management&#34;&gt;《时间管理——“打工”两周之后》&lt;/a&gt;中那个有一蓝一绿两个任务框的分类计划表来使用。&lt;/p&gt;
+&lt;h1 id=&#34;使用的情形&#34;&gt;使用的情形&lt;/h1&gt;
+&lt;p&gt;比较适用的情形：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一些活动有对应的计划，但一些活动没有；&lt;/li&gt;
+&lt;li&gt;通过规定&lt;strong&gt;明确的任务内容&lt;/strong&gt;和对应的&lt;strong&gt;时长&lt;/strong&gt;来做计划；&lt;/li&gt;
+&lt;li&gt;每个不同活动的计时是分别进行的，可以把每段活动划分到某一活动种类中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不太适用的情形：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过规定截止时间，而不是时长来做计划；&lt;/li&gt;
+&lt;li&gt;任务内容不明确，计划类似“想做多少做多少、想做多久做多久”，可能会多做事却因超时而标红；&lt;/li&gt;
+&lt;li&gt;多个活动重叠进行、重叠计时。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;优缺点&#34;&gt;优缺点&lt;/h1&gt;
+&lt;p&gt;优点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;支持跨天计时；&lt;/li&gt;
+&lt;li&gt;时长、计划结束时间、单元格高亮、图表可以自动生成；&lt;/li&gt;
+&lt;li&gt;图表自动合并同类任务用时；&lt;/li&gt;
+&lt;li&gt;支持手动标出哪些需要改进，更加灵活，方便在每天结束时反思。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;缺点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;表格太宽，小屏使用会比较麻烦；&lt;/li&gt;
+&lt;li&gt;不支持同一任务分几段时间完成，需要手动为每段时间创建一个任务、分别计时；&lt;/li&gt;
+&lt;li&gt;不支持从前一天或前几天自动导入未完成的任务；&lt;/li&gt;
+&lt;li&gt;不支持从前一天或前几天自动导入需要改进的事项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;新模板的分享就此结束。根据个人需要，这个模板当然也有可以改进的地方，就请大家在使用的时候自行改动吧。欢迎大家在评论区说说想法或提出建议！&lt;/p&gt;
+- //jiaxcuit.github.io/zh/posts/new-duration-record-template/ - </description>
+        </item>
     
     
     
@@ -16,7 +75,12 @@
         <pubDate>Sat, 14 Aug 2021 12:47:30 +0200</pubDate>
         
         <guid>//jiaxcuit.github.io/zh/posts/time-management/</guid>
-        <description>十之以饼干盒 //jiaxcuit.github.io/zh/posts/time-management/ -&lt;p&gt;写作的契机是，放松着过了大半个暑假，最近又“打工”两周之后的我，切身体会到：一天有时可以容得下很多安排，也可以好像什么都没做就过去了。&lt;/p&gt;
+        <description>十之以饼干盒 //jiaxcuit.github.io/zh/posts/time-management/ -&lt;p&gt;2021年8月26日更新：&lt;/p&gt;
+&lt;p&gt;在文中的“记录数据”这一节里，我提供了我的时间记录模板。现在我更新了这份模板，加入了更多自动化的内容，也增加了图表，使内容更直观。&lt;/p&gt;
+&lt;p&gt;新模板和更多一些相关的内容，请见新博文&lt;a href=&#34;../new-duration-record-template&#34;&gt;《我的时间记录新模板》&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;下面是原文。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;写作的契机是，放松着过了大半个暑假，最近又“打工”两周之后的我，切身体会到：一天有时可以容得下很多安排，也可以好像什么都没做就过去了。&lt;/p&gt;
 &lt;h1 id=&#34;这篇文章能&#34;&gt;这篇文章能……&lt;/h1&gt;
 &lt;p&gt;为读者你:&lt;/p&gt;
 &lt;ul&gt;
@@ -1581,103 +1645,6 @@
 &lt;/ol&gt;
 &lt;/section&gt;
 - //jiaxcuit.github.io/zh/posts/note-taking/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>关于</title>
-        <link>//jiaxcuit.github.io/zh/about/</link>
-        <pubDate>Sat, 29 May 2021 14:26:41 +0200</pubDate>
-        
-        <guid>//jiaxcuit.github.io/zh/about/</guid>
-        <description>十之以饼干盒 //jiaxcuit.github.io/zh/about/ -&lt;h1 id=&#34;-公告&#34;&gt;⚠ 公告&lt;/h1&gt;
-&lt;p&gt;2021年8月20日&lt;/p&gt;
-&lt;p&gt;最近我的 CSS 文件出了点问题，正在计划中的搜索功能，还有其他页面设计方面得改进，就很遗憾地暂停推进了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;我正在摸索着建立一个中英双语的博客，但实在是挺难的。所以你猛地一看，有很多内容都是英文的。因为我想让博客受众更广，所以只能用这个权宜之计。&lt;/p&gt;
-&lt;p&gt;但不用担心，所有内容都有中文版！有两种方法可以改成中文：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;简单的方式：点击左侧边栏中的“中文”和“归档”，这样就可以看到中文博文啦。手机端需要点击左上角的三个横线，才能看到左侧边栏。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;稍微复杂一点：只要把链接中的“en”改成“zh”，就可以直接看到对应的中文页面啦！举例如下：&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;把
-https://jiaxcuit.github.io/en/posts/uni-app/
-改成
-https://jiaxcuit.github.io/zh/posts/uni-app/
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;p&gt;This blog is under construction and testing.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m trying to set up a Chinese-English bilingual blog, but apparently it&amp;rsquo;s quite hard. So as you navigate through the blog, although I&amp;rsquo;ve tried to translate stuff into English to reach a wider audience, there might still be things that are only available in Chinese. &lt;em&gt;(Feel free to be proud if you know Chinese, my fella!)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Updates will come soon! (Hopefully after I learn more HTML and CSS.)&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;博客内容&#34;&gt;博客内容&lt;/h1&gt;
-&lt;p&gt;欢迎访问！这是一个佛系个人博客，主要将分享博主本人的 IB&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;strong&gt;学习经验&lt;/strong&gt;和使用过的&lt;strong&gt;学习资料&lt;/strong&gt;，也会分享一些生活碎片。查看博客内容，请用本站侧边栏中的“标签”和“归档”两项功能。&lt;/p&gt;
-&lt;h1 id=&#34;我为什么写博客&#34;&gt;我为什么写博客？&lt;/h1&gt;
-&lt;p&gt;IB，这本就小众的课程体系，有着&lt;strong&gt;令人惊异的透明度&lt;/strong&gt;。可用的学习资料少之又少，学习经验更是几乎无处参考。走过了学习过程中的各种弯路，我实在是气不打一处来，所以决定贯彻 CAS&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 的服务精神，竭尽所能地分享信息，&lt;strong&gt;希望可以帮到在 IB 中煎熬的你&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;放一下我深有共鸣的，知乎上的一个答案：&lt;a href=&#34;https://www.zhihu.com/question/439087609/answer/1675869050&#34;&gt;大家觉得从 IB 中真正学到了什么？ – Andy Prime 的回答 – 知乎&lt;/a&gt;。加油，你并不是一个人。但说回来，IB 也&lt;strong&gt;并没有那么一无是处&lt;/strong&gt;啦。&lt;/p&gt;
-&lt;h1 id=&#34;博主的ib经历&#34;&gt;博主的IB经历&lt;/h1&gt;
-&lt;p&gt;我在博客上的分享，会受到很多因素影响，例如选科、课程大纲的版本、成绩、个人学习风格等等。还请参考。希望我不会在自己不擅长的方面误人子弟😅&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;毕业时间：2021年5月（M21）&lt;/li&gt;
-&lt;li&gt;高级课程（HL）：数学 A&amp;amp;A、物理、英语 B&lt;/li&gt;
-&lt;li&gt;普通课程（SL）：化学、历史、中文 A：文学（自修）&lt;/li&gt;
-&lt;li&gt;拓展论文（EE）：物理&lt;/li&gt;
-&lt;li&gt;预估分：41+3。其中历史是唯一的6分，认知论（TOK）预估 B，拓展论文预估 A。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;实际分数&lt;/strong&gt;（通过2021年5月大考获得）：45。认知论 B，拓展论文 A。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;因为疫情，所有科目的学习&lt;strong&gt;均未涉及选修单元&lt;/strong&gt;（Options），所以我也没什么这方面的经验和建议。不过物理的天体物理（Astrophysics）和工程物理（Engineering Physics）这两个选修单元，都有大概浏览过，所以也不是完全不了解。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;历史&lt;/strong&gt;的课程设置非常灵活，我们选择了这些主题：&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;序号&lt;/th&gt;
-&lt;th&gt;主题&lt;/th&gt;
-&lt;th&gt;案例&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;规定科目3（Prescribed subject 3）&lt;/td&gt;
-&lt;td&gt;走向全球战争（The Move to Global War）&lt;/td&gt;
-&lt;td&gt;日本、德国、意大利&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;世界史专题10（World History Topic 10）&lt;/td&gt;
-&lt;td&gt;专制国家（20世纪）（Authoritarian States (20th Century)）&lt;/td&gt;
-&lt;td&gt;德国、意大利、中国&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;世界史专题11（World History Topic 11）&lt;/td&gt;
-&lt;td&gt;20世纪战争的起因与影响（Causes and Effects of 20th Century Wars）&lt;/td&gt;
-&lt;td&gt;一战、（中国）国共内战、西班牙内战&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;在 IB 的文科与理科之间，我似乎更擅长理科；在写论文和考试解题之间，我似乎更擅长考试解题。不过，虽说写文章不太行，但物理实验报告似乎是没什么问题的。&lt;/p&gt;
-&lt;h1 id=&#34;所以博主是&#34;&gt;所以，博主是……？&lt;/h1&gt;
-&lt;p&gt;我大概可以给自己贴很多标签。&lt;/p&gt;
-&lt;p&gt;我是拖延症患者，总在追赶作业的截止时间。&lt;/p&gt;
-&lt;p&gt;我还是完美主义者，喜欢把我的工作区域整理成最理想的状态，再开始学习。&lt;/p&gt;
-&lt;p&gt;我也热衷方法论：学习方法、文件整理方法、时间规划方法，等等；热衷从不同的人身上学习各种经验。&lt;/p&gt;
-&lt;p&gt;我相信好的工具能够有效提高效率，好的思路和方法比盲目勤奋更加重要。&lt;/p&gt;
-&lt;h1 id=&#34;联系方式&#34;&gt;联系方式&lt;/h1&gt;
-&lt;p&gt;我虽然在熟人面前会很开朗，但对陌生人比较自闭，还请先通过邮箱联系：&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;mailto:jiaxcuit@gmail.com&#34;&gt;jiaxcuit@gmail.com&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;。随时欢迎评论和邮件交流！（需要使用 Github 账号登录来添加评论。）感谢🤗&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;IB 即国际文凭（International Baccalaureate）。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;CAS 即创造、活动、服务（Creativity, Activity, and Service），是 IB 要求必修的一项课外活动的课程。&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-- //jiaxcuit.github.io/zh/about/ - </description>
         </item>
     
     
