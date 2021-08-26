@@ -50,9 +50,9 @@
 
 
 
-  
+
     <script src="../../../js/toc.js"></script>
-  
+
 
 
 
@@ -89,205 +89,205 @@
 </head>
 <body>
     	<div id="app"><div ref="sideContainer" class="side-container">
-    
+
     <a class="a-block nav-head false" href="//jiaxcuit.github.io">
-    
+
         <div class="nav-title">
             十之以饼干盒
         </div>
-        
+
     </a>
 
     <div class="nav-link-list">
-        
-        
-            
-            
-            
-                
-            
-            
-            
+
+
+
+
+
+
+
+
+
             <a class="a-block nav-link-item active" href="../../../zh">
                 中文
             </a>
-            
-        
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
             <a class="a-block nav-link-item false" href="../../../zh/tags">
                 标签
             </a>
-            
-        
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
             <a class="a-block nav-link-item false" href="../../../zh/about">
                 关于
             </a>
-            
-        
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
             <a class="a-block nav-link-item false" href="../../../zh/index.xml">
                 中文 RSS
             </a>
-            
-        
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
             <a class="a-block nav-link-item false" href="../../../en/tags">
                 Tags
             </a>
-            
-        
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
             <a class="a-block nav-link-item false" href="../../../en/friends">
                 Friends
             </a>
-            
-        
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
             <a class="a-block nav-link-item false" href="../../../en/about">
                 About
             </a>
-            
-        
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
             <a class="a-block nav-link-item false" href="../../../en/index.xml">
                 English RSS
             </a>
-            
-        
+
+
     </div>
 
-    
+
 
     <div class="nav-footer">
-        
+
 Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 作者 <a href="https://amazingrise.net">Rise</a>
 <br>
 移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a> 的  <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal</a> <br>
 <br>
 
 &copy;
-	
+
 
 	2021 十之以饼干盒
 	<br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
-	
+
 
     </div>
-    
+
 </div><div ref="extraContainer" class="extra-container">
-    
-    
+
+
 
     <div class="toc animated-visibility">
 
 
 	<div class="toc-content">
-	
-		
-		
-		
 
-		
-		
+
+
+
+
+
+
 		<ul>
-			
-				
-				
-					
-						
-						
-						
-						
-						
+
+
+
+
+
+
+
+
+
 							<li>
 								<a href="#%e4%bb%8b%e7%bb%8d" onclick="onNavClick(`#介绍-nav`)" id="介绍-nav">
 									介绍
 								</a>
 							</li>
 
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
+
+
+
+
+
+
+
+
+
+
+
+
 							<li>
 								<a href="#%e4%bd%bf%e7%94%a8%e7%9a%84%e6%83%85%e5%a2%83" onclick="onNavClick(`#使用的情境-nav`)" id="使用的情境-nav">
 									使用的情境
 								</a>
 							</li>
 
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
+
+
+
+
+
+
+
+
+
+
+
+
 							<li>
 								<a href="#%e4%bc%98%e7%bc%ba%e7%82%b9" onclick="onNavClick(`#优缺点-nav`)" id="优缺点-nav">
 									优缺点
 								</a>
 							</li>
 
-						
-					
-				
-			
+
+
+
+
 		</ul>
 	</div>
 
 </div>
-    
+
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
                 keyboard_arrow_up
             </i>
         </a>
-        
+
         <a class="pagination-action" v-on:click="toggleDarkMode">
             <i class="material-icons pagination-action-icon" v-if="isDarkMode">
                 brightness_4
@@ -296,172 +296,172 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 brightness_7
             </i>
         </a>
-        
-        
+
+
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
      v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
     <div class="drawer-content">
         <div class="drawer-menu">
-            
-            
-            
-                
-                
-                
-                    
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
                 <a class="a-block drawer-menu-item active" href="../../../zh">
                     中文
                 </a>
-                
-            
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
                 <a class="a-block drawer-menu-item false" href="../../../zh/tags">
                     标签
                 </a>
-                
-            
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
                 <a class="a-block drawer-menu-item false" href="../../../zh/about">
                     关于
                 </a>
-                
-            
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
                 <a class="a-block drawer-menu-item false" href="../../../zh/index.xml">
                     中文 RSS
                 </a>
-                
-            
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
                 <a class="a-block drawer-menu-item false" href="../../../en/tags">
                     Tags
                 </a>
-                
-            
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
                 <a class="a-block drawer-menu-item false" href="../../../en/friends">
                     Friends
                 </a>
-                
-            
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
                 <a class="a-block drawer-menu-item false" href="../../../en/about">
                     About
                 </a>
-                
-            
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
                 <a class="a-block drawer-menu-item false" href="../../../en/index.xml">
                     English RSS
                 </a>
-                
-            
-            
+
+
+
             <div class="toc">
 
 
 	<div class="toc-content">
-	
-		
-		
-		
 
-		
-		
+
+
+
+
+
+
 		<ul>
-			
-				
-				
-					
-						
-						
-						
-						
-						
+
+
+
+
+
+
+
+
+
 							<li>
 								<a href="#%e4%bb%8b%e7%bb%8d" onclick="onNavClick(`#介绍-nav`)" id="介绍-nav">
 									介绍
 								</a>
 							</li>
 
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
+
+
+
+
+
+
+
+
+
+
+
+
 							<li>
 								<a href="#%e4%bd%bf%e7%94%a8%e7%9a%84%e6%83%85%e5%a2%83" onclick="onNavClick(`#使用的情境-nav`)" id="使用的情境-nav">
 									使用的情境
 								</a>
 							</li>
 
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
+
+
+
+
+
+
+
+
+
+
+
+
 							<li>
 								<a href="#%e4%bc%98%e7%bc%ba%e7%82%b9" onclick="onNavClick(`#优缺点-nav`)" id="优缺点-nav">
 									优缺点
 								</a>
 							</li>
 
-						
-					
-				
-			
+
+
+
+
 		</ul>
 	</div>
 
 </div>
-            
+
         </div>
     </div>
 </div>
@@ -479,7 +479,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
         <a ref="navTitle" class="navbar-brand" href="//jiaxcuit.github.io">
             十之以饼干盒
         </a>
-        
+
         <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
             <i class="material-icons" v-if="isDarkMode">
                 brightness_4
@@ -488,14 +488,14 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 brightness_7
             </i>
         </button>
-        
+
     </div>
 </nav>
 <div class="single-column-header-container" ref="pageHead"
      v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
     <a href="//jiaxcuit.github.io">
         <div class="single-column-header-title">十之以饼干盒</div>
-        
+
 
     </a>
 </div>
@@ -504,57 +504,57 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
         <div class="post">
-            
-            
-            
+
+
+
 
             <div class="post-head-wrapper-text-only"
-                
+
             >
                 <div class="post-title">
                     我的时间记录新模板
-                    
+
                     <div class="post-meta">
-                        
+
                         <time itemprop="datePublished">
                             2021-08-26
                         </time>
-                        
 
-                        
 
-                        
 
-                            
+
+
+
+
                                 &nbsp;#
                                 <a href="../../../zh/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95">学习方法</a>
-                            
-                        
 
-                        
+
+
+
                             &nbsp;
                             <i class="material-icons" style="">schedule</i>
 
 
-                            
-                            
+
+
                             4 min
 
-                        
+
                     </div>
                 </div>
             </div>
 
             <div class="post-body-wrapper">
-                
+
                 <div class="post-body" v-pre>
-                
+
                     <h1 id="介绍">介绍</h1>
 <p>上上周的博文<a href="../time-management">《时间管理——“打工”两周之后》</a>中，我提到了我从 b 站学到的时间管理方法：记录日常活动和用时，并且每天结束时反思，第二天进行针对性的改进。在那篇博文中，我提供了我当时的时间记录模板。现在，我更新了模板：<a href="../../../spreadsheets/duration-record-template-automated.xlsx">下载我的新模板</a>。</p>
 <p>这次加入了更多自动化的内容，也增加了图表，使内容更直观。下面是截图预览：</p>
 <p><a href="../../../images/duration-record-template-new/example.png"><figure class="center"><img src="../../../images/duration-record-template-new/example.png"
          alt="我的新模板，有具体内容示例" width="900px"/><figcaption>
-            <p>第1张工作表：空白的时间记录表</p>
+            <p>第1张工作表：有示例的时间记录表</p>
         </figcaption>
 </figure>
 </a></p>
@@ -607,20 +607,20 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
 
             <nav class="post-pagination">
 
-                
+
                 <a class="newer-posts">
 			← 更新一篇<br>已经到头啦。
                 </a>
-                
 
-                
+
+
                 <a class="older-posts" href="//jiaxcuit.github.io/zh/posts/time-management/">
 			更早一篇 →<br>时间管理——“打工”两周之后
                 </a>
-                
+
             </nav>
             <div class="post-comment-wrapper">
-                
+
 
 
 <div id="gitalk-container"></div>
@@ -645,13 +645,13 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
 <br>
 
 &copy;
-	
+
 
 	2021 十之以饼干盒
 	<br>
 	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
-	
+
 </div>
             </div>
     <script>
@@ -729,7 +729,7 @@ app = new Vue({
                 let maxing = false
                 let trailing = true
 
-                
+
                 const useRAF = (!wait && wait !== 0 && typeof root.requestAnimationFrame === 'function')
 
                 if (typeof func !== 'function') {
@@ -774,11 +774,11 @@ app = new Vue({
                 }
 
                 function leadingEdge(time) {
-                    
+
                     lastInvokeTime = time
-                    
+
                     timerId = startTimer(timerExpired, wait)
-                    
+
                     return leading ? invokeFunc(time) : result
                 }
 
@@ -796,9 +796,9 @@ app = new Vue({
                     const timeSinceLastCall = time - lastCallTime
                     const timeSinceLastInvoke = time - lastInvokeTime
 
-                    
-                    
-                    
+
+
+
                     return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
                     (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait))
                 }
@@ -808,15 +808,15 @@ app = new Vue({
                     if (shouldInvoke(time)) {
                     return trailingEdge(time)
                     }
-                    
+
                     timerId = startTimer(timerExpired, remainingWait(time))
                 }
 
                 function trailingEdge(time) {
                     timerId = undefined
 
-                    
-                    
+
+
                     if (trailing && lastArgs) {
                     return invokeFunc(time)
                     }
@@ -853,7 +853,7 @@ app = new Vue({
                         return leadingEdge(lastCallTime)
                     }
                     if (maxing) {
-                        
+
                         timerId = startTimer(timerExpired, wait)
                         return invokeFunc(lastCallTime)
                     }
@@ -880,14 +880,14 @@ app = new Vue({
             })(navigator.userAgent || navigator.vendor || window.opera);
             return check;
         };
-        
+
         var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
         if (night==""){
             if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                
+
             }
         }else{
-            
+
             if (night=="1") {
                 this.toggleDarkMode();
             }
@@ -898,9 +898,9 @@ app = new Vue({
         this.handleResize();
         this.mounted = true;
 
-        
-        
-        
+
+
+
 
         document.querySelectorAll("table").forEach(function(elem){
             elem.classList.add("table-striped");
@@ -909,11 +909,11 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
-        
+
         spy();
         window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
-        
-        
+
+
     },
     destroyed() {
         window.removeEventListener('scroll', this.handleScroll);
