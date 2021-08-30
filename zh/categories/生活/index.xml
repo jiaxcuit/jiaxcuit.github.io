@@ -6,7 +6,29 @@
     <description>Recent content in 生活 on 十之以饼干盒</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</copyright>
-    <lastBuildDate>Sat, 24 Jul 2021 17:53:25 +0200</lastBuildDate><atom:link href="//jiaxcuit.github.io/zh/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Aug 2021 23:19:18 +0200</lastBuildDate><atom:link href="//jiaxcuit.github.io/zh/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>邀你与我一同回忆小学编程：Scratch</title>
+      <link>//jiaxcuit.github.io/zh/posts/scratch-memory/</link>
+      <pubDate>Sun, 29 Aug 2021 23:19:18 +0200</pubDate>
+      
+      <guid>//jiaxcuit.github.io/zh/posts/scratch-memory/</guid>
+      <description>因为最近的一些事由，我再次用起了 Scratch。也是兴致使然，做了一个躲避障碍的游戏。
+我想，既然做了，就发出来好了。或许能让有共同记忆的你与我一起回忆小学编程和美好的童年，又或许能给没有共同记忆的你提供一个休闲小游戏。
+下面依次放出图片预览和游戏链接：
+ 游戏进行中
+   加速……
+   游戏结束（失败）
+   通关！恭喜！
+  我的游戏：猫和立柱。点击绿色旗帜即可开始游戏。
+在链接的页面上有说明和致谢，这里再次放出：
+ 说明： 用4个方向键来移动小猫。一共有30秒的时间。如果你可以在这段时间内控制小猫躲避蓝色的柱子，那么你就通关啦！
+  致谢： 感谢我的小学老师，让我接触到了 Scratch，进而接触到了编程这一全新的世界。感谢更早出现的类似游戏，是它们给了我灵感。（虽然我忘了那些游戏的名字1。）
+ 现在，我对计算机和编程算得上很感兴趣，想来或许在小学时受到了信息老师的不少影响。这份兴趣让我在过去、现在、未来的学习都愉快了许多。真心谢谢他。
+  我只记得其中一个游戏是控制鸟的飞行高度来躲避水管。说实话，这类的游戏真的太多了。&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
     <item>
       <title>短记：更新</title>
       <link>//jiaxcuit.github.io/zh/posts/thoughts-on-blog-updates/</link>
