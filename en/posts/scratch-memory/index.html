@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Categories</title>
+<title>A Flashback to Primary School Programming: Scratch</title>
 
 
 
@@ -24,8 +24,8 @@
 
 
 
-<link type="text/css" rel="stylesheet" href="../../vendor/css/bootstrap.min.css">
-<script src="../../vendor/js/vue.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="../../../vendor/css/bootstrap.min.css">
+<script src="../../../vendor/js/vue.min.js" ></script>
 
 
 
@@ -39,7 +39,7 @@
 
 
 
-<script src="../../js/loadCSS.js"></script>
+<script src="../../../js/loadCSS.js"></script>
 <script>
   loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
 </script>
@@ -47,7 +47,30 @@
 
 
 
+  
+    <script src="../../../js/toc.js"></script>
+  
 
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="../../../vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '2a79498cd34bc8af9f02',
+  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
+  repo: 'blog-gitalk',
+  owner: 'jiaxcuit',
+  admin: ['jiaxcuit'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -64,7 +87,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
-<script src="../../js/search-box.js"></script>
+<script src="../../../js/search-box.js"></script>
 
 </head>
 <body>
@@ -86,7 +109,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh">
+            <a class="a-block nav-link-item false" href="../../../zh">
                 中文
             </a>
             
@@ -96,7 +119,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/about">
+            <a class="a-block nav-link-item false" href="../../../zh/about">
                 关于
             </a>
             
@@ -106,7 +129,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/tags">
+            <a class="a-block nav-link-item false" href="../../../zh/tags">
                 标签
             </a>
             
@@ -116,7 +139,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/categories">
+            <a class="a-block nav-link-item false" href="../../../zh/categories">
                 分类
             </a>
             
@@ -126,7 +149,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/index.xml">
+            <a class="a-block nav-link-item false" href="../../../zh/index.xml">
                 中文 RSS
             </a>
             
@@ -136,7 +159,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/tags">
+            <a class="a-block nav-link-item false" href="../../../en/tags">
                 Tags
             </a>
             
@@ -146,7 +169,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/friends">
+            <a class="a-block nav-link-item false" href="../../../en/friends">
                 Friends
             </a>
             
@@ -156,7 +179,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/about">
+            <a class="a-block nav-link-item false" href="../../../en/about">
                 About
             </a>
             
@@ -166,7 +189,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/index.xml">
+            <a class="a-block nav-link-item false" href="../../../en/index.xml">
                 English RSS
             </a>
             
@@ -208,14 +231,18 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 
 
     
+
+    <div class="toc animated-visibility">
+
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
                 keyboard_arrow_up
             </i>
         </a>
-        
-        
         
         
     </div>
@@ -232,7 +259,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh">
+                <a class="a-block drawer-menu-item false" href="../../../zh">
                     中文
                 </a>
                 
@@ -242,7 +269,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/about">
+                <a class="a-block drawer-menu-item false" href="../../../zh/about">
                     关于
                 </a>
                 
@@ -252,7 +279,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/tags">
+                <a class="a-block drawer-menu-item false" href="../../../zh/tags">
                     标签
                 </a>
                 
@@ -262,7 +289,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/categories">
+                <a class="a-block drawer-menu-item false" href="../../../zh/categories">
                     分类
                 </a>
                 
@@ -272,7 +299,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/index.xml">
+                <a class="a-block drawer-menu-item false" href="../../../zh/index.xml">
                     中文 RSS
                 </a>
                 
@@ -282,7 +309,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/tags">
+                <a class="a-block drawer-menu-item false" href="../../../en/tags">
                     Tags
                 </a>
                 
@@ -292,7 +319,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/friends">
+                <a class="a-block drawer-menu-item false" href="../../../en/friends">
                     Friends
                 </a>
                 
@@ -302,7 +329,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/about">
+                <a class="a-block drawer-menu-item false" href="../../../en/about">
                     About
                 </a>
                 
@@ -312,11 +339,16 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/index.xml">
+                <a class="a-block drawer-menu-item false" href="../../../en/index.xml">
                     English RSS
                 </a>
                 
             
+            
+            <div class="toc">
+
+
+</div>
             
         </div>
     </div>
@@ -349,66 +381,130 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <a class="a-block">
-            <div class="post-item-wrapper post-item-wrapper-no-hover">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title post-item-title-small">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    A Flashback to Primary School Programming: Scratch
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-08-29
+                        </time>
+                        &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="../../../en/categories/life">Life</a>
+                        
+
+                        
+
+                        
+                            &nbsp;
+                            <i class="material-icons" style="">schedule</i>
+
+
                             
-                              Categories
                             
-                            
-                        </div>
+                            2 min
+
+                        
                     </div>
                 </div>
             </div>
-        </a>
 
-        
-                <a href="//jiaxcuit.github.io/en/categories/life/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-title-under-tag-n-category">
-                                    Life
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>Because of some reasons, recently, I started using Scratch again. And it&rsquo;s just because of a sudden idea and I also got a bit interested in these things, I made a game of dodging obstacles.</p>
+<p>So I thought, I already made the game anyway. Why don&rsquo;t I share it with you all? For those of you who share this memory with me, maybe this game can refresh the memory of your wonderful childhood and programming in primary school; for those of you who don&rsquo;t share this memory, maybe it can be a nice, relaxing game for you.</p>
+<p>The following are preview pictures and the link to the game:</p>
+<figure class="center"><img src="../../../images/scratch-memory/game-1.png"
+         alt="Player&#39;s view of Scratch game &#39;Cat vs Columns&#39;" width="350px"/>
+</figure>
+
+<figure class="center"><img src="../../../images/scratch-memory/game-speed-up.png"
+         alt="Speed-up sign of Scratch game Cat vs Columns&#39;" width="350px"/>
+</figure>
+
+<figure class="center"><img src="../../../images/scratch-memory/game-0.png"
+         alt="Game over sign of Scratch game &#39;Cat vs Columns&#39;" width="350px"/>
+</figure>
+
+<figure class="center"><img src="../../../images/scratch-memory/game-2.png"
+         alt="Finish sign of Scratch game &#39;Cat vs Columns&#39;" width="350px"/>
+</figure>
+
+<p>My game：<a href="https://scratch.mit.edu/projects/564746774">Cat vs. Columns</a>。To start the game, click the green flag.</p>
+<p>On the page under game&rsquo;s link, there&rsquo;re instructions as well as notes and credits. I put them here again:</p>
+<blockquote>
+<p>Instructions:
+Use the four arrow keys to move the cat. You have 30 seconds. If you can keep the cat away from the coming blue columns until you reach the time limit, then you win!</p>
+</blockquote>
+<blockquote>
+<p>Notes and credits:
+Thanks to my primary school teacher who introduced me to Scratch and subsequently, the world of programming. Thanks to similar pre-existing games that inspired me to make this. (Unfortunately I forgot the names of the games<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.)</p>
+</blockquote>
+<p>Now, I can say that I&rsquo;m pretty interested in computer and programming, probably because I had a lot of influence from by primary school IT teacher. This interest in IT has made my studying much more enjoyable, and it will do in the future, too. Genuine thanks to that teacher.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>I only remember that one of them was to control a bird&rsquo;s height of flight to dodge pipes. Honestly, there&rsquo;re too many games of this type.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+
+                </div>
+            </div>
+            <div class="post-copyright">
+			Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+            </div>
+
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			← Newer posts<br>No newer posts
                 </a>
-        
-                <a href="//jiaxcuit.github.io/en/categories/study-organization/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-title-under-tag-n-category">
-                                    Study &amp; Organization
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
+
+                
+                <a class="older-posts" href="//jiaxcuit.github.io/en/posts/organizing-e-files/">
+			Older posts →<br>Tips for Organizing Electronic Files
                 </a>
-        
-                <a href="//jiaxcuit.github.io/en/categories/international-baccalaureate/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-title-under-tag-n-category">
-                                    International Baccalaureate
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        
-    </div>
-</div>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
+
+
 
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-
+            </div>
 <div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
@@ -681,6 +777,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },
