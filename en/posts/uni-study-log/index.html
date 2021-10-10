@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.87.0" />
-<title>Jiaxcuit</title>
+<title>Uni Study Log: Measurements &amp; Uncertainties</title>
 
 
-
-  
 
 
 <meta charset="utf-8">
@@ -52,9 +49,70 @@
 </script>
 
 
+  
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script"
+async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+MathJax.Hub.Queue(function() {
 
 
 
+var all = MathJax.Hub.getAllJax(), i;
+for(i = 0; i < all.length; i += 1) {
+all[i].SourceElement().parentNode.className += ' has-jax';
+}
+});
+</script>
+
+<style>
+code.has-jax {
+font: inherit;
+font-size: 100%;
+background: inherit;
+border: inherit;
+color: #515151;
+}
+</style>
+
+
+
+
+
+  
+    <script src="../../../js/toc.js"></script>
+  
+
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="../../../vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '2a79498cd34bc8af9f02',
+  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
+  repo: 'blog-gitalk',
+  owner: 'jiaxcuit',
+  admin: ['jiaxcuit'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -77,7 +135,7 @@
 <body>
     	<div id="app"><div ref="sideContainer" class="side-container">
     
-    <a class="a-block nav-head active" href="//jiaxcuit.github.io">
+    <a class="a-block nav-head false" href="//jiaxcuit.github.io">
     
         <div class="nav-title">
             Jiaxcuit
@@ -212,18 +270,101 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
     	<div class="search-results"></div>
     </div>
     
-    <div class="pc-notice"><strong>告示 / Notice</strong>
-<br/>2021-09-27
-<ol>
-	<li>博客主语言改为中文； / Primary language of this blog changed to Chinese;</li>
-	<li>搜索功能仍然无法使用。 / Search function still doesn't work.</li>
-</ol>
-</div>
+
+
+
+
     
 
+    <div class="toc animated-visibility">
 
 
+	<div class="toc-content">
+	
+		
+		
+		
 
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#poisson-distribution" onclick="onNavClick(`#poisson-distribution-nav`)" id="poisson-distribution-nav">
+									Poisson distribution
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#uniform-distribution" onclick="onNavClick(`#uniform-distribution-nav`)" id="uniform-distribution-nav">
+									Uniform Distribution
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#equipment-specs" onclick="onNavClick(`#equipment-specs-nav`)" id="equipment-specs-nav">
+									Equipment Specs
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#lab-book" onclick="onNavClick(`#lab-book-nav`)" id="lab-book-nav">
+									Lab Book
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
     
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
@@ -231,30 +372,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 keyboard_arrow_up
             </i>
         </a>
-        
-        
-        
-          
-          <a class="pagination-action" href="../../../en/page/2/">
-              <i class="material-icons pagination-action-icon">
-                  chevron_left
-              </i>
-          </a>
-          
-            <div class="pagination-indicator">
-                <span style="text-align: center">
-                    3
-                    /
-                    
-                    3
-                </span>
-            </div>
-
-            
-              <div class="pagination-action">
-                -
-              </div>
-            
         
         
     </div>
@@ -359,6 +476,96 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#poisson-distribution" onclick="onNavClick(`#poisson-distribution-nav`)" id="poisson-distribution-nav">
+									Poisson distribution
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#uniform-distribution" onclick="onNavClick(`#uniform-distribution-nav`)" id="uniform-distribution-nav">
+									Uniform Distribution
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#equipment-specs" onclick="onNavClick(`#equipment-specs-nav`)" id="equipment-specs-nav">
+									Equipment Specs
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#lab-book" onclick="onNavClick(`#lab-book-nav`)" id="lab-book-nav">
+									Lab Book
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -388,170 +595,130 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div>
 
             <div id="content">
-
 <div ref="streamContainer" class="stream-container">
-    <div class="post-list-container post-list-container-no-background">
-        
-             
-                
-                <a href="//jiaxcuit.github.io/en/posts/p1-skills-online-resources/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    Chinese A Lit: P1 Skills &amp; Exemplars
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-03-20
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    1 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
             
-        
-             
-                
-                <a href="//jiaxcuit.github.io/en/posts/uni-app/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    Short Note: University Application
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-03-13
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    1 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                
             
-        
-             
-                
-                <a href="//jiaxcuit.github.io/en/posts/p1-syllabus-changes/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-divider">
-                            <div class="post-item-info-wrapper">
-                                <div class="post-item-title">
-                                    Chinese A Lit: Key Changes for P1 in the 2021 New Syllabus
-                                </div>
-                                <div class="post-item-summary">
-                                    
-                                </div>
-                                <div class="post-item-meta">
-    2021-03-09
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    1 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                
             
-        
-        </a>
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Uni Study Log: Measurements &amp; Uncertainties
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-10-10
+                        </time>
+                        &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="../../../en/categories/study-organization">Study &amp; Organization</a>
+                        
+
+                        
+
+                            
+                                &nbsp;#
+                                <a href="../../../en/tags/physics">Physics</a>
+                            
+                        
+
+                        
+                            &nbsp;
+                            <i class="material-icons" style="">schedule</i>
+
+
+                            
+                            
+                            2 min
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>A place to note down where I got extra info on new topics or things that I needed to catch up with.</p>
+<p>Also some notes on important ideas.</p>
+<h1 id="poisson-distribution">Poisson distribution</h1>
+<p><a href="http://mathcenter.oxford.emory.edu/site/math117/connectingPoissonAndBinomial/">The Connection Between the Poisson and Binomial Distributions</a></p>
+<p>Derivation of Poisson distribution from binomial distribution, when the number of trials $n$ is large and the probability of success $p$ is small.</p>
+<hr>
+<p><a href="https://www.goodreads.com/book/show/1017766.Introduction_to_Error_Analysis">Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements</a></p>
+<p>(Who would&rsquo;ve thought that my uni professor recommended the same book that my high school teacher recommended to me&hellip;)</p>
+<p>Important ideas:</p>
+<ul>
+<li>$\mu=np$ is constant</li>
+<li>Standard deviation $\sigma$ in a <strong>counted value</strong> $\nu$ is $\sqrt{\nu}$</li>
+</ul>
+<h1 id="uniform-distribution">Uniform Distribution</h1>
+<p><a href="https://www.quora.com/What-is-the-standard-deviation-of-a-uniform-distribution-How-is-this-formula-determined">What is the standard deviation of a uniform distribution? How is this formula determined?</a></p>
+<p>When $X$ follows a uniform distribution in the range $a \le X \le b$, $\sigma_X = \frac{b-a}{\sqrt{12}}$.</p>
+<p>Important ideas:</p>
+<ul>
+<li>Variance is mean of the squares minus square of the mean</li>
+<li>Find mean of $X$ or $X^2$ using integration ($X$ is continuous) or summation $\Sigma$ ($X$ is discrete)</li>
+</ul>
+<h1 id="equipment-specs">Equipment Specs</h1>
+<p><a href="https://electronics.stackexchange.com/questions/23182/what-does-it-mean-when-multimeter-accuracy-is-marked-as-%C2%B10-0310digit">What does it mean when multimeter accuracy is marked as: ±0,03%+10Digit?</a></p>
+<p>The uncertainty has two parts.</p>
+<h1 id="lab-book">Lab Book</h1>
+<p><a href="https://youtu.be/qTiHyDXFF5w">A Lab Book Demo</a></p>
+<p>From prep to experiment and to reflection. By the University of Sheffield.</p>
+<hr>
+<p><a href="http://web.mit.edu/me-ugoffice/communication/labnotebooks.pdf">Lab Notebook Instructions</a></p>
+<p>Seems to be from 2007, so it&rsquo;s pretty old. The lab book example is helpful.</p>
+
+
+                </div>
+            </div>
+            <div class="post-copyright">
+			Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+            </div>
+
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			← Newer posts<br>No newer posts
+                </a>
+                
+
+                
+                <a class="older-posts" href="//jiaxcuit.github.io/en/posts/history-p2-rev/">
+			Older posts →<br>IB DP History P2 Revision
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
     </div>
 </div>
 
             </div>
-
-<div class="pagination">
-    
-    <a class="pagination-action" href="../../../en/page/2/" style="opacity:1">
-    
-        <i class="material-icons pagination-action-icon">
-            chevron_left
-        </i>
-    </a>
-
-        <div class="pagination-indicator">
-            <span>3&nbsp;/&nbsp;3
-            </span>
-        </div>
-
-        
-            <a class="pagination-action" style="opacity:0">
-        
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-</div>
-
-
-
 <div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
 <br>
@@ -824,6 +991,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },

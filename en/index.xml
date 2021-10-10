@@ -5,9 +5,50 @@
     <description>All content on Jiaxcuit</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</copyright>
-    <lastBuildDate>Sun, 12 Sep 2021 16:29:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 10 Oct 2021 20:32:00 +0100</lastBuildDate>
     
         <atom:link href="//jiaxcuit.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Uni Study Log: Measurements &amp; Uncertainties</title>
+        <link>//jiaxcuit.github.io/en/posts/uni-study-log/</link>
+        <pubDate>Sun, 10 Oct 2021 20:32:00 +0100</pubDate>
+        
+        <guid>//jiaxcuit.github.io/en/posts/uni-study-log/</guid>
+        <description>Jiaxcuit //jiaxcuit.github.io/en/posts/uni-study-log/ -&lt;p&gt;A place to note down where I got extra info on new topics or things that I needed to catch up with.&lt;/p&gt;
+&lt;p&gt;Also some notes on important ideas.&lt;/p&gt;
+&lt;h1 id=&#34;poisson-distribution&#34;&gt;Poisson distribution&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;http://mathcenter.oxford.emory.edu/site/math117/connectingPoissonAndBinomial/&#34;&gt;The Connection Between the Poisson and Binomial Distributions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Derivation of Poisson distribution from binomial distribution, when the number of trials $n$ is large and the probability of success $p$ is small.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/1017766.Introduction_to_Error_Analysis&#34;&gt;Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(Who would&amp;rsquo;ve thought that my uni professor recommended the same book that my high school teacher recommended to me&amp;hellip;)&lt;/p&gt;
+&lt;p&gt;Important ideas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\mu=np$ is constant&lt;/li&gt;
+&lt;li&gt;Standard deviation $\sigma$ in a &lt;strong&gt;counted value&lt;/strong&gt; $\nu$ is $\sqrt{\nu}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;uniform-distribution&#34;&gt;Uniform Distribution&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.quora.com/What-is-the-standard-deviation-of-a-uniform-distribution-How-is-this-formula-determined&#34;&gt;What is the standard deviation of a uniform distribution? How is this formula determined?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When $X$ follows a uniform distribution in the range $a \le X \le b$, $\sigma_X = \frac{b-a}{\sqrt{12}}$.&lt;/p&gt;
+&lt;p&gt;Important ideas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Variance is mean of the squares minus square of the mean&lt;/li&gt;
+&lt;li&gt;Find mean of $X$ or $X^2$ using integration ($X$ is continuous) or summation $\Sigma$ ($X$ is discrete)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;equipment-specs&#34;&gt;Equipment Specs&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://electronics.stackexchange.com/questions/23182/what-does-it-mean-when-multimeter-accuracy-is-marked-as-%C2%B10-0310digit&#34;&gt;What does it mean when multimeter accuracy is marked as: ±0,03%+10Digit?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The uncertainty has two parts.&lt;/p&gt;
+&lt;h1 id=&#34;lab-book&#34;&gt;Lab Book&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/qTiHyDXFF5w&#34;&gt;A Lab Book Demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;From prep to experiment and to reflection. By the University of Sheffield.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;http://web.mit.edu/me-ugoffice/communication/labnotebooks.pdf&#34;&gt;Lab Notebook Instructions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Seems to be from 2007, so it&amp;rsquo;s pretty old. The lab book example is helpful.&lt;/p&gt;
+- //jiaxcuit.github.io/en/posts/uni-study-log/ - Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</description>
+        </item>
     
     
     

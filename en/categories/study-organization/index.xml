@@ -6,7 +6,20 @@
     <description>Recent content in Study &amp; Organization on Jiaxcuit</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</copyright>
-    <lastBuildDate>Sun, 22 Aug 2021 14:06:23 +0200</lastBuildDate><atom:link href="//jiaxcuit.github.io/en/categories/study-organization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Oct 2021 20:32:00 +0100</lastBuildDate><atom:link href="//jiaxcuit.github.io/en/categories/study-organization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uni Study Log: Measurements &amp; Uncertainties</title>
+      <link>//jiaxcuit.github.io/en/posts/uni-study-log/</link>
+      <pubDate>Sun, 10 Oct 2021 20:32:00 +0100</pubDate>
+      
+      <guid>//jiaxcuit.github.io/en/posts/uni-study-log/</guid>
+      <description>A place to note down where I got extra info on new topics or things that I needed to catch up with.
+Also some notes on important ideas.
+Poisson distribution The Connection Between the Poisson and Binomial Distributions
+Derivation of Poisson distribution from binomial distribution, when the number of trials $n$ is large and the probability of success $p$ is small.
+ Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements</description>
+    </item>
+    
     <item>
       <title>Tips for Organizing Electronic Files</title>
       <link>//jiaxcuit.github.io/en/posts/organizing-e-files/</link>

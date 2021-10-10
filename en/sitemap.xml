@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//jiaxcuit.github.io/en/categories/</loc>
-    <lastmod>2021-09-12T16:29:00+02:00</lastmod>
+    <lastmod>2021-10-10T20:32:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -14,6 +14,54 @@
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/categories/"
                 />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/</loc>
+    <lastmod>2021-10-10T20:32:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/physics/</loc>
+    <lastmod>2021-10-10T20:32:00+01:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/</loc>
+    <lastmod>2021-10-10T20:32:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/categories/study-organization/</loc>
+    <lastmod>2021-10-10T20:32:00+01:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/</loc>
+    <lastmod>2021-10-10T20:32:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/uni-study-log/</loc>
+    <lastmod>2021-10-10T20:32:00+01:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/history/</loc>
     <lastmod>2021-09-12T16:29:00+02:00</lastmod>
@@ -33,45 +81,6 @@
   </url><url>
     <loc>//jiaxcuit.github.io/en/categories/international-baccalaureate/</loc>
     <lastmod>2021-09-12T16:29:00+02:00</lastmod>
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/</loc>
-    <lastmod>2021-09-12T16:29:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/posts/</loc>
-    <lastmod>2021-09-12T16:29:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/posts/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/</loc>
-    <lastmod>2021-09-12T16:29:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/tags/"
-                />
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/english-b/</loc>
     <lastmod>2021-09-04T09:11:13+02:00</lastmod>
@@ -104,9 +113,6 @@
   </url><url>
     <loc>//jiaxcuit.github.io/en/categories/life/</loc>
     <lastmod>2021-08-29T23:19:18+02:00</lastmod>
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/categories/study-organization/</loc>
-    <lastmod>2021-08-22T14:06:23+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/study-method/</loc>
     <lastmod>2021-08-22T14:06:23+02:00</lastmod>
@@ -174,9 +180,6 @@
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/posts/ib-tb-review-chemistry-sl/"
                 />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/physics/</loc>
-    <lastmod>2021-07-04T15:03:26+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/short-term-rev/</loc>
     <lastmod>2021-07-04T15:03:26+02:00</lastmod>
