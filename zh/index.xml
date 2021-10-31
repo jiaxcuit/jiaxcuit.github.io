@@ -5,9 +5,55 @@
     <description>All content on 十之以饼干盒</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</copyright>
-    <lastBuildDate>Sun, 19 Sep 2021 17:04:47 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 31 Oct 2021 10:02:56 +0000</lastBuildDate>
     
         <atom:link href="//jiaxcuit.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>理想的新课学习步骤</title>
+        <link>//jiaxcuit.github.io/zh/posts/learning-new-content/</link>
+        <pubDate>Sun, 31 Oct 2021 10:02:56 +0000</pubDate>
+        
+        <guid>//jiaxcuit.github.io/zh/posts/learning-new-content/</guid>
+        <description>十之以饼干盒 //jiaxcuit.github.io/zh/posts/learning-new-content/ -&lt;p&gt;暑假很长，暑假前备考时，也主要是复习，我学新课的技能似乎生疏了——这可不行。在这里列出步骤，时刻提醒自己。&lt;/p&gt;
+&lt;p&gt;如果你想参考我的步骤，需要注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我学理科&lt;/li&gt;
+&lt;li&gt;我的经验主要来自高中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;步骤如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;上课，记笔记&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;听懂比全记下来更重要。&lt;/p&gt;
+&lt;p&gt;只详细记以前不会的内容，其余只记关键内容，例如小标题、重要结论、推导技巧。&lt;/p&gt;
+&lt;p&gt;笔记应该像搜索结果页或者大纲，只列出关键信息，并指向更详细的资源，或者帮我唤起脑海中的记忆。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;用其他资料&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;包括网络、教科书、同学的讲解，等等。&lt;/p&gt;
+&lt;p&gt;老师的讲解风格可能会单一，但只要我找，就总能找到一种最适合我的讲解。&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;寻找记忆技巧&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在不同知识点间寻找联系，从而方便记忆。&lt;/p&gt;
+&lt;p&gt;比如积分的三角函数 t 代换（t-substitution）：$$t = \tan(\frac{\theta}{2})。$$&lt;/p&gt;
+&lt;p&gt;记住正切 $\tan$ 的倍角公式就很容易记住 $\tan{\theta}=\frac{2t}{1-t^2}$，想想正弦 $\sin$ 肯定和 $\tan$ 不一样，就能记住 $\sin{\theta}=\frac{2t}{1+t^2}$。最后一个余弦 $\cos$，因为 $\cos(\theta) = \frac{\sin(\theta)}{\tan(\theta)}$，所以自然是 $\cos{\theta}=\frac{1-t^2}{1+t^2}$。&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;复习笔记&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;用主动回忆法（active recall），在白纸上快速写出学过的要点，也可以详细写出推导过程。回忆结束后，对照笔记检查：有无错误？有无疏漏？&lt;/p&gt;
+&lt;p&gt;每次复习时间可以很短，但一定要经常复习。笔记常看常新，会有很多新理解。&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;strong&gt;练习&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;做题，每种不一样的题都做一些。&lt;/p&gt;
+&lt;p&gt;做题要动脑子想目的，再决定方法，最后再算。&lt;/p&gt;
+&lt;p&gt;一定要对答案、改错。&lt;/p&gt;
+- //jiaxcuit.github.io/zh/posts/learning-new-content/ - Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</description>
+        </item>
     
     
     

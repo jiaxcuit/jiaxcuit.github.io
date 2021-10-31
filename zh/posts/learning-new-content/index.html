@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Posts</title>
+<title>理想的新课学习步骤</title>
 
 
 
@@ -24,8 +24,8 @@
 
 
 
-<link type="text/css" rel="stylesheet" href="../../vendor/css/bootstrap.min.css">
-<script src="../../vendor/js/vue.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="../../../vendor/css/bootstrap.min.css">
+<script src="../../../vendor/js/vue.min.js" ></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,15 +43,76 @@
 
 
 
-<script src="../../js/loadCSS.js"></script>
+<script src="../../../js/loadCSS.js"></script>
 <script>
   loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
 </script>
 
 
+  
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script"
+async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+MathJax.Hub.Queue(function() {
 
 
 
+var all = MathJax.Hub.getAllJax(), i;
+for(i = 0; i < all.length; i += 1) {
+all[i].SourceElement().parentNode.className += ' has-jax';
+}
+});
+</script>
+
+<style>
+code.has-jax {
+font: inherit;
+font-size: 100%;
+background: inherit;
+border: inherit;
+color: #515151;
+}
+</style>
+
+
+
+
+
+  
+    <script src="../../../js/toc.js"></script>
+  
+
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="../../../vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '2a79498cd34bc8af9f02',
+  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
+  repo: 'blog-gitalk',
+  owner: 'jiaxcuit',
+  admin: ['jiaxcuit'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -68,7 +129,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
-<script src="../../js/search-box.js"></script>
+<script src="../../../js/search-box.js"></script>
 
 </head>
 <body>
@@ -90,7 +151,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/about">
+            <a class="a-block nav-link-item false" href="../../../zh/about">
                 关于
             </a>
             
@@ -100,7 +161,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/tags">
+            <a class="a-block nav-link-item false" href="../../../zh/tags">
                 标签
             </a>
             
@@ -110,7 +171,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/categories">
+            <a class="a-block nav-link-item false" href="../../../zh/categories">
                 分类
             </a>
             
@@ -120,7 +181,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/index.xml">
+            <a class="a-block nav-link-item false" href="../../../zh/index.xml">
                 中文 RSS
             </a>
             
@@ -130,7 +191,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en">
+            <a class="a-block nav-link-item false" href="../../../en">
                 English
             </a>
             
@@ -140,7 +201,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/about">
+            <a class="a-block nav-link-item false" href="../../../en/about">
                 About
             </a>
             
@@ -150,7 +211,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/tags">
+            <a class="a-block nav-link-item false" href="../../../en/tags">
                 Tags
             </a>
             
@@ -160,7 +221,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/friends">
+            <a class="a-block nav-link-item false" href="../../../en/friends">
                 Friends
             </a>
             
@@ -170,7 +231,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/index.xml">
+            <a class="a-block nav-link-item false" href="../../../en/index.xml">
                 English RSS
             </a>
             
@@ -212,32 +273,18 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
 
 
     
+
+    <div class="toc animated-visibility">
+
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
                 keyboard_arrow_up
             </i>
         </a>
-        
-        
-        
-          
-            <div class="pagination-indicator">
-                <span style="text-align: center">
-                    1
-                    /
-                    
-                    3
-                </span>
-            </div>
-
-            
-            <a class="pagination-action" href="../../zh/posts/page/2/">
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-            
         
         
     </div>
@@ -254,7 +301,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/about">
+                <a class="a-block drawer-menu-item false" href="../../../zh/about">
                     关于
                 </a>
                 
@@ -264,7 +311,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/tags">
+                <a class="a-block drawer-menu-item false" href="../../../zh/tags">
                     标签
                 </a>
                 
@@ -274,7 +321,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/categories">
+                <a class="a-block drawer-menu-item false" href="../../../zh/categories">
                     分类
                 </a>
                 
@@ -284,7 +331,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/index.xml">
+                <a class="a-block drawer-menu-item false" href="../../../zh/index.xml">
                     中文 RSS
                 </a>
                 
@@ -294,7 +341,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en">
+                <a class="a-block drawer-menu-item false" href="../../../en">
                     English
                 </a>
                 
@@ -304,7 +351,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/about">
+                <a class="a-block drawer-menu-item false" href="../../../en/about">
                     About
                 </a>
                 
@@ -314,7 +361,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/tags">
+                <a class="a-block drawer-menu-item false" href="../../../en/tags">
                     Tags
                 </a>
                 
@@ -324,7 +371,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/friends">
+                <a class="a-block drawer-menu-item false" href="../../../en/friends">
                     Friends
                 </a>
                 
@@ -334,11 +381,16 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/index.xml">
+                <a class="a-block drawer-menu-item false" href="../../../en/index.xml">
                     English RSS
                 </a>
                 
             
+            
+            <div class="toc">
+
+
+</div>
             
         </div>
     </div>
@@ -371,402 +423,130 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        
-            <a class="a-block">
-                <div class="post-item-wrapper post-item-wrapper-no-hover">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title post-item-title-small year">
-                                2021
-                            </div>
-                        </div>
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    理想的新课学习步骤
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-10-31
+                        </time>
+                        &nbsp;
+                        
+
+                        
+
+                        
+
+                            
+                                &nbsp;#
+                                <a href="../../../zh/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95">学习方法</a>
+                            
+                        
+
+                        
+                            &nbsp;
+                            <i class="material-icons" style="">schedule</i>
+
+
+                            
+                            
+                            4 min
+
+                        
                     </div>
                 </div>
-            </a>
-            
-            <a href="../../zh/posts/learning-new-content/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                理想的新课学习步骤
-                            </div>
-                            <div class="post-item-meta">
-    2021-10-31
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
+            </div>
 
-    
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>暑假很长，暑假前备考时，也主要是复习，我学新课的技能似乎生疏了——这可不行。在这里列出步骤，时刻提醒自己。</p>
+<p>如果你想参考我的步骤，需要注意：</p>
+<ul>
+<li>我学理科</li>
+<li>我的经验主要来自高中</li>
+</ul>
+<p>步骤如下：</p>
+<ol>
+<li><strong>上课，记笔记</strong></li>
+</ol>
+<p>听懂比全记下来更重要。</p>
+<p>只详细记以前不会的内容，其余只记关键内容，例如小标题、重要结论、推导技巧。</p>
+<p>笔记应该像搜索结果页或者大纲，只列出关键信息，并指向更详细的资源，或者帮我唤起脑海中的记忆。</p>
+<ol start="2">
+<li><strong>用其他资料</strong></li>
+</ol>
+<p>包括网络、教科书、同学的讲解，等等。</p>
+<p>老师的讲解风格可能会单一，但只要我找，就总能找到一种最适合我的讲解。</p>
+<ol start="3">
+<li><strong>寻找记忆技巧</strong></li>
+</ol>
+<p>在不同知识点间寻找联系，从而方便记忆。</p>
+<p>比如积分的三角函数 t 代换（t-substitution）：$$t = \tan(\frac{\theta}{2})。$$</p>
+<p>记住正切 $\tan$ 的倍角公式就很容易记住 $\tan{\theta}=\frac{2t}{1-t^2}$，想想正弦 $\sin$ 肯定和 $\tan$ 不一样，就能记住 $\sin{\theta}=\frac{2t}{1+t^2}$。最后一个余弦 $\cos$，因为 $\cos(\theta) = \frac{\sin(\theta)}{\tan(\theta)}$，所以自然是 $\cos{\theta}=\frac{1-t^2}{1+t^2}$。</p>
+<ol start="4">
+<li><strong>复习笔记</strong></li>
+</ol>
+<p>用主动回忆法（active recall），在白纸上快速写出学过的要点，也可以详细写出推导过程。回忆结束后，对照笔记检查：有无错误？有无疏漏？</p>
+<p>每次复习时间可以很短，但一定要经常复习。笔记常看常新，会有很多新理解。</p>
+<ol start="5">
+<li><strong>练习</strong></li>
+</ol>
+<p>做题，每种不一样的题都做一些。</p>
+<p>做题要动脑子想目的，再决定方法，最后再算。</p>
+<p>一定要对答案、改错。</p>
 
-    
 
-
-
-    4 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
                 </div>
-            </a>
-            
-            <a href="../../zh/posts/online-study-resources-subject/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                线上自学资源：学科篇
-                            </div>
-                            <div class="post-item-meta">
-    2021-09-19
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
+            </div>
+            <div class="post-copyright">
+			除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。
+            </div>
 
-    
+            <nav class="post-pagination">
 
-    
+                
+                <a class="newer-posts">
+			← 更新一篇<br>已经到头啦。
+                </a>
+                
 
+                
+                <a class="older-posts" href="//jiaxcuit.github.io/zh/posts/online-study-resources-subject/">
+			更早一篇 →<br>线上自学资源：学科篇
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
 
 
-    14 min
+<div id="gitalk-container"></div>
 
 
-    
-    
-    &emsp;
 
-    
-</div>
 
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/history-p2-rev/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                IB DP 历史试卷二复习建议
-                            </div>
-                            <div class="post-item-meta">
-    2021-09-12
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
 
-    
 
-    
 
-
-
-    1 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/my-eng-b-writing-practice/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                我的 IB DP 英语 B 写作练习
-                            </div>
-                            <div class="post-item-meta">
-    2021-09-04
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    7 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/scratch-memory/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                邀你与我一同回忆小学编程：Scratch
-                            </div>
-                            <div class="post-item-meta">
-    2021-08-29
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    3 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/new-duration-record-template/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                我的时间记录新模板
-                            </div>
-                            <div class="post-item-meta">
-    2021-08-26
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    4 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/time-management/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                时间管理——“打工”两周之后
-                            </div>
-                            <div class="post-item-meta">
-    2021-08-14
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    20 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/my-chn-a-lit-p1-hw/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                我的 IB DP 中文文学试卷一作业
-                            </div>
-                            <div class="post-item-meta">
-    2021-08-07
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    13 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/ib-tb-review-chinese-a-lit-sl/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                我的 IB 课本使用心得：中文 A 文学 SL
-                            </div>
-                            <div class="post-item-meta">
-    2021-07-29
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    8 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/thoughts-on-blog-updates/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                短记：更新
-                            </div>
-                            <div class="post-item-meta">
-    2021-07-24
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    2 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-        
-    </div>
-</div>
 
 
             </div>
-
-<div class="pagination">
-    
-    <a class="pagination-action" style="opacity:0">
-    
-        <i class="material-icons pagination-action-icon">
-            chevron_left
-        </i>
-    </a>
-
-        <div class="pagination-indicator">
-            <span>1&nbsp;/&nbsp;3
-            </span>
         </div>
-
-        
-        <a class="pagination-action" href="../../zh/posts/page/2/"
-           style="opacity:1">
-        
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
+    </div>
 </div>
 
-
-
+            </div>
 <div id="single-column-footer">
 Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 作者 <a href="https://risehere.net/">Rise</a>
 <br>
@@ -1039,6 +819,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },
