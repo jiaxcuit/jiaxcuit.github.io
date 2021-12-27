@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Posts</title>
+<title>一些教科书和习题的汇总</title>
 
 
 
@@ -24,8 +24,8 @@
 
 
 
-<link type="text/css" rel="stylesheet" href="../../vendor/css/bootstrap.min.css">
-<script src="../../vendor/js/vue.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="../../../vendor/css/bootstrap.min.css">
+<script src="../../../vendor/js/vue.min.js" ></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +43,7 @@
 
 
 
-<script src="../../js/loadCSS.js"></script>
+<script src="../../../js/loadCSS.js"></script>
 <script>
   loadCSS("https://fonts.googleapis.com/css?family=Fira+Mono|Material+Icons");
 </script>
@@ -51,7 +51,30 @@
 
 
 
+  
+    <script src="../../../js/toc.js"></script>
+  
 
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="../../../vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '2a79498cd34bc8af9f02',
+  clientSecret: 'c04ccd96f1b61156d8f6b9a26423bb66ec978e05',
+  repo: 'blog-gitalk',
+  owner: 'jiaxcuit',
+  admin: ['jiaxcuit'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -68,7 +91,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
-<script src="../../js/search-box.js"></script>
+<script src="../../../js/search-box.js"></script>
 
 </head>
 <body>
@@ -90,7 +113,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/about">
+            <a class="a-block nav-link-item false" href="../../../zh/about">
                 关于
             </a>
             
@@ -100,7 +123,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/tags">
+            <a class="a-block nav-link-item false" href="../../../zh/tags">
                 标签
             </a>
             
@@ -110,7 +133,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/categories">
+            <a class="a-block nav-link-item false" href="../../../zh/categories">
                 分类
             </a>
             
@@ -120,7 +143,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../zh/index.xml">
+            <a class="a-block nav-link-item false" href="../../../zh/index.xml">
                 中文 RSS
             </a>
             
@@ -130,7 +153,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en">
+            <a class="a-block nav-link-item false" href="../../../en">
                 English
             </a>
             
@@ -140,7 +163,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/about">
+            <a class="a-block nav-link-item false" href="../../../en/about">
                 About
             </a>
             
@@ -150,7 +173,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/tags">
+            <a class="a-block nav-link-item false" href="../../../en/tags">
                 Tags
             </a>
             
@@ -160,7 +183,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/friends">
+            <a class="a-block nav-link-item false" href="../../../en/friends">
                 Friends
             </a>
             
@@ -170,7 +193,7 @@
             
             
             
-            <a class="a-block nav-link-item false" href="../../en/index.xml">
+            <a class="a-block nav-link-item false" href="../../../en/index.xml">
                 English RSS
             </a>
             
@@ -212,32 +235,103 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
 
 
     
+
+    <div class="toc animated-visibility">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%8f%e5%85%b8%e5%8a%9b%e5%ad%a6" onclick="onNavClick(`#经典力学-nav`)" id="经典力学-nav">
+									经典力学
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%be%ae%e7%a7%af%e5%88%86" onclick="onNavClick(`#微积分-nav`)" id="微积分-nav">
+									微积分
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ba%bf%e6%80%a7%e4%bb%a3%e6%95%b0" onclick="onNavClick(`#线性代数-nav`)" id="线性代数-nav">
+									线性代数
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%b6%e4%bb%96" onclick="onNavClick(`#其他-nav`)" id="其他-nav">
+									其他
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
                 keyboard_arrow_up
             </i>
         </a>
-        
-        
-        
-          
-            <div class="pagination-indicator">
-                <span style="text-align: center">
-                    1
-                    /
-                    
-                    3
-                </span>
-            </div>
-
-            
-            <a class="pagination-action" href="../../zh/posts/page/2/">
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
-            
         
         
     </div>
@@ -254,7 +348,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/about">
+                <a class="a-block drawer-menu-item false" href="../../../zh/about">
                     关于
                 </a>
                 
@@ -264,7 +358,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/tags">
+                <a class="a-block drawer-menu-item false" href="../../../zh/tags">
                     标签
                 </a>
                 
@@ -274,7 +368,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/categories">
+                <a class="a-block drawer-menu-item false" href="../../../zh/categories">
                     分类
                 </a>
                 
@@ -284,7 +378,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../zh/index.xml">
+                <a class="a-block drawer-menu-item false" href="../../../zh/index.xml">
                     中文 RSS
                 </a>
                 
@@ -294,7 +388,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en">
+                <a class="a-block drawer-menu-item false" href="../../../en">
                     English
                 </a>
                 
@@ -304,7 +398,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/about">
+                <a class="a-block drawer-menu-item false" href="../../../en/about">
                     About
                 </a>
                 
@@ -314,7 +408,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/tags">
+                <a class="a-block drawer-menu-item false" href="../../../en/tags">
                     Tags
                 </a>
                 
@@ -324,7 +418,7 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/friends">
+                <a class="a-block drawer-menu-item false" href="../../../en/friends">
                     Friends
                 </a>
                 
@@ -334,11 +428,101 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
                 
                 
                 
-                <a class="a-block drawer-menu-item false" href="../../en/index.xml">
+                <a class="a-block drawer-menu-item false" href="../../../en/index.xml">
                     English RSS
                 </a>
                 
             
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%8f%e5%85%b8%e5%8a%9b%e5%ad%a6" onclick="onNavClick(`#经典力学-nav`)" id="经典力学-nav">
+									经典力学
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%be%ae%e7%a7%af%e5%88%86" onclick="onNavClick(`#微积分-nav`)" id="微积分-nav">
+									微积分
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ba%bf%e6%80%a7%e4%bb%a3%e6%95%b0" onclick="onNavClick(`#线性代数-nav`)" id="线性代数-nav">
+									线性代数
+								</a>
+							</li>
+
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%b6%e4%bb%96" onclick="onNavClick(`#其他-nav`)" id="其他-nav">
+									其他
+								</a>
+							</li>
+
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
             
         </div>
     </div>
@@ -371,402 +555,150 @@ Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        
-            <a class="a-block">
-                <div class="post-item-wrapper post-item-wrapper-no-hover">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title post-item-title-small year">
-                                2021
-                            </div>
-                        </div>
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    一些教科书和习题的汇总
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-12-27
+                        </time>
+                        &nbsp;
+                        
+
+                        
+
+                        
+
+                            
+                                &nbsp;#
+                                <a href="../../../zh/tags/%E7%89%A9%E7%90%86">物理</a>
+                            
+                        
+
+                        
+                            &nbsp;
+                            <i class="material-icons" style="">schedule</i>
+
+
+                            
+                            
+                            3 min
+
+                        
                     </div>
                 </div>
-            </a>
-            
-            <a href="../../zh/posts/problems-resources/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                一些教科书和习题的汇总
-                            </div>
-                            <div class="post-item-meta">
-    2021-12-27
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
+            </div>
 
-    
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>总之就是，一些书，一些题。大多数都能找到详细的答案（worked solutions / solutions manual）——考验信息查找能力的时候到了 😂</p>
+<p>这里的信息仅供参考，因为这些书的版本特别多，都能用，但每一版信息都有细小不同。</p>
+<h1 id="经典力学">经典力学</h1>
+<ul>
+<li>Classical Mechanics: From Newton to Einstein: A Modern Introduction</li>
+<li>Wiley, 2nd Edition</li>
+<li>Martin W. McCall</li>
+<li>ISBN: 978-0-470-71574-1(Hardcover)/978-0-470-71572-7(Paperback)/978-1-119-95612-9(eBook)</li>
+</ul>
+<p>上面 McCall 这本书的习题答案是出版社免费公开了的，只不过有些难找，网上居然有人卖出了最高60美元的价格，简直是无比黑心。答案链接<a href="https://higheredbcs.wiley.com/legacy/college/mccall/0470715723/solutions/McCall_Mechanics2eSolutionsManual.pdf">在这</a>。</p>
+<ul>
+<li>物理学大题典：力学</li>
+<li>中国科学技术大学出版社</li>
+<li>强元棨、程稼夫</li>
+<li>ISBN：12450032</li>
+</ul>
+<p>《物理学大题典》这一系列不仅有力学，还有其他各种各样例如热学电学的题。</p>
+<ul>
+<li>Problems in Undergraduate Physics: Volume I Mechanics</li>
+<li>Pergamon Press, 1st ed (1965)</li>
+<li>S. P. Strelkov, I. A. Yakovlev; Translated by D. E. Brown; Translation edited by D. ter Haar</li>
+<li>Library of Congress Catalog Card Number: 64-25443</li>
+</ul>
+<p>上面这本比较老旧。是俄罗斯的题。</p>
+<p>当然还有很常用的 Young &amp; Freedman 的那本 University Physics with Modern Physics。</p>
+<h1 id="微积分">微积分</h1>
+<p>Adams &amp; Essex 的微积分真的很好用！是这本：</p>
+<ul>
+<li>Calculus: A Complete Course</li>
+<li>Pearson</li>
+<li>Robert A. Adams &amp; Christopher Essex</li>
+<li>ISBN: 9780134154367</li>
+</ul>
+<p>Boas 的也可：</p>
+<ul>
+<li>Mathematical Methods in the Physical Sciences</li>
+<li>Wiley</li>
+<li>Mary L. Boas</li>
+<li>ISBN: 978-0471198260</li>
+</ul>
+<h1 id="线性代数">线性代数</h1>
+<ul>
+<li>Introduction to Linear Algebra</li>
+<li>Wellesley-Cambridge Press, 5th ed. (2016)</li>
+<li>Gilbert Strang</li>
+<li>ISBN: 978-09802327-7-6</li>
+</ul>
+<p>这本书有<a href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm">配套的 MIT OCW 公开课</a>。</p>
+<p>上面提到过的 Boas 也讲了线性代数。</p>
+<p>还有（似乎很有名的）<a href="https://linear.axler.net/">Linear Algebra Done Right</a>，但我没怎么看。</p>
+<h1 id="其他">其他</h1>
+<p>费曼物理学讲义配套的习题集，比如<a href="https://theswissbay.ch/pdf/Gentoomen%20Library/Extra/Richard_Feynman-Feynman_Lectures_on_Physics%2C_Vol._1_Exercises-1964._Volume_1-Addison-Wesley%281964%29.pdf">第一卷</a>。我同样还没怎么看，但我看到的评价多数是“很难”。</p>
+<p>甚至可以用<a href="https://www.feynmanlectures.caltech.edu/info/FLP_Original_Course_Notes/index.html">原汁原味的费曼发的 Handout</a>。</p>
+<p>各种公开课的配套习题，比如 MIT OCW 上面的资源。</p>
+<p>本校和其他大学的试题。</p>
 
-    
 
-
-
-    3 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
                 </div>
-            </a>
-            
-            <a href="../../zh/posts/learning-new-content/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                理想的新课学习步骤
-                            </div>
-                            <div class="post-item-meta">
-    2021-10-31
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
+            </div>
+            <div class="post-copyright">
+			除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。
+            </div>
 
-    
+            <nav class="post-pagination">
 
-    
+                
+                <a class="newer-posts">
+			← 更新一篇<br>已经到头啦。
+                </a>
+                
 
+                
+                <a class="older-posts" href="//jiaxcuit.github.io/zh/posts/learning-new-content/">
+			更早一篇 →<br>理想的新课学习步骤
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
 
 
-    4 min
+<div id="gitalk-container"></div>
 
 
-    
-    
-    &emsp;
 
-    
-</div>
 
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/online-study-resources-subject/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                线上自学资源：学科篇
-                            </div>
-                            <div class="post-item-meta">
-    2021-09-19
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
 
-    
 
-    
 
-
-
-    14 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/history-p2-rev/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                IB DP 历史试卷二复习建议
-                            </div>
-                            <div class="post-item-meta">
-    2021-09-12
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    1 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/my-eng-b-writing-practice/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                我的 IB DP 英语 B 写作练习
-                            </div>
-                            <div class="post-item-meta">
-    2021-09-04
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    7 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/scratch-memory/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                邀你与我一同回忆小学编程：Scratch
-                            </div>
-                            <div class="post-item-meta">
-    2021-08-29
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    3 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/new-duration-record-template/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                我的时间记录新模板
-                            </div>
-                            <div class="post-item-meta">
-    2021-08-26
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    4 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/time-management/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                时间管理——“打工”两周之后
-                            </div>
-                            <div class="post-item-meta">
-    2021-08-14
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    20 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/my-chn-a-lit-p1-hw/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                我的 IB DP 中文文学试卷一作业
-                            </div>
-                            <div class="post-item-meta">
-    2021-08-07
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    13 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="../../zh/posts/ib-tb-review-chinese-a-lit-sl/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                我的 IB 课本使用心得：中文 A 文学 SL
-                            </div>
-                            <div class="post-item-meta">
-    2021-07-29
-    &emsp;
-    
-    
-    <i class="material-icons" style="font-size:11px">schedule</i>
-
-    
-
-    
-
-
-
-    8 min
-
-
-    
-    
-    &emsp;
-
-    
-</div>
-
-                        </div>
-                    </div>
-                </div>
-            </a>
-            
-        
-    </div>
-</div>
 
 
             </div>
-
-<div class="pagination">
-    
-    <a class="pagination-action" style="opacity:0">
-    
-        <i class="material-icons pagination-action-icon">
-            chevron_left
-        </i>
-    </a>
-
-        <div class="pagination-indicator">
-            <span>1&nbsp;/&nbsp;3
-            </span>
         </div>
-
-        
-        <a class="pagination-action" href="../../zh/posts/page/2/"
-           style="opacity:1">
-        
-                <i class="material-icons pagination-action-icon">
-                    chevron_right
-                </i>
-            </a>
+    </div>
 </div>
 
-
-
+            </div>
 <div id="single-column-footer">
 Hugo 主题 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> 作者 <a href="https://risehere.net/">Rise</a>
 <br>
@@ -1039,6 +971,9 @@ app = new Vue({
             elem.classList.add("table-hover");
         })
 
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
         
         
     },

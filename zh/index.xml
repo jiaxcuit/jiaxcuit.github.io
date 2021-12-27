@@ -5,9 +5,75 @@
     <description>All content on 十之以饼干盒</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</copyright>
-    <lastBuildDate>Sun, 31 Oct 2021 10:02:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Dec 2021 15:46:01 +0100</lastBuildDate>
     
         <atom:link href="//jiaxcuit.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>一些教科书和习题的汇总</title>
+        <link>//jiaxcuit.github.io/zh/posts/problems-resources/</link>
+        <pubDate>Mon, 27 Dec 2021 15:46:01 +0100</pubDate>
+        
+        <guid>//jiaxcuit.github.io/zh/posts/problems-resources/</guid>
+        <description>十之以饼干盒 //jiaxcuit.github.io/zh/posts/problems-resources/ -&lt;p&gt;总之就是，一些书，一些题。大多数都能找到详细的答案（worked solutions / solutions manual）——考验信息查找能力的时候到了 😂&lt;/p&gt;
+&lt;p&gt;这里的信息仅供参考，因为这些书的版本特别多，都能用，但每一版信息都有细小不同。&lt;/p&gt;
+&lt;h1 id=&#34;经典力学&#34;&gt;经典力学&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Classical Mechanics: From Newton to Einstein: A Modern Introduction&lt;/li&gt;
+&lt;li&gt;Wiley, 2nd Edition&lt;/li&gt;
+&lt;li&gt;Martin W. McCall&lt;/li&gt;
+&lt;li&gt;ISBN: 978-0-470-71574-1(Hardcover)/978-0-470-71572-7(Paperback)/978-1-119-95612-9(eBook)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上面 McCall 这本书的习题答案是出版社免费公开了的，只不过有些难找，网上居然有人卖出了最高60美元的价格，简直是无比黑心。答案链接&lt;a href=&#34;https://higheredbcs.wiley.com/legacy/college/mccall/0470715723/solutions/McCall_Mechanics2eSolutionsManual.pdf&#34;&gt;在这&lt;/a&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;物理学大题典：力学&lt;/li&gt;
+&lt;li&gt;中国科学技术大学出版社&lt;/li&gt;
+&lt;li&gt;强元棨、程稼夫&lt;/li&gt;
+&lt;li&gt;ISBN：12450032&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;《物理学大题典》这一系列不仅有力学，还有其他各种各样例如热学电学的题。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Problems in Undergraduate Physics: Volume I Mechanics&lt;/li&gt;
+&lt;li&gt;Pergamon Press, 1st ed (1965)&lt;/li&gt;
+&lt;li&gt;S. P. Strelkov, I. A. Yakovlev; Translated by D. E. Brown; Translation edited by D. ter Haar&lt;/li&gt;
+&lt;li&gt;Library of Congress Catalog Card Number: 64-25443&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上面这本比较老旧。是俄罗斯的题。&lt;/p&gt;
+&lt;p&gt;当然还有很常用的 Young &amp;amp; Freedman 的那本 University Physics with Modern Physics。&lt;/p&gt;
+&lt;h1 id=&#34;微积分&#34;&gt;微积分&lt;/h1&gt;
+&lt;p&gt;Adams &amp;amp; Essex 的微积分真的很好用！是这本：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Calculus: A Complete Course&lt;/li&gt;
+&lt;li&gt;Pearson&lt;/li&gt;
+&lt;li&gt;Robert A. Adams &amp;amp; Christopher Essex&lt;/li&gt;
+&lt;li&gt;ISBN: 9780134154367&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Boas 的也可：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mathematical Methods in the Physical Sciences&lt;/li&gt;
+&lt;li&gt;Wiley&lt;/li&gt;
+&lt;li&gt;Mary L. Boas&lt;/li&gt;
+&lt;li&gt;ISBN: 978-0471198260&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;线性代数&#34;&gt;线性代数&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Linear Algebra&lt;/li&gt;
+&lt;li&gt;Wellesley-Cambridge Press, 5th ed. (2016)&lt;/li&gt;
+&lt;li&gt;Gilbert Strang&lt;/li&gt;
+&lt;li&gt;ISBN: 978-09802327-7-6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这本书有&lt;a href=&#34;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm&#34;&gt;配套的 MIT OCW 公开课&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;上面提到过的 Boas 也讲了线性代数。&lt;/p&gt;
+&lt;p&gt;还有（似乎很有名的）&lt;a href=&#34;https://linear.axler.net/&#34;&gt;Linear Algebra Done Right&lt;/a&gt;，但我没怎么看。&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;其他&lt;/h1&gt;
+&lt;p&gt;费曼物理学讲义配套的习题集，比如&lt;a href=&#34;https://theswissbay.ch/pdf/Gentoomen%20Library/Extra/Richard_Feynman-Feynman_Lectures_on_Physics%2C_Vol._1_Exercises-1964._Volume_1-Addison-Wesley%281964%29.pdf&#34;&gt;第一卷&lt;/a&gt;。我同样还没怎么看，但我看到的评价多数是“很难”。&lt;/p&gt;
+&lt;p&gt;甚至可以用&lt;a href=&#34;https://www.feynmanlectures.caltech.edu/info/FLP_Original_Course_Notes/index.html&#34;&gt;原汁原味的费曼发的 Handout&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;各种公开课的配套习题，比如 MIT OCW 上面的资源。&lt;/p&gt;
+&lt;p&gt;本校和其他大学的试题。&lt;/p&gt;
+- //jiaxcuit.github.io/zh/posts/problems-resources/ - Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</description>
+        </item>
     
     
     

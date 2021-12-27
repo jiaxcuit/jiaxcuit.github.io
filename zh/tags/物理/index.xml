@@ -6,7 +6,20 @@
     <description>Recent content in 物理 on 十之以饼干盒</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</copyright>
-    <lastBuildDate>Sun, 19 Sep 2021 17:04:47 +0200</lastBuildDate><atom:link href="//jiaxcuit.github.io/zh/tags/%E7%89%A9%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Dec 2021 15:46:01 +0100</lastBuildDate><atom:link href="//jiaxcuit.github.io/zh/tags/%E7%89%A9%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一些教科书和习题的汇总</title>
+      <link>//jiaxcuit.github.io/zh/posts/problems-resources/</link>
+      <pubDate>Mon, 27 Dec 2021 15:46:01 +0100</pubDate>
+      
+      <guid>//jiaxcuit.github.io/zh/posts/problems-resources/</guid>
+      <description>总之就是，一些书，一些题。大多数都能找到详细的答案（worked solutions / solutions manual）——考验信息查找能力的时候到了 😂
+这里的信息仅供参考，因为这些书的版本特别多，都能用，但每一版信息都有细小不同。
+经典力学  Classical Mechanics: From Newton to Einstein: A Modern Introduction Wiley, 2nd Edition Martin W. McCall ISBN: 978-0-470-71574-1(Hardcover)/978-0-470-71572-7(Paperback)/978-1-119-95612-9(eBook)  上面 McCall 这本书的习题答案是出版社免费公开了的，只不过有些难找，网上居然有人卖出了最高60美元的价格，简直是无比黑心。答案链接在这。
+ 物理学大题典：力学 中国科学技术大学出版社 强元棨、程稼夫 ISBN：12450032  《物理学大题典》这一系列不仅有力学，还有其他各种各样例如热学电学的题。
+ Problems in Undergraduate Physics: Volume I Mechanics Pergamon Press, 1st ed (1965) S. P. Strelkov, I. A. Yakovlev; Translated by D. E. Brown; Translation edited by D. ter Haar Library of Congress Catalog Card Number: 64-25443  上面这本比较老旧。是俄罗斯的题。</description>
+    </item>
+    
     <item>
       <title>线上自学资源：学科篇</title>
       <link>//jiaxcuit.github.io/zh/posts/online-study-resources-subject/</link>
