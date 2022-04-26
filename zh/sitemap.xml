@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//jiaxcuit.github.io/zh/posts/</loc>
-    <lastmod>2021-12-27T15:46:01+01:00</lastmod>
+    <lastmod>2022-04-26T20:35:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/tags/</loc>
-    <lastmod>2021-12-27T15:46:01+01:00</lastmod>
+    <lastmod>2022-04-26T20:35:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,11 +28,8 @@
                 href="//jiaxcuit.github.io/zh/tags/"
                 />
   </url><url>
-    <loc>//jiaxcuit.github.io/zh/posts/problems-resources/</loc>
-    <lastmod>2021-12-27T15:46:01+01:00</lastmod>
-  </url><url>
     <loc>//jiaxcuit.github.io/zh/</loc>
-    <lastmod>2021-12-27T15:46:01+01:00</lastmod>
+    <lastmod>2022-04-26T20:35:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -43,6 +40,15 @@
                 hreflang="zh"
                 href="//jiaxcuit.github.io/zh/"
                 />
+  </url><url>
+    <loc>//jiaxcuit.github.io/zh/posts/choosing-a-seat-in-the-library/</loc>
+    <lastmod>2022-04-26T20:35:39+01:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/zh/tags/%E7%9F%AD%E8%AE%B0/</loc>
+    <lastmod>2022-04-26T20:35:39+01:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/zh/posts/problems-resources/</loc>
+    <lastmod>2021-12-27T15:46:01+01:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/zh/tags/%E7%89%A9%E7%90%86/</loc>
     <lastmod>2021-12-27T15:46:01+01:00</lastmod>
@@ -163,9 +169,6 @@
                 hreflang="zh"
                 href="//jiaxcuit.github.io/zh/posts/ib-tb-review-chinese-a-lit-sl/"
                 />
-  </url><url>
-    <loc>//jiaxcuit.github.io/zh/tags/%E7%9F%AD%E8%AE%B0/</loc>
-    <lastmod>2021-07-24T17:53:25+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/thoughts-on-blog-updates/</loc>
     <lastmod>2021-07-24T17:53:25+02:00</lastmod>
