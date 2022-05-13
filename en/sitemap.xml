@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//jiaxcuit.github.io/en/categories/</loc>
-    <lastmod>2022-04-29T20:53:39+01:00</lastmod>
+    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +13,54 @@
                 rel="alternate"
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/categories/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/</loc>
+    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/categories/life/</loc>
+    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/noise-in-my-accommodation/</loc>
+    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/</loc>
+    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/short-note/</loc>
+    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/tags/</loc>
+    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/tags/"
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/choosing-a-seat-in-the-library/</loc>
@@ -28,50 +76,8 @@
                 href="//jiaxcuit.github.io/en/posts/choosing-a-seat-in-the-library/"
                 />
   </url><url>
-    <loc>//jiaxcuit.github.io/en/</loc>
-    <lastmod>2022-04-29T20:53:39+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/posts/</loc>
-    <lastmod>2022-04-29T20:53:39+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/posts/"
-                />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/short-note/</loc>
-    <lastmod>2022-04-29T20:53:39+01:00</lastmod>
-  </url><url>
     <loc>//jiaxcuit.github.io/en/categories/study-organization/</loc>
     <lastmod>2022-04-29T20:53:39+01:00</lastmod>
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/tags/</loc>
-    <lastmod>2022-04-29T20:53:39+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="//jiaxcuit.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//jiaxcuit.github.io/en/tags/"
-                />
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/physics/</loc>
     <lastmod>2021-10-10T20:32:00+01:00</lastmod>
@@ -126,9 +132,6 @@
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/posts/scratch-memory/"
                 />
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/categories/life/</loc>
-    <lastmod>2021-08-29T23:19:18+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/study-method/</loc>
     <lastmod>2021-08-22T14:06:23+02:00</lastmod>
