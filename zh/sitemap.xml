@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//jiaxcuit.github.io/zh/categories/</loc>
-    <lastmod>2022-05-18T14:53:39+01:00</lastmod>
+    <lastmod>2022-06-01T17:39:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,11 @@
                 href="//jiaxcuit.github.io/zh/categories/"
                 />
   </url><url>
+    <loc>//jiaxcuit.github.io/zh/categories/life-%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-06-01T17:39:44+01:00</lastmod>
+  </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/</loc>
-    <lastmod>2022-05-18T14:53:39+01:00</lastmod>
+    <lastmod>2022-06-01T17:39:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +32,7 @@
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/tags/</loc>
-    <lastmod>2022-05-18T14:53:39+01:00</lastmod>
+    <lastmod>2022-06-01T17:39:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,7 +45,7 @@
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/zh/</loc>
-    <lastmod>2022-05-18T14:53:39+01:00</lastmod>
+    <lastmod>2022-06-01T17:39:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -54,13 +57,16 @@
                 href="//jiaxcuit.github.io/zh/"
                 />
   </url><url>
+    <loc>//jiaxcuit.github.io/zh/posts/passport-renewal-id-pic/</loc>
+    <lastmod>2022-06-01T17:39:44+01:00</lastmod>
+  </url><url>
+    <loc>//jiaxcuit.github.io/zh/tags/%E7%9F%AD%E8%AE%B0/</loc>
+    <lastmod>2022-06-01T17:39:44+01:00</lastmod>
+  </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/things-not-posted/</loc>
     <lastmod>2022-05-18T14:53:39+01:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/zh/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2022-05-18T14:53:39+01:00</lastmod>
-  </url><url>
-    <loc>//jiaxcuit.github.io/zh/tags/%E7%9F%AD%E8%AE%B0/</loc>
     <lastmod>2022-05-18T14:53:39+01:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/zh/posts/choosing-a-seat-in-the-library/</loc>

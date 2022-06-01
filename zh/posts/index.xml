@@ -6,7 +6,22 @@
     <description>Recent content in Posts on 十之以饼干盒</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Unless otherwise stated, all works on this blog, 十之以饼干盒 jiaxcuit, are my original works, which are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. / 除非特殊声明，本博客（十之以饼干盒 jiaxcuit）中的作品均为原创，并且这些原创作品均遵循知识共享（Creative Commons）署名—非商业性使用—相同方式共享 4.0 公共许可协议国际版。</copyright>
-    <lastBuildDate>Wed, 18 May 2022 14:53:39 +0100</lastBuildDate><atom:link href="//jiaxcuit.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jun 2022 17:39:44 +0100</lastBuildDate><atom:link href="//jiaxcuit.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>护照更新：传照片</title>
+      <link>//jiaxcuit.github.io/zh/posts/passport-renewal-id-pic/</link>
+      <pubDate>Wed, 01 Jun 2022 17:39:44 +0100</pubDate>
+      
+      <guid>//jiaxcuit.github.io/zh/posts/passport-renewal-id-pic/</guid>
+      <description>最近刚在线上用“中国领事”APP 更新了护照。申请的时候需要线上上传照片，我就在照相馆照了一张、要了电子版，上传了。但我的照片在初审时因为像素太低被打回了。多次对比了我的照片和现有护照上印出来的照片，我似乎没发现清晰度上有什么特别大的区别，但它就是没有通过初审。百思不得其解。
+试着再次上传，看着屏幕上显示我上传的照片的缩略图，发现它本来明明很清晰，居然会在上传后的一瞬间变模糊。
+难道是我的照片尺寸或者大小不对，所以才会被压缩吗？对照着使领馆给的照片要求，我试着调了照片的尺寸、文件大小，再次上传，还是一样。
+搞不懂了。怎么这也行？明明我的照片是大概140 kB，符合要求、没有超过5 MB。想不明白，我就打电话问了使馆，噢，原来推荐大小要4点多MB。但感觉有点离谱，这文件大小、这照片尺寸，要4点多MB。一般来讲，这也太清晰了吧，相比护照上印出来的清晰度，感觉完全没必要。上传照片这问题，一定还是技术问题。
+要把文件大小变大？我直接在高清晰度的电脑上截了个图，轻松搞定。照片清不清楚和文件大小有什么绝对的关系，嗯？ 上传到 APP，还是不行，又被压缩了。我真就不服了，为什么我的护照信息的照片就没被压缩？噢，当时是在 iPad 上上传的，现在是用 OPPO 手机上传照片。如果再用 iPad 呢？试了一下，完美。我就赶紧把东西提交上去了，很快就显示初审通过。现在新护照已经寄来了。
+我的老天，这是什么情况。上传照片的设备也会对上传上去的照片清晰度有影响？可惜我不是学软件或者图像处理这一类东西的，真不明白。
+这大概可以算是个经验贴了吧。</description>
+    </item>
+    
     <item>
       <title>没敢发出来的东西</title>
       <link>//jiaxcuit.github.io/zh/posts/things-not-posted/</link>
