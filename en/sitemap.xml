@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//jiaxcuit.github.io/en/posts/between-the-so-called-cultures/</loc>
+    <lastmod>2023-09-29T19:05:57+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="//jiaxcuit.github.io/zh/posts/between-the-so-called-cultures/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//jiaxcuit.github.io/en/posts/between-the-so-called-cultures/"
+                />
+  </url><url>
     <loc>//jiaxcuit.github.io/en/categories/</loc>
-    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+    <lastmod>2023-09-29T19:05:57+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -16,7 +29,7 @@
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/en/</loc>
-    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+    <lastmod>2023-09-29T19:05:57+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -29,13 +42,10 @@
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/en/categories/life/</loc>
-    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
-  </url><url>
-    <loc>//jiaxcuit.github.io/en/posts/noise-in-my-accommodation/</loc>
-    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+    <lastmod>2023-09-29T19:05:57+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/</loc>
-    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+    <lastmod>2023-09-29T19:05:57+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -48,10 +58,10 @@
                 />
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/short-note/</loc>
-    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+    <lastmod>2023-09-29T19:05:57+02:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/tags/</loc>
-    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
+    <lastmod>2023-09-29T19:05:57+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -62,6 +72,9 @@
                 hreflang="en"
                 href="//jiaxcuit.github.io/en/tags/"
                 />
+  </url><url>
+    <loc>//jiaxcuit.github.io/en/posts/noise-in-my-accommodation/</loc>
+    <lastmod>2022-05-13T16:49:38+01:00</lastmod>
   </url><url>
     <loc>//jiaxcuit.github.io/en/posts/choosing-a-seat-in-the-library0/</loc>
     <lastmod>2022-04-29T20:53:39+01:00</lastmod>
